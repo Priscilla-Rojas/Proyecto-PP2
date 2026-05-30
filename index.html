@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png+xml" href="./src/assets/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -14,109 +14,91 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <title>Curso Web - Vite Vanilla JS</title>
+    <title>Fruteria Tiziana</title>
   </head>
   <body>
     <header class="site-header border-bottom">
-      <div class="container py-3">
-        <!--
-          Clase 1:
-          - reemplazar este contenido por tu nombre y tu profesión
-          - agregar una navegación con links internos (#sobre-mi, #habilidades, etc.)
-          - decidir si querés usar navbar de Bootstrap o HTML + CSS propio
-        -->
-        <h1 class="m-0">Tu nombre</h1>
-      </div>
+      <section class="container py-3">
+        <artcle>
+          <img src="./src/assets/logo.png" alt="Logo Fruteria Tiziana" title="Logo Fruteria Tiziana" class="d-block img-fluid" width="200" height="200">
+          <h1 class="m-0 text-center">Fruteria Tiziana</h1>
+        </artcle>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Recetas</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
-
     <main>
-      <section class="container py-5" id="presentacion">
-        <!--
-          Clase 1:
-          - esta debería ser tu sección hero o presentación principal
-          - podrías agregar una foto, un subtítulo y un botón de contacto
-          - practicá jerarquía de títulos, párrafos y layout con Bootstrap
-        -->
-        <h2>Presentación</h2>
-        <p>
-          Este proyecto base está pensado para que construyas tu perfil profesional paso a paso.
-        </p>
-
-        <div class="placeholder-box mt-4 p-4">
-          <p class="mb-0 text-secondary">Espacio sugerido para presentación destacada, foto o CTA.</p>
-        </div>
+      <section id="hero">
+        <h4>No vendemos solo fruta</h4>
+        <h3>vendemos la solucion para tu cena</h3>
+        <p>Recetas, Ofertas y envios a domicilio.</p>
+        <a href="">Ver Recetas</a>
+        <a href="">Ver Productos</a>
+        <div>
+          <img src="./src/assets/frutas-y-verduras.png" alt="Cajon de frutas y verduras" title="Frutas y verduras" width="400" height="250">
+          </div>
       </section>
 
-      <section class="container py-5 border-top" id="sobre-mi">
-        <!--
-          Clase 1:
-          - usar esta sección para contar quién sos
-          - podrías sumar estudios, experiencia o intereses
-          - si querés, dividila en columnas con Bootstrap
-        -->
-        <h2>Sobre mí</h2>
-        <p>Completá esta sección con tu información.</p>
-
-        <div class="placeholder-box mt-4 p-4">
-          <p class="mb-0 text-secondary">Espacio sugerido para texto biográfico, experiencia o educación.</p>
+      <section id="Recetas">
+        <h2>Recetas</h2>
+        <div>
+          <article>
+            <img src="./src/assets/calabacin.png" alt="Receta de Calabacin" title="Receta de Calabacin"  width="250" height="150">
+            <h5>Calabacin Enrollado</h5>
+            <p>2 personas</p>
+            <p>$4000</p>
+            <span>pack verduras para 2 personas</span>
+            <a href="">Ver Receta</a>
+          </article>
+          <article>
+            <img src="./src/assets/berebjenas.png" alt="Receta de Berenjenas Rellenas" title="Receta de Berenjenas rellenas" width="250" height="150">
+            <h5>Berenjenas Rellenas</h5>
+            <p>2 personas</p>
+            <p>$4000</p>
+            <span>pack verduras para 2 personas</span>
+            <a href="">Ver Receta</a>
+          </article>
+          <article>
+            <img src="./src/assets/ensalada.png" alt="Receta de Ensalada" title="Receta de Ensalada"  width="250" height="150">
+            <h5>Ensalada Mixta</h5>
+            <p>2 personas</p>
+            <p>$4000</p>
+            <span>pack verduras para 2 personas</span>
+            <a href="">Ver Receta</a>
+          </article>
+          <article>
+            <img src="./src/assets/sopa-zapallo.png" alt="Receta de Sopa crema de verduras" title="Receta de Calabacin"  width="250" height="150">
+            <h5>Sopa crema</h5>
+            <p>2 personas</p>
+            <p>$4000</p>
+            <span>pack verduras para 2 personas</span>
+            <a href="">Ver Receta</a>
+          </article>
         </div>
+        
       </section>
-
-      <section class="container py-5 border-top" id="habilidades">
-        <!--
-          Clase 1:
-          - esta sección puede mostrar skills técnicas o herramientas
-          - podés resolverla con listas, cards o badges
-          - Bootstrap puede ayudarte con la grilla y los espaciados
-        -->
-        <h2>Habilidades</h2>
-        <p>Completá esta sección con tecnologías, herramientas o fortalezas profesionales.</p>
-
-        <div class="placeholder-box mt-4 p-4">
-          <p class="mb-0 text-secondary">Espacio sugerido para listas, badges o cards de habilidades.</p>
-        </div>
-      </section>
-
-      <section class="container py-5 border-top" id="proyectos">
-        <!--
-          Clase 1 o tarea:
-          - mostrar proyectos, trabajos o experiencias destacadas
-          - podrías usar cards con título, descripción y links
-          - esta sección suma mucho valor de portfolio
-        -->
-        <h2>Proyectos</h2>
-        <p>Completá esta sección con trabajos, prácticas o proyectos personales.</p>
-
-        <div class="placeholder-box mt-4 p-4">
-          <p class="mb-0 text-secondary">Espacio sugerido para cards de proyectos o experiencia.</p>
-        </div>
-      </section>
-
-      <section class="container py-5 border-top" id="contacto">
-        <!--
-          Clase 2:
-          - acá conviene agregar un formulario de contacto
-          - ejemplos de JS: validar campos, mostrar mensajes, prevenir submit vacío
-          - también podrías agregar botones para mostrar/ocultar información
-        -->
-        <h2>Contacto</h2>
-        <p>En la segunda clase esta parte va a incorporar comportamiento.</p>
-
-        <div class="placeholder-box mt-4 p-4">
-          <p class="mb-0 text-secondary">Espacio sugerido para formulario, datos de contacto o links.</p>
-        </div>
-      </section>
+      
     </main>
 
     <footer class="site-footer border-top">
-      <div class="container py-4">
-        <!--
-          Clase 1:
-          - completar este footer con redes, email o links rápidos
-          - mantener consistencia visual con el resto del sitio
-        -->
-        <small>Footer pendiente de completar</small>
-      </div>
+      <section>
+        <p>Envios a domicilio</p>
+        <p>Rico, fresco y a tiempo</p>
+      </section>
+      <section>
+        <P>Pagos Seguros</P>
+      </section>
+      <section>
+        Atencion Personalizada
+      </section>
     </footer>
 
     <script

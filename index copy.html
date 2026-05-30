@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Proyecto base con Vite, HTML, CSS, Bootstrap y JavaScript para un curso de desarrollo web."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Curso Web - Vite Vanilla JS</title>
+  </head>
+  <body>
+    <header class="site-header border-bottom">
+      <div class="container py-3">
+        <!--
+          Clase 1:
+          - reemplazar este contenido por tu nombre y tu profesión
+          - agregar una navegación con links internos (#sobre-mi, #habilidades, etc.)
+          - decidir si querés usar navbar de Bootstrap o HTML + CSS propio
+        -->
+          
+        <h1 class="m-0 text-center">Priscilla Rojas</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-auto">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#presentacion">Presentación</a>
+                <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="container py-5" id="presentacion">
+        <!--
+          Clase 1:
+          - esta debería ser tu sección hero o presentación principal
+          - podrías agregar una foto, un subtítulo y un botón de contacto
+          - practicá jerarquía de títulos, párrafos y layout con Bootstrap
+        -->
+        <h2>Presentación</h2>
+        <div class="mt-4 p-4 d-flex flex-row bd-highlight justify-content-center align-items-center">
+          <div class="w-50 p-3">
+            <h6>
+              Un poco sobre mí:
+            </h6>
+            <p class="mb-0 text-secondary">Mi nombre es Priscilla Rojas, soy estudiandte de Analisis de sistemas, actualmente me encuentro trabajando como Full Stack developer. </p>
+          </div>
+          <div class="w-50 p-3 mx-auto ">
+            <img src="./src/assets/perfil.png" alt="Imagen de Perfil" title="Foto Perfil" class="mx-auto d-block img-fluid" width="200" height="200">
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5 border-top" id="sobre-mi">
+        <!--
+          Clase 1:
+          - usar esta sección para contar quién sos
+          - podrías sumar estudios, experiencia o intereses
+          - si querés, dividila en columnas con Bootstrap
+        -->
+        <h2>Sobre mí</h2>
+        <!-- <p>Completá esta sección con tu información.</p> -->
+        <div class="container mt-4 p-4">
+          <!-- <p class="mb-0 text-secondary">Espacio sugerido para texto biográfico, experiencia o educación.</p> -->
+          <div class="row">
+            <p class="col">Me gradue en escuela tecnica Prefectura Naval Argentina, con el titulo tecnico en Adiminstracion de Empresas.</p>
+            <p class="col">Actualmente me encuentro cursando el 2° año de la Técincatura de Analista de sistema.</p> 
+            <p class="col">Mi Hobbie es leer libros contemporaneos y coleccionar lapiceras.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5 border-top" id="habilidades">
+        <!--
+          Clase 1:
+          - esta sección puede mostrar skills técnicas o herramientas
+          - podés resolverla con listas, cards o badges
+          - Bootstrap puede ayudarte con la grilla y los espaciados
+        -->
+        <h2>Habilidades</h2>
+        <!-- <p>Completá esta sección con tecnologías, herramientas o fortalezas profesionales.</p> -->
+        <div class="container mt-4 p-4">
+          <!-- <p class="mb-0 text-secondary">Espacio sugerido para listas, badges o cards de habilidades.</p> -->
+          <div class="row">
+            <div class="col"> 
+              <h5>Tecnologías</h5>
+              <ul class="list-group col">
+                <li class="list-group-item">Html</li>
+                <li class="list-group-item">Css</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">Git</li>
+                <li class="list-group-item">React</li>
+              </ul>
+            </div>
+            <div class="col">
+
+            </div>
+            <div class="col">
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5 border-top" id="proyectos">
+        <!--
+          Clase 1 o tarea:
+          - mostrar proyectos, trabajos o experiencias destacadas
+          - podrías usar cards con título, descripción y links
+          - esta sección suma mucho valor de portfolio
+        -->
+        <h2>Proyectos</h2>
+        <p>Completá esta sección con trabajos, prácticas o proyectos personales.</p>
+
+        <div class="placeholder-box mt-4 p-4">
+          <p class="mb-0 text-secondary">Espacio sugerido para cards de proyectos o experiencia.</p>
+        </div>
+      </section>
+
+      <section class="container py-5 border-top" id="contacto">
+        <!--
+          Clase 2:
+          - acá conviene agregar un formulario de contacto
+          - ejemplos de JS: validar campos, mostrar mensajes, prevenir submit vacío
+          - también podrías agregar botones para mostrar/ocultar información
+        -->
+        <h2>Contacto</h2>
+        <p>En la segunda clase esta parte va a incorporar comportamiento.</p>
+
+        <div class="placeholder-box mt-4 p-4">
+          <p class="mb-0 text-secondary">Espacio sugerido para formulario, datos de contacto o links.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer border-top">
+      <div class="container py-4">
+        <!--
+          Clase 1:
+          - completar este footer con redes, email o links rápidos
+          - mantener consistencia visual con el resto del sitio
+        -->
+        <small>Footer pendiente de completar</small>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

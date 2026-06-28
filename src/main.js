@@ -1,4 +1,4 @@
-import './styles/main.scss'
+import './styles/main.css'
 
 // Clase 2:
 // - agregar selectores del DOM

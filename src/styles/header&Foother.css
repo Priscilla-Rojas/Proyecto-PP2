@@ -32,7 +32,11 @@ header{
 
 .izquierda{
     display: flex;
-    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-left: auto;
+    flex-wrap: nowrap;
 }
 
 .letrassup{
@@ -48,12 +52,16 @@ nav ul{
 
 .miperfil{
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10%;
     background-color: green;
     text-decoration: none;
     color: white;
-    width: 50%;
-    padding: 5%;
+    width: auto;
+    white-space: nowrap;
+    padding: 0.45rem 0.8rem;
+    gap: 0.35rem;
 }
 
 .btnsup{

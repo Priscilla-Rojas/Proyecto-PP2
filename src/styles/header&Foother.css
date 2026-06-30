@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./roots.css');
 
-
-.secciones{
+/* HEADER */
+.head-sections{
     display: none;
 }
 header{
@@ -13,11 +14,13 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-right: 5%;
+    align-items: center;
 }
 
 .logo img{
-    width: 8%;
-    height: 40%;
+    width: 45px;
+    height: 37px;
 }
 
 .logo{
@@ -27,7 +30,16 @@ header{
     text-decoration: none;
     font-family: "Poppins",sans-serif;
     gap: 2%;
+    font-size: large;
     align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.logo-container{
+    width: 50%;
+    height: 100%;
 }
 
 .izquierda{
@@ -37,6 +49,7 @@ header{
     gap: 0.75rem;
     margin-left: auto;
     flex-wrap: nowrap;
+    margin-top: 10px;
 }
 
 .letrassup{
@@ -49,7 +62,20 @@ nav ul{
     list-style: none;
 }
 
+.btnsup{
+    border-color:white ;
+    background-color: white;
+    border-radius: 100%;
+}
 
+.btnsup:hover{
+    background-color: var(--color-green-200);
+}
+
+
+
+
+/* BOTON DE INGRESAR/MI PERFIL PARA DESPUES*/
 .miperfil{
     display: flex;
     align-items: center;
@@ -64,18 +90,60 @@ nav ul{
     gap: 0.35rem;
 }
 
-.btnsup{
-    border-color:white ;
-    background-color: white;
-    border-radius: 100%;
-   
-}
-
-.btnsup:hover{
-    background-color: beige;
-}
-
 .miperfil:hover{
     background-color: white;
     color: green;
+}
+
+
+/* FOOTER */
+
+.site-footer{
+    margin-left: 10%;
+    font-family: "Poppins",sans-serif;
+    font-size:var(--foot-font);
+}
+
+.foot-sect{
+    width: 70%;
+    /*background-color:antiquewhite;*/
+    border-radius: 20%;
+    font-size: 0.800rem;
+}
+
+.pay-methods{
+    margin-left: 5%;
+    padding: 6px;
+}
+.method{
+    
+    border: none;
+    background-color: #baebbc;
+    color:rgb(38, 88, 8) ;
+    font-weight: bolder;
+    border-radius: 20%;
+}
+
+.foot-item-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0rem;
+    gap: 10px;
+    font-weight:normal;
+}
+
+.foot-item{
+    text-decoration: none;
+    color: black;
+}
+
+.foot-tit{
+    font-weight:bolders;
+    font-size: medium;
+}
+
+.license{
+    margin-top: 30px;
+    font-size: smaller;
 }

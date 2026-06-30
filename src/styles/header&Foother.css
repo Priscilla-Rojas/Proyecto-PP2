@@ -137,7 +137,10 @@ nav ul{
     text-decoration: none;
     color: black;
 }
-
+.delivery{
+    color: var(--color-button-green);
+    font-weight: bold;
+}
 .foot-tit{
     font-weight:bolders;
     font-size: medium;
@@ -147,3 +150,4 @@ nav ul{
     margin-top: 30px;
     font-size: smaller;
 }
+

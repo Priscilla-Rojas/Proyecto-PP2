@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('./roots.css');
 
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+
+
+
 /* HEADER */
 .nav-pages{
     display: none;
@@ -46,12 +65,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 0.75rem;
+    gap: 3.75rem;
     /*margin-left: auto;*/
     flex-wrap: nowrap;
-    margin-top: 10px;
     width: 199px;
     margin-top: 25px;
+    margin-right: 2%;
+    
 }
 
 .letrassup{
@@ -101,20 +121,22 @@ nav ul{
 /* FOOTER */
 .footer-container{
     background-color: rgb(225, 236, 227);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .site-footer{
     margin-left: 10%;
     font-family: "Poppins",sans-serif;
     font-size:var(--foot-font);
-    padding-top: 3px;
 }
 
 .foot-sect{
     width: 70%;
     border-radius: 20%;
     font-size: 0.800rem;
-    margin-top: 8%;
+    margin-top: 4%;
 }
 
 .pay-methods{
@@ -155,6 +177,22 @@ nav ul{
     margin-top: 30px;
     font-size: smaller;
 }
+.foot-logo img{
+        height: 8%;
+        width: 8%;
+    }
+
+
+
+/* RESPONSEIVE 480 PX O MENOS*/
+@media (max-width: 480px){
+    .logo-container{
+        width: 30%;
+    }
+    .logo img{
+        width: 100%;
+    }
+}
 
 /* RESPONSIVE 768 PX O MAS*/
 
@@ -172,16 +210,20 @@ nav ul{
     .nav-page{
         text-decoration: none;
         color: #6b7280;
+        font-size: large;
     }
 
     .nav-page:hover{
         color: black;
+        font-weight: bolder;
+    
     }
     .site-footer{
     margin-left: 10%;
     font-family: "Poppins",sans-serif;
     font-size:var(--foot-font);
     display: flex;
+    gap: 10%;
 }
     .foot-sect{
     border-radius: 20%;
@@ -191,7 +233,6 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.75rem;
     margin-left: none;
     flex-wrap: nowrap;
     margin-top: 25px;
@@ -230,7 +271,10 @@ nav ul{
     width: 50%; /*45*/
     height: 40%; /*37*/
 }
-
+    .foot-logo img{
+        height: 8%;
+        width: 8%;
+    }
 }
 
 /* RESPONSIVE 992PX O MAS */
@@ -238,12 +282,12 @@ nav ul{
     .nav-pages{
     display: flex;
     align-items: center;
-    gap: 2rem;
     /*margin-left: auto;*/
     flex-wrap: nowrap;
     margin-top: 10px;  
     padding: 0px;
     margin-top: 30px;
+    gap: 3rem;
 }
     .nav-page{
         text-decoration: none;
@@ -267,7 +311,6 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.75rem;
     margin-left: none;
     flex-wrap: nowrap;
     margin-top: 25px;
@@ -316,65 +359,23 @@ nav ul{
 /* RESPONSIVE 1200 PX O MAS*/
 
 @media (min-width: 1200px){
-    .nav-pages{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    /*margin-left: auto;*/
-    flex-wrap: nowrap;
-    margin-top: 10px;  
-    padding: 0px;
-    margin-top: 30px;
-}
-    .nav-page{
-        text-decoration: none;
-        color: #6b7280;
-    }
-
-    .nav-page:hover{
-        color: black;
-    }
     .site-footer{
     margin-left: 10%;
     font-family: "Poppins",sans-serif;
-    font-size:var(--foot-font);
-    display: flex;
 }
     .foot-sect{
     border-radius: 20%;
     font-size: 0.800rem;
 }
     .nav-buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
     margin-left: none;
     flex-wrap: nowrap;
     margin-top: 25px;
-    /*width: 30%;*/
     margin-right: 1px;
 }
 
-    header{
-    width: 100vw;
-    display: flex;
-}
-    .nav{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
     .logo{
-        display: flex;
-        color: green;
-        font-weight: bold;
-        text-decoration: none;
-        font-family: "Poppins",sans-serif;
         gap: 2%;
-        font-size: large;
-        align-items: center;
         height: 100%;
         width: 50%;
         margin-top: 5px;
@@ -387,5 +388,11 @@ nav ul{
     width: 20%; /*45*/
     height: 40%; /*37*/
 }
+    .nav-pages{
+        margin-right: 9%;
+        gap: 5rem;
+    }
+
+    
 
 }

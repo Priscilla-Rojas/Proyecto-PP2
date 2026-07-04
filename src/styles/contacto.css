@@ -86,3 +86,13 @@ h3{
 .aside-text:hover{
     color: var(--color-green-500) ;
 }
+
+
+@media(min-width:992px){
+    .container{
+        display: flex;
+    }
+    h3{
+        margin-top: 10px;
+    }
+}

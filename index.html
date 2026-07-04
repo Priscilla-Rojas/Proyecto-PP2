@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png+xml" href="./src/assets/logo.png" />
+  <link rel="stylesheet" href="src/styles/header&Foother.css">
   <link rel="stylesheet" href="./src/styles/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
@@ -14,69 +15,95 @@
 </head>
 
 <body>
-  <header class="header">
-    <section class="container-fluid py-3">
-      <artcle class="navbar-brand">
-        <img src="./src/assets/logo.png" alt="Logo Fruteria Tiziana" title="Logo Fruteria Tiziana"
-          class="d-block img-fluid" width="200" height="200">
-        <h1 class="m-0 text-center">Fruteria Tiziana</h1>
-      </artcle>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <nav class="navbar">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a href="./index.html">Inicio</a></li>
-          <li class="nav-item"></li>><a href="#">Productos</a></li>
-          <li class="nav-item"></li>><a href="#">Recetas</a></li>
-          <li class="nav-item"></li>><a href="#">Ofertas</a></li>
-          <li class="nav-item"></li>><a href="#">Nosotros</a></li>
-          <li class="nav-item"></li>><a href="./contacto.html">Contacto</a></li>
+  <header>
+      <nav class="nav">
+        <div class="logo-container">
+          <a class="logo" href="../../index.html"><img src="./src/assets/logo.png" alt="Logo"> Tiziana</a>
+        </div>
+        <ul class="nav-pages">
+          <li><a class="nav-page" href="./index.html">Inicio</a></li>
+          <li><a class="nav-page" href="./productos.html">Productos</a></li>
+          <li><a class="nav-page" href="./recetas.html">Recetas</a></li>
+          <li><a class="nav-page" href="./pedidos.html">Pedidos</a></li>
+          <li><a class="nav-page" href="./nosotros.html">Nosotros</a></li>
         </ul>
-      </nav>
-    </section>
+        <ul class="nav-buttons">
+          <li><button class="btnsup">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+              <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button class="btnsup">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+                </button>
+              </li>
+              <li class="btnsup"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+              </svg></li>
+             <!-- <li><a class="miperfil" href="./miperfil.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>Ingresar</a></li>
+            </ul>-->
+
+            
+                
+          
+        </nav>
   </header>
   <main>
-    <section class="hero" id="hero">
-      <div>
-        <p>Entregas en 30-60 minutos</p>
-        <div class="container-text">
-          <h4>No vendemos solo fruta,</h4>
-          <h4><span>vendemos la solucion</span> para tu cena</h4>
+    <section class="hero">
+      <div class="hero__overlay">
+        <div class="hero__content">
+          <span class="hero__tag">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles" data-fg-d3bl278="0.8:1.66922:node_modules/lucide-react:658:15:38092:22:e:Sparkles::::::DD2N" data-fgid-d3bl278=":r14:">
+              <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+              <path d="M20 3v4"></path>
+              <path d="M22 5h-4"></path><path d="M4 17v2"></path>
+              <path d="M5 18H3"></path>
+            </svg>
+            Entregas en 30-60 minutos - Buenos Aires
+          </span>
+          <h1 class="hero__title">No vendemos solo fruta, <br><span class="hero__highlight">vendemos la solución</span> <br>para tu cena</h1>
+          <p class="hero__subtitle">Elegí una receta, indicá cuántas personas comen y nosotros calculamos todo. Frutas y verduras frescas en tu puerta.</p>
+          
+          <div class="hero__actions">
+            <button class="hero__btn hero__btn--primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf" data-fg-d3bl291="0.8:1.66922:node_modules/lucide-react:670:17:39002:18:e:Leaf::::::Dxgq" data-fgid-d3bl291=":r1c:">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+              Comprar productos</button>
+            <button class="hero__btn hero__btn--secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils-crossed" data-fg-d3bl294="0.8:1.66922:node_modules/lucide-react:673:17:39301:29:e:UtensilsCrossed::::::ITI" data-fgid-d3bl294=":r1e:">
+                <path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"></path>
+                <path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"></path>
+                <path d="m2.1 21.8 6.4-6.3"></path>
+                <path d="m19 5-7 7"></path>
+              </svg>
+              Buscar recetas</button>
+          </div>
         </div>
-        <p class="span">Elegí una receta, indicá cuántas personas comen y nosotros calculamos todo. Frutas y verduras
-          frescas en tu puerta.</p>
-        <div class="container-button">
-          <a class="buy-product">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-leaf"
-              viewBox="0 0 16 16">
-              <path
-                d="M1.4 1.7c.216.289.65.84 1.725 1.274 1.093.44 2.884.774 5.834.528l.37-.023c1.823-.06 3.117.598 3.956 1.579C14.16 6.082 14.5 7.41 14.5 8.5c0 .58-.032 1.285-.229 1.997q.198.248.382.54c.756 1.2 1.19 2.563 1.348 3.966a1 1 0 0 1-1.98.198c-.13-.97-.397-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.125-.887-1.89-2.095-2.391-3.383C.16 6.62.16 3.646.509 1.902L.73.806zm-.05 1.39c-.146 1.609-.008 3.809.74 5.728.457 1.17 1.13 2.213 2.079 2.961.942.744 2.185 1.22 3.83 1.221 2.588 0 3.91-.66 4.609-1.445-1.789-2.46-4.121-1.213-6.342-2.68-.74-.488-1.735-1.323-1.844-2.308-.023-.214.237-.274.38-.112 1.4 1.6 3.573 1.757 5.59 2.045 1.227.215 2.21.526 3.033 1.158.058-.39.075-.782.075-1.158 0-.91-.288-1.988-.975-2.792-.626-.732-1.622-1.281-3.167-1.229l-.316.02c-3.05.253-5.01-.08-6.291-.598a5.3 5.3 0 0 1-1.4-.811" />
-            </svg>
-            Comprar Productos
-          </a>
-          <a class="view-recipe">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 512 512">
-              <!-- Cuchillo -->
-              <line x1="70" y1="80" x2="430" y2="440" stroke="currentColor" stroke-width="55" stroke-linecap="round" />
-              <line x1="95" y1="415" x2="190" y2="320" stroke="currentColor" stroke-width="55" stroke-linecap="round" />
-              <!-- Tenedor -->
-              <line x1="350" y1="60" x2="310" y2="100" stroke="currentColor" stroke-width="35" stroke-linecap="round" />
-              <line x1="430" y1="100" x2="350" y2="180" stroke="currentColor" stroke-width="35"
-                stroke-linecap="round" />
-              <line x1="390" y1="60" x2="310" y2="140" stroke="currentColor" stroke-width="35" stroke-linecap="round" />
-              <line x1="470" y1="140" x2="390" y2="220" stroke="currentColor" stroke-width="35"
-                stroke-linecap="round" />
-              <path d="M310 100 C285 125 285 165 310 190 L360 240" fill="none" stroke="currentColor" stroke-width="40"
-                stroke-linecap="round" />
-            </svg>
-            Buscar Recetas</a>
+
+        <div class="hero__stats">
+          <div class="stat-item">
+            <span class="stat-number">+200</span> 
+            <span class="stat-text">Productos frescos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">+5.000</span> 
+            <span class="stat-text">Clientes felices</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">30 min</span> 
+            <span class="stat-text">Tiempo de entrega</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="recetas" id="Recetas">
+    <!-- <section class="recetas" id="Recetas">
       <h2>Recetas</h2>
       <div>
         <article>
@@ -116,7 +143,7 @@
         </article>
       </div>
 
-    </section>
+    </section> -->
 
   </main>
 

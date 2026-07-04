@@ -38,8 +38,8 @@ header{
 }
 
 .logo img{
-    width: 30%; /*45*/
-    height: 50%; /*37*/
+    width: 37px; /*45*/
+    height: 30px; /*37*/
 }
 
 .logo{
@@ -180,6 +180,7 @@ nav ul{
 .foot-logo img{
         height: 8%;
         width: 8%;
+        margin-right: 2%;
     }
 
 
@@ -189,9 +190,9 @@ nav ul{
     .logo-container{
         width: 30%;
     }
-    .logo img{
+    /*.logo img{
         width: 100%;
-    }
+    }*/
 }
 
 /* RESPONSIVE 768 PX O MAS*/
@@ -201,7 +202,6 @@ nav ul{
     display: flex;
     align-items: center;
     gap: 2rem;
-    /*margin-left: auto;*/
     flex-wrap: nowrap;
     margin-top: 10px;  
     padding: 0px;
@@ -220,57 +220,29 @@ nav ul{
     }
     .site-footer{
     margin-left: 10%;
-    font-family: "Poppins",sans-serif;
-    font-size:var(--foot-font);
     display: flex;
     gap: 10%;
 }
-    .foot-sect{
-    border-radius: 20%;
-    font-size: 0.800rem;
-}
+
     .nav-buttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: none;
-    flex-wrap: nowrap;
-    margin-top: 25px;
-    /*width: 30%;*/
     margin-right: 1px;
 }
-
-    header{
-    width: 100vw;
-    display: flex;
-}
-    .nav{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
     .logo{
-        display: flex;
-        color: green;
-        font-weight: bold;
-        text-decoration: none;
-        font-family: "Poppins",sans-serif;
-        gap: 2%;
-        font-size: large;
-        align-items: center;
         height: 100%;
         width: 50%;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .logo-container{
     width: 20%;
     height: 100%;
 }
-    .logo img{
-    width: 50%; /*45*/
-    height: 40%; /*37*/
-}
+    /*.logo img{
+    width: 50%; 
+    height: 40%; 
+}*/
     .foot-logo img{
         height: 8%;
         width: 8%;
@@ -280,77 +252,27 @@ nav ul{
 /* RESPONSIVE 992PX O MAS */
 @media (min-width: 992px){
     .nav-pages{
-    display: flex;
-    align-items: center;
-    /*margin-left: auto;*/
     flex-wrap: nowrap;
-    margin-top: 10px;  
-    padding: 0px;
     margin-top: 30px;
     gap: 3rem;
 }
-    .nav-page{
-        text-decoration: none;
-        color: #6b7280;
-    }
 
-    .nav-page:hover{
-        color: black;
-    }
-    .site-footer{
-    margin-left: 10%;
-    font-family: "Poppins",sans-serif;
-    font-size:var(--foot-font);
-    display: flex;
-}
-    .foot-sect{
-    border-radius: 20%;
-    font-size: 0.800rem;
-}
-    .nav-buttons{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: none;
-    flex-wrap: nowrap;
-    margin-top: 25px;
-    /*width: 30%;*/
-    margin-right: 1px;
-}
-
-    header{
-    width: 100vw;
-    display: flex;
-}
     .nav{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
     margin-right: 30px;
     margin-left: 30px;
 }
     .logo{
-        display: flex;
-        color: green;
-        font-weight: bold;
-        text-decoration: none;
-        font-family: "Poppins",sans-serif;
-        gap: 2%;
-        font-size: large;
-        align-items: center;
         height: 100%;
         width: 50%;
-        margin-top: 5px;
     }
     .logo-container{
     width: 20%;
     height: 100%;
 }
-    .logo img{
-    width: 30%; /*45*/
-    height: 40%; /*37*/
-}
+/*    .logo img{
+    width: 30%; 
+    height: 40%; 
+}*/
 
 }
 
@@ -359,40 +281,20 @@ nav ul{
 /* RESPONSIVE 1200 PX O MAS*/
 
 @media (min-width: 1200px){
-    .site-footer{
-    margin-left: 10%;
-    font-family: "Poppins",sans-serif;
-}
-    .foot-sect{
-    border-radius: 20%;
-    font-size: 0.800rem;
-}
-    .nav-buttons{
-    margin-left: none;
-    flex-wrap: nowrap;
-    margin-top: 25px;
-    margin-right: 1px;
-}
-
     .logo{
-        gap: 2%;
         height: 100%;
         width: 50%;
-        margin-top: 5px;
     }
     .logo-container{
     width: 20%;
     height: 100%;
 }
-    .logo img{
-    width: 20%; /*45*/
-    height: 40%; /*37*/
-}
+ /*   .logo img{
+    width: 20%; 
+    height: 40%; 
+}*/
     .nav-pages{
         margin-right: 9%;
         gap: 5rem;
     }
-
-    
-
 }

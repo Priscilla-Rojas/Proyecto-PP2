@@ -10,3 +10,17 @@
   --foot-font: 0.875rem;
   --color-hover: rgb(221, 236, 224);
 }
+html{
+  font-size: 12px ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}

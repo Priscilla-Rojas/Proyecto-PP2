@@ -24,3 +24,14 @@ body{
     width: 100vw;
     overflow-x: hidden;
 }
+
+@media (min-width: 970px){
+  html {
+    font-size: calc(10px + 0.35vw);
+  }
+}
+@media (min-width: 1440px){
+  html {
+    font-size: calc(16px + 0.35vw);
+  }
+}

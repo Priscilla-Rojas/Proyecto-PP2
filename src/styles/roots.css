@@ -9,6 +9,7 @@
   --color-white: #ffffff;
   --foot-font: 0.875rem;
   --color-hover: rgb(221, 236, 224);
+  --muted: #f4f6f8;
 }
 html{
   font-size: 12px ;

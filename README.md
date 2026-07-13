@@ -1,106 +1,88 @@
-# Curso Web con Vite + Vanilla JS
+# Frutería Tiziana 🍎🥑
 
-Proyecto base para enseñar fundamentos de desarrollo web construyendo un **perfil profesional / CV web** con:
+> **“No vendemos solo fruta, vendemos la solución para tu cena”**
 
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
-- Vite
+🔗 **Sitio web en vivo:** [https://priscilla-rojas.github.io/Proyecto-PP2/](https://priscilla-rojas.github.io/Proyecto-PP2/)
 
-## Estructura actual
+---
 
-```txt
-src/
-  styles/
-    main.css
-  main.js
+Este es el proyecto que desarrollamos para la materia **Práctica Profesionalizante 2 (PP2)** de la carrera **Analista de Sistemas (2do Año)**. La idea era tomar un negocio de barrio y armar la maqueta web de la página de inicio junto con la sección de contacto.
+
+## 👥 Integrantes del Equipo
+* **Priscilla Rojas**
+* **Tomas Acebedo**
+
+---
+
+## 📝 Sobre el Proyecto
+
+### ¿Cuál es la idea?
+Pensamos el proyecto para **Frutería Tiziana**, una verdulería de cercanía. El negocio tiene dos problemas muy comunes:
+1. **Pérdida de mercadería:** Es difícil estimar la cantidad exacta de frutas y verduras que se van a vender en el día, lo que a veces genera desperdicio.
+2. **Límite geográfico:** Sus clientes son únicamente los vecinos que pasan caminando por el local.
+
+### ¿A quién está dirigido?
+Apuntamos a personas de **entre 25 y 70 años** que:
+* Cocinan en casa y quieren comer más sano.
+* Prefieren la comodidad del envío a domicilio.
+* Se inspiran en redes como Instagram o TikTok para cocinar y planifican sus comidas.
+
+### Nuestra Propuesta
+Diseñar una web simple y rápida con los precios y ofertas del día actualizados. Además de la venta común con envío a domicilio, sumamos una sección especial de **Recetas Inteligentes** donde el cliente puede elegir un plato, calcular las porciones según la cantidad de personas y agregar todos los ingredientes necesarios en combos accesibles con un solo clic.
+
+---
+
+## 📊 Análisis del Entorno y Contexto
+
+* **Hábitos de consumo:** Hoy en día la gente busca optimizar el tiempo. Después de la pandemia, comprar alimentos de forma online pasó a ser algo cotidiano. También hay una tendencia muy fuerte hacia la alimentación saludable.
+* **Situación económica:** Con la volatilidad de precios actual, los clientes cuidan mucho más el bolsillo. Comprar la cantidad exacta para una receta evita que la gente gaste de más y termine tirando comida que se echa a perder.
+* **Uso de tecnología:** Todo el mundo usa celular, sabe manejar un carrito de compras y prefiere pagar con billeteras virtuales (como Mercado Pago). El entorno es ideal para una web rápida y fácil de usar.
+
+---
+
+## 🏆 Comparación con la Competencia
+
+* **Verdulerías de barrio (Competencia Directa):** Su única opción digital es tomar pedidos de forma manual por WhatsApp. Suelen mandar fotos de pizarrones con precios desactualizados y es difícil coordinar el envío.
+  * *Nuestra ventaja:* **Automatización**. El cliente compra viendo precios reales y el dueño recibe el pedido listo para preparar.
+* **Grandes Supermercados (Competencia Indirecta):** Tienen páginas web, pero sus envíos suelen ser caros, tardan días en llegar y la verdura no siempre llega fresca.
+  * *Nuestra ventaja:* La **rapidez** de la verdulería de cercanía y una función clave que el súper no tiene: armar el carrito automáticamente según la receta que querés cocinar.
+* **Apps de Delivery - Rappi/PedidosYa (Sustitutos):** Te llevan la verdura a casa, pero cobran comisiones altísimas tanto al cliente como al verdulero, lo que encarece los precios.
+  * *Nuestra ventaja:* **Canal propio**. Al no tener intermediarios, se pueden mantener precios más competitivos.
+
+---
+
+## 🛠️ Detalles Técnicos y Desarrollo
+
+Para el desarrollo del sitio, aplicamos las pautas técnicas requeridas en la materia:
+
+* **HTML5 Semántico:** Estructuramos el sitio utilizando las etiquetas correctas (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`) para que sea accesible y ordenado.
+* **CSS3 Mobile-First:** Diseñamos el sitio pensando primero en pantallas de celulares (desde 320px de ancho) y fuimos escalando el diseño con `@media queries` para que se adapte perfectamente a tablets y monitores de escritorio.
+* **Metodología BEM (Block, Element, Modifier):** Escribimos las clases de CSS siguiendo esta convención de nombres para que los estilos sean fáciles de leer, mantener y no se pisen entre sí (por ejemplo, `.product-card`, `.product-card__image`, `.product-card__badge--green`).
+* **Vite.js:** Usamos Vite como entorno de desarrollo rápido y para optimizar los assets al generar el sitio final.
+
+---
+
+## 🚀 Alcance de esta entrega (1er Entrega)
+
+Cumpliendo con lo pedido por el profesor para esta entrega, el diseño visual está 100% finalizado y listo en las siguientes páginas:
+1. **Página de Inicio (`index.html`):** Contiene la presentación, productos destacados, ofertas del día, sección de recetas y beneficios.
+2. **Página de Contacto (`src/pages/contacto.html`):** Formulario de contacto responsive estructurado y validado estéticamente.
+
+---
+
+## 💻 Cómo correr el proyecto en local
+
+### 1. Instalar dependencias
+```bash
+npm install
 ```
 
-- `index.html`: estructura semántica base del perfil profesional
-- `src/styles/main.css`: estilos propios mínimos
-- `src/main.js`: punto de entrada para agregar comportamiento en clase 2
+### 2. Iniciar el servidor de desarrollo
+```bash
+npm run dev
+```
 
-La idea es que cada estudiante tome esta base y la complete paso a paso durante la cursada.
-
-## Propuesta pedagógica
-
-Documentación complementaria:
-
-- `docs/consigna-alumnos.md`
-- `docs/guia-docente.md`
-
-### Clase 1
-- completar `header`, navegación, secciones principales y `footer`
-- trabajar HTML semántico
-- sumar CSS propio
-- usar Bootstrap para acelerar layout y espaciados
-
-#### Recorrido sugerido en clase 1
-1. completar identidad básica del perfil en el `header`
-2. convertir `#presentacion` en una sección principal fuerte
-3. desarrollar `#sobre-mi` con texto real del estudiante
-4. construir `#habilidades` con listas, badges o cards
-5. dejar `#proyectos` empezado aunque no quede terminado en clase
-6. cerrar con un `footer` simple y prolijo
-
-### Tarea
-- terminar la página del perfil profesional
-- mejorar contenido, estilos y responsive
-- completar la sección `#proyectos`
-- revisar navegación interna y consistencia visual
-
-### Clase 2
-- agregar comportamiento con JavaScript
-- trabajar DOM y eventos
-- sumar validación o interacción en la sección de contacto
-
-#### Recorrido sugerido en clase 2
-1. crear selectores del DOM en `src/main.js`
-2. agregar un formulario en `#contacto`
-3. validar campos vacíos o email
-4. mostrar mensajes de éxito o error
-5. sumar una interacción extra: menú, filtros o botón mostrar/ocultar
-
-## Mapa del HTML base
-
-- `#presentacion`: hero o presentación principal
-- `#sobre-mi`: biografía, estudios o experiencia
-- `#habilidades`: stack, herramientas o fortalezas
-- `#proyectos`: trabajos destacados o portfolio
-- `#contacto`: formulario e interacciones de JavaScript
-
-La idea no es que el alumno rellene placeholders sin pensar. La idea es que use este mapa como guía para tomar decisiones de estructura y contenido.
-
-## Recomendación para GitHub
-
-Conviene que cada alumno cree un **repositorio propio** a partir de esta base en lugar de trabajar solo sobre un fork, así sus commits cuentan mejor como actividad en su perfil y además les queda una pieza propia de portfolio.
-
-## Scripts
-
-- `pnpm dev`: inicia el entorno de desarrollo
-- `pnpm build`: genera la carpeta `dist`
-- `pnpm preview`: previsualiza el build localmente
-- `pnpm lint`: ejecuta ESLint
-- `pnpm lint:fix`: corrige problemas simples automáticamente
-
-## Gestión de dependencias
-
-- el proyecto usa `pnpm`
-- las versiones en `package.json` están fijadas sin `^`
-- `.npmrc` define `save-exact=true` para mantener ese criterio
-
-## GitHub Pages
-
-El proyecto ya incluye:
-
-- `vite.config.js` con `base: './'` para rutas relativas
-- workflow en `.github/workflows/deploy.yml`
-
-### Pasos para publicar
-
-1. Subí el proyecto a un repositorio en GitHub.
-2. Hacé push a la rama `main`.
-3. En GitHub, andá a **Settings > Pages**.
-4. En **Build and deployment**, elegí **GitHub Actions**.
-5. El workflow va a compilar y publicar el contenido automáticamente.
+### 3. Generar la carpeta de producción
+```bash
+npm run build
+```

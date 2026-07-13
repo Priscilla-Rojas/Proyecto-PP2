@@ -10,7 +10,7 @@ Este es el proyecto que desarrollamos para la materia **Práctica Profesionaliza
 
 ## 👥 Integrantes del Equipo
 * **Priscilla Rojas**
-* **Tomas Acebedo**
+* **Tomás Acevedo**
 
 ---
 

@@ -1,0 +1,25 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "title": "Sopa de Pollo",
+      "Pasos": {
+        "1": "Lavar las verduras",
+        "2": "Paso 2"
+      }
+        
+      
+    }
+  ],
+  "verduras": [
+    {
+      "id": 1,
+      "Nombre": "Tomate",
+      "Descripcion": "TOmate redondo rojo",
+      "Precio": 150
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

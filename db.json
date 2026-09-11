@@ -11,15 +11,173 @@
       
     }
   ],
-  "verduras": [
+  "categorias": [
     {
       "id": 1,
-      "Nombre": "Tomate",
-      "Descripcion": "TOmate redondo rojo",
-      "Precio": 150
+      "Tipo": "Receta",
+      "Descripcion": "Postre"
+    },
+    {
+      "id": 2,
+      "Tipo": "Producto",
+      "Descripcion": "Frutas"
+    },
+    {
+      "id": 3,
+      "Tipo": "Producto",
+      "Descripcion": "Verduras"
+    },
+    {
+      "id": 4,
+      "Tipo": "Receta",
+      "Descripcion": "Entrada"
+    },
+    {
+      "id": 5,
+      "Tipo": "Receta",
+      "Descripcion": "Sopa"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "categoriaProducto": [
+    {
+      "idProducto": 1,
+      "idCategoria": 2
+    },
+    {
+      "idProducto": 4,
+      "idCategoria": 2
+    },
+    {
+      "idProducto": 2,
+      "idCategoria": 3
+    },
+    {
+      "idProducto": 3,
+      "idCategoria": 2
+    },
+    {
+      "idProducto": 5,
+      "idCategoria": 3
+    }
+  ],
+  "CategoriaReceta": [
+    {
+      "idReceta": 1,
+      "idCategoria": 1
+    },
+    {
+      "idReceta": 5,
+      "idCategoria": 5
+    },
+    {
+      "idReceta": 2,
+      "idCategoria": 1
+    },
+    {
+      "idReceta": 2,
+      "idCategoria": 4
+    },
+    {
+      "idReceta": 1,
+      "idCategoria": 5
+    }
+  ],
+  "Oferta": [
+    {
+      "IdProducto": 1,
+      "Porcentaje": 25,
+      "Estado": "Activa"
+    },
+    {
+      "IdProducto": 2,
+      "Porcentaje": 30,
+      "Estado": "Activa"
+    },
+    {
+      "IdProducto": 3,
+      "Porcentaje": 15,
+      "Estado": "Activa"
+    },
+    {
+      "IdProducto": 4,
+      "Porcentaje": 10,
+      "Estado": "Inactiva"
+    },
+    {
+      "IdProducto": 5,
+      "Porcentaje": 5,
+      "Estado": "Activa"
+    }
+  ],
+  "promocion": [
+    {
+      "id": 1,
+      "Nombre": "Promocion Verano",
+      "Descuento": 17
+    },
+    {
+      "id": 2,
+      "Nombre": "Promocion Invierno",
+      "Descuento": 7
+    },
+    {
+      "id": 3,
+      "Nombre": "Promocion Otoño",
+      "Descuento": 15
+    },
+    {
+      "id": 4,
+      "Nombre": "Promocion Primavera",
+      "Descuento": 25
+    },
+    {
+      "id": 5,
+      "Nombre": "Promocion Fiestas",
+      "Descuento": 10
+    }
+  ],
+  "promocionDetalle": [
+    {
+      "promocionId": 1,
+      "productoId": 1,
+      "Cantidad": 5,
+      "Precio-Unidad": 150
+    },
+    {
+      "promocionId": 3,
+      "productoId": 5,
+      "Cantidad": 60,
+      "Precio-Unidad": 1500
+    },
+    {
+      "promocionId": 2,
+      "productoId": 2,
+      "Cantidad": 50,
+      "Precio-Unidad": 1250
+    },
+    {
+      "promocionId": 3,
+      "productoId": 1,
+      "Cantidad": 5,
+      "Precio-Unidad": 150
+    },
+    {
+      "promocionId": 5,
+      "productoId": 5,
+      "Cantidad": 50,
+      "Precio-Unidad": 50
+    }
+  ],
+  "tienda": [
+    {
+      "Slogan": "No vendemos solo fruta,vendemos la solución para tu cena",
+      "Nombre": "Tiziana",
+      "Mail": "hola@fruteria-tiziana.com",
+      "Telefono": "+54 11 5555-8494",
+      "Direccion":"Buenos Aires, Argentina",
+      "Horarios de Entrega":"Entrega: Lun-Dom de 9 a 21 hs",
+      "Horarios de Atencion": ""
+    }
+  ]
+    
 }

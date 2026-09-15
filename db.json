@@ -1,4 +1,224 @@
 {
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Tomate Perita",
+      "precioPorPeso": 1200,
+      "categoria": "Verduras",
+      "descripcion": "Tomate perita especial para salsa o ensaladas.",
+      "imagen": "https://example.com/tomate.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Papa Negra",
+      "precioPorPeso": 600,
+      "categoria": "Verduras",
+      "descripcion": "Papa negra ideal para puré o freír.",
+      "imagen": "https://example.com/papa.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Cebolla",
+      "precioPorPeso": 700,
+      "categoria": "Verduras",
+      "descripcion": "Cebolla de origen nacional, muy sabrosa.",
+      "imagen": "https://example.com/cebolla.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Zanahoria",
+      "precioPorPeso": 850,
+      "categoria": "Verduras",
+      "descripcion": "Zanahoria fresca y dulce.",
+      "imagen": "https://example.com/zanahoria.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Manzana Roja",
+      "precioPorPeso": 1500,
+      "categoria": "Frutas",
+      "descripcion": "Manzana roja comercial, muy jugosa.",
+      "imagen": "https://example.com/manzana.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Banana",
+      "precioPorPeso": 1300,
+      "categoria": "Frutas",
+      "descripcion": "Banana Cavendish de Ecuador.",
+      "imagen": "https://example.com/banana.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Limón",
+      "precioPorPeso": 900,
+      "categoria": "Frutas",
+      "descripcion": "Limón Tucumano primera calidad.",
+      "imagen": "https://example.com/limon.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Morrón Rojo",
+      "precioPorPeso": 2500,
+      "categoria": "Verduras",
+      "descripcion": "Morrón rojo carnoso, ideal para asar.",
+      "imagen": "https://example.com/morron.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Ajo",
+      "precioPorPeso": 4000,
+      "categoria": "Verduras",
+      "descripcion": "Cabeza de ajo blanco.",
+      "imagen": "https://example.com/ajo.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Lechuga Capuchina",
+      "precioPorPeso": 1100,
+      "categoria": "Verduras",
+      "descripcion": "Lechuga fresca repollada.",
+      "imagen": "https://example.com/lechuga.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Palta Hass",
+      "precioPorPeso": 4500,
+      "categoria": "Frutas",
+      "descripcion": "Palta de tamaño mediano.",
+      "imagen": "https://example.com/palta.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Frutilla",
+      "precioPorPeso": 3500,
+      "categoria": "Frutas",
+      "descripcion": "Frutilla fresca por kilo.",
+      "imagen": "https://example.com/frutilla.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Naranja Jugo",
+      "precioPorPeso": 1000,
+      "categoria": "Frutas",
+      "descripcion": "Naranja especial para hacer jugo.",
+      "imagen": "https://example.com/naranja.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Zapallo Anco",
+      "precioPorPeso": 500,
+      "categoria": "Verduras",
+      "descripcion": "Zapallo anco tipo coreano.",
+      "imagen": "https://example.com/zapallo.jpg"
+    },
+    {
+      "id": 15,
+      "nombre": "Uva Negra",
+      "precioPorPeso": 2800,
+      "categoria": "Frutas",
+      "descripcion": "Uva negra sin semilla.",
+      "imagen": "https://example.com/uva.jpg"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "mail": "juan.perez@example.com",
+      "nombreUsuario": "juanperez",
+      "telefono": "1123456789"
+    },
+    {
+      "id": 2,
+      "mail": "maria.gomez@example.com",
+      "nombreUsuario": "mariag",
+      "telefono": "1198765432"
+    },
+    {
+      "id": 3,
+      "mail": "carlos.lopez@example.com",
+      "nombreUsuario": "carlopez",
+      "telefono": "1145678901"
+    }
+  ],
+  "usuarioDireccion": [
+    {
+      "idUsuario": 1,
+      "calle": "Av. Rivadavia",
+      "altura": 4500,
+      "localidad": "CABA",
+      "piso": "4",
+      "departamento": "B"
+    },
+    {
+      "idUsuario": 2,
+      "calle": "San Martín",
+      "altura": 120,
+      "localidad": "Quilmes",
+      "piso": "-",
+      "departamento": "-"
+    },
+    {
+      "idUsuario": 3,
+      "calle": "Belgrano",
+      "altura": 890,
+      "localidad": "Avellaneda",
+      "piso": "1",
+      "departamento": "A"
+    }
+  ],
+  "pedidos": [
+    {
+      "nroPedido": 1001,
+      "estado": "Entregado",
+      "idUsuario": 1,
+      "fecha": "2023-11-01T10:00:00Z"
+    },
+    {
+      "nroPedido": 1002,
+      "estado": "En Preparación",
+      "idUsuario": 2,
+      "fecha": "2023-11-02T11:30:00Z"
+    },
+    {
+      "nroPedido": 1003,
+      "estado": "Pendiente",
+      "idUsuario": 3,
+      "fecha": "2023-11-02T15:45:00Z"
+    }
+  ],
+  "pedidoDetalle": [
+    {
+      "idPedido": 1001,
+      "idProducto": 1,
+      "cantidad": 2.5,
+      "precio": 3000
+    },
+    {
+      "idPedido": 1001,
+      "idProducto": 3,
+      "cantidad": 1,
+      "precio": 700
+    },
+    {
+      "idPedido": 1002,
+      "idProducto": 5,
+      "cantidad": 2,
+      "precio": 3000
+    },
+    {
+      "idPedido": 1003,
+      "idProducto": 14,
+      "cantidad": 1.5,
+      "precio": 750
+    },
+    {
+      "idPedido": 1003,
+      "idProducto": 12,
+      "cantidad": 1,
+      "precio": 3500
+    }
+  ],
   "recetas": [
     {
       "id": 1,

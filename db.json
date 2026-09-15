@@ -222,261 +222,182 @@
   "recetas": [
     {
       "id": 1,
-      "nombre": "Sopa de Verduras",
-      "pasos": [
-        "Pelar y cortar la papa, zanahoria, cebolla y zapallo en cubos.",
-        "Rehogar la cebolla con un poco de aceite.",
-        "Agregar el resto de las verduras y cubrir con caldo o agua.",
-        "Cocinar a fuego medio por 40 minutos.",
-        "Licuar o pisar según preferencia."
-      ],
-      "duracion": "50 minutos",
-      "dificultad": "Fácil",
-      "cantidadPersonas": 4,
-      "calorias": 120
+      "title": "Sopa de Pollo",
+      "Pasos": {
+        "1": "Lavar las verduras",
+        "2": "Paso 2"
+      }
+        
+      
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "Tipo": "Receta",
+      "Descripcion": "Postre"
     },
     {
       "id": 2,
-      "nombre": "Ensalada Clásica Mixta",
-      "pasos": [
-        "Lavar bien la lechuga y los tomates.",
-        "Cortar los tomates en gajos y la cebolla en pluma.",
-        "Trozar la lechuga con las manos.",
-        "Mezclar los ingredientes y condimentar con aceite, sal y limón."
-      ],
-      "duracion": "15 minutos",
-      "dificultad": "Muy Fácil",
-      "cantidadPersonas": 2,
-      "calorias": 80
+      "Tipo": "Producto",
+      "Descripcion": "Frutas"
     },
     {
       "id": 3,
-      "nombre": "Licuado de Banana y Frutilla",
-      "pasos": [
-        "Lavar las frutillas y quitarles el cabito.",
-        "Pelar las bananas y cortarlas en rodajas.",
-        "Colocar la fruta en la licuadora con agua o leche y hielo.",
-        "Licuar hasta obtener una mezcla homogénea y servir bien frío."
-      ],
-      "duracion": "10 minutos",
-      "dificultad": "Muy Fácil",
-      "cantidadPersonas": 2,
-      "calorias": 150
+      "Tipo": "Producto",
+      "Descripcion": "Verduras"
     },
     {
       "id": 4,
-      "nombre": "Ensalada de Frutas de Verano",
-      "pasos": [
-        "Lavar y pelar la manzana, bananas y naranjas.",
-        "Lavar las frutillas y uvas.",
-        "Cortar todas las frutas en cubos o trozos pequeños.",
-        "Mezclar todo en un bol grande y agregar jugo de naranja para que no se oxide.",
-        "Llevar a la heladera antes de servir."
-      ],
-      "duracion": "20 minutos",
-      "dificultad": "Fácil",
-      "cantidadPersonas": 4,
-      "calorias": 110
+      "Tipo": "Receta",
+      "Descripcion": "Entrada"
     },
     {
       "id": 5,
-      "nombre": "Guacamole Fresco",
-      "pasos": [
-        "Pelar las paltas y pisarlas con un tenedor dejando algunos trozos.",
-        "Picar finamente el tomate, la cebolla y el ajo.",
-        "Mezclar la palta con los vegetales picados.",
-        "Agregar el jugo de limón, sal y mezclar bien."
-      ],
-      "duracion": "15 minutos",
-      "dificultad": "Fácil",
-      "cantidadPersonas": 4,
-      "calorias": 180
-    },
-    {
-      "id": 6,
-      "nombre": "Jugo de Naranja y Zanahoria",
-      "pasos": [
-        "Exprimir las naranjas para obtener el jugo.",
-        "Pelar las zanahorias y rallarlas o cortarlas muy pequeñas.",
-        "Licuar el jugo de naranja junto con la zanahoria.",
-        "Colar si se desea menos pulpa, o servir directamente con hielo."
-      ],
-      "duracion": "10 minutos",
-      "dificultad": "Fácil",
-      "cantidadPersonas": 2,
-      "calorias": 90
-    },
-    {
-      "id": 7,
-      "nombre": "Gazpacho Frío",
-      "pasos": [
-        "Lavar los tomates y el morrón. Pelar la cebolla y el ajo.",
-        "Cortar todo en trozos medianos.",
-        "Procesar o licuar todas las verduras junto con un chorrito de agua y aceite.",
-        "Condimentar con sal y servir muy frío en vasos o platos hondos."
-      ],
-      "duracion": "15 minutos",
-      "dificultad": "Media",
-      "cantidadPersonas": 4,
-      "calorias": 130
+      "Tipo": "Receta",
+      "Descripcion": "Sopa"
     }
   ],
-  "ingredienteReceta": [
+  "categoriaProducto": [
     {
-      "idReceta": 1,
+      "idProducto": 1,
+      "idCategoria": 2
+    },
+    {
+      "idProducto": 4,
+      "idCategoria": 2
+    },
+    {
       "idProducto": 2,
-      "cantidad": 500,
-      "unidad": "gramos"
+      "idCategoria": 3
     },
     {
-      "idReceta": 1,
-      "idProducto": 4,
-      "cantidad": 300,
-      "unidad": "gramos"
-    },
-    {
-      "idReceta": 1,
       "idProducto": 3,
-      "cantidad": 200,
-      "unidad": "gramos"
+      "idCategoria": 2
     },
     {
-      "idReceta": 1,
-      "idProducto": 14,
-      "cantidad": 400,
-      "unidad": "gramos"
-    },
-    {
-      "idReceta": 2,
-      "idProducto": 10,
-      "cantidad": 1,
-      "unidad": "planta"
-    },
-    {
-      "idReceta": 2,
-      "idProducto": 1,
-      "cantidad": 2,
-      "unidad": "unidades"
-    },
-    {
-      "idReceta": 2,
-      "idProducto": 3,
-      "cantidad": 0.5,
-      "unidad": "unidad"
-    },
-    {
-      "idReceta": 2,
-      "idProducto": 7,
-      "cantidad": 1,
-      "unidad": "unidad"
-    },
-    {
-      "idReceta": 3,
-      "idProducto": 6,
-      "cantidad": 2,
-      "unidad": "unidades"
-    },
-    {
-      "idReceta": 3,
-      "idProducto": 12,
-      "cantidad": 250,
-      "unidad": "gramos"
-    },
-    {
-      "idReceta": 4,
       "idProducto": 5,
-      "cantidad": 2,
-      "unidad": "unidades"
-    },
+      "idCategoria": 3
+    }
+  ],
+  "CategoriaReceta": [
     {
-      "idReceta": 4,
-      "idProducto": 6,
-      "cantidad": 2,
-      "unidad": "unidades"
-    },
-    {
-      "idReceta": 4,
-      "idProducto": 12,
-      "cantidad": 200,
-      "unidad": "gramos"
-    },
-    {
-      "idReceta": 4,
-      "idProducto": 15,
-      "cantidad": 150,
-      "unidad": "gramos"
-    },
-    {
-      "idReceta": 4,
-      "idProducto": 13,
-      "cantidad": 3,
-      "unidad": "unidades"
+      "idReceta": 1,
+      "idCategoria": 1
     },
     {
       "idReceta": 5,
-      "idProducto": 11,
-      "cantidad": 2,
-      "unidad": "unidades"
+      "idCategoria": 5
     },
     {
-      "idReceta": 5,
-      "idProducto": 1,
-      "cantidad": 1,
-      "unidad": "unidad"
+      "idReceta": 2,
+      "idCategoria": 1
     },
     {
-      "idReceta": 5,
-      "idProducto": 3,
-      "cantidad": 0.5,
-      "unidad": "unidad"
+      "idReceta": 2,
+      "idCategoria": 4
     },
     {
-      "idReceta": 5,
-      "idProducto": 7,
-      "cantidad": 1,
-      "unidad": "unidad"
+      "idReceta": 1,
+      "idCategoria": 5
+    }
+  ],
+  "Oferta": [
+    {
+      "IdProducto": 1,
+      "Porcentaje": 25,
+      "Estado": "Activa"
     },
     {
-      "idReceta": 5,
-      "idProducto": 9,
-      "cantidad": 1,
-      "unidad": "diente"
+      "IdProducto": 2,
+      "Porcentaje": 30,
+      "Estado": "Activa"
     },
     {
-      "idReceta": 6,
-      "idProducto": 13,
-      "cantidad": 4,
-      "unidad": "unidades"
+      "IdProducto": 3,
+      "Porcentaje": 15,
+      "Estado": "Activa"
     },
     {
-      "idReceta": 6,
-      "idProducto": 4,
-      "cantidad": 2,
-      "unidad": "unidades"
+      "IdProducto": 4,
+      "Porcentaje": 10,
+      "Estado": "Inactiva"
     },
     {
-      "idReceta": 7,
-      "idProducto": 1,
-      "cantidad": 1,
-      "unidad": "kg"
+      "IdProducto": 5,
+      "Porcentaje": 5,
+      "Estado": "Activa"
+    }
+  ],
+  "promocion": [
+    {
+      "id": 1,
+      "Nombre": "Promocion Verano",
+      "Descuento": 17
     },
     {
-      "idReceta": 7,
-      "idProducto": 8,
-      "cantidad": 1,
-      "unidad": "unidad"
+      "id": 2,
+      "Nombre": "Promocion Invierno",
+      "Descuento": 7
     },
     {
-      "idReceta": 7,
-      "idProducto": 3,
-      "cantidad": 0.5,
-      "unidad": "unidad"
+      "id": 3,
+      "Nombre": "Promocion Otoño",
+      "Descuento": 15
     },
     {
-      "idReceta": 7,
-      "idProducto": 9,
-      "cantidad": 1,
-      "unidad": "diente"
+      "id": 4,
+      "Nombre": "Promocion Primavera",
+      "Descuento": 25
+    },
+    {
+      "id": 5,
+      "Nombre": "Promocion Fiestas",
+      "Descuento": 10
+    }
+  ],
+  "promocionDetalle": [
+    {
+      "promocionId": 1,
+      "productoId": 1,
+      "Cantidad": 5,
+      "Precio-Unidad": 150
+    },
+    {
+      "promocionId": 3,
+      "productoId": 5,
+      "Cantidad": 60,
+      "Precio-Unidad": 1500
+    },
+    {
+      "promocionId": 2,
+      "productoId": 2,
+      "Cantidad": 50,
+      "Precio-Unidad": 1250
+    },
+    {
+      "promocionId": 3,
+      "productoId": 1,
+      "Cantidad": 5,
+      "Precio-Unidad": 150
+    },
+    {
+      "promocionId": 5,
+      "productoId": 5,
+      "Cantidad": 50,
+      "Precio-Unidad": 50
+    }
+  ],
+  "tienda": [
+    {
+      "Slogan": "No vendemos solo fruta,vendemos la solución para tu cena",
+      "Nombre": "Tiziana",
+      "Mail": "hola@fruteria-tiziana.com",
+      "Telefono": "+54 11 5555-8494",
+      "Direccion":"Buenos Aires, Argentina",
+      "Horarios de Entrega":"Entrega: Lun-Dom de 9 a 21 hs",
+      "Horarios de Atencion": ""
     }
   ]
+    
 }

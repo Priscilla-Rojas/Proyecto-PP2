@@ -1,25 +1,482 @@
 {
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Tomate Perita",
+      "precioPorPeso": 1200,
+      "categoria": "Verduras",
+      "descripcion": "Tomate perita especial para salsa o ensaladas.",
+      "imagen": "https://example.com/tomate.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Papa Negra",
+      "precioPorPeso": 600,
+      "categoria": "Verduras",
+      "descripcion": "Papa negra ideal para puré o freír.",
+      "imagen": "https://example.com/papa.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Cebolla",
+      "precioPorPeso": 700,
+      "categoria": "Verduras",
+      "descripcion": "Cebolla de origen nacional, muy sabrosa.",
+      "imagen": "https://example.com/cebolla.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Zanahoria",
+      "precioPorPeso": 850,
+      "categoria": "Verduras",
+      "descripcion": "Zanahoria fresca y dulce.",
+      "imagen": "https://example.com/zanahoria.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Manzana Roja",
+      "precioPorPeso": 1500,
+      "categoria": "Frutas",
+      "descripcion": "Manzana roja comercial, muy jugosa.",
+      "imagen": "https://example.com/manzana.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Banana",
+      "precioPorPeso": 1300,
+      "categoria": "Frutas",
+      "descripcion": "Banana Cavendish de Ecuador.",
+      "imagen": "https://example.com/banana.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Limón",
+      "precioPorPeso": 900,
+      "categoria": "Frutas",
+      "descripcion": "Limón Tucumano primera calidad.",
+      "imagen": "https://example.com/limon.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Morrón Rojo",
+      "precioPorPeso": 2500,
+      "categoria": "Verduras",
+      "descripcion": "Morrón rojo carnoso, ideal para asar.",
+      "imagen": "https://example.com/morron.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Ajo",
+      "precioPorPeso": 4000,
+      "categoria": "Verduras",
+      "descripcion": "Cabeza de ajo blanco.",
+      "imagen": "https://example.com/ajo.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Lechuga Capuchina",
+      "precioPorPeso": 1100,
+      "categoria": "Verduras",
+      "descripcion": "Lechuga fresca repollada.",
+      "imagen": "https://example.com/lechuga.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Palta Hass",
+      "precioPorPeso": 4500,
+      "categoria": "Frutas",
+      "descripcion": "Palta de tamaño mediano.",
+      "imagen": "https://example.com/palta.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Frutilla",
+      "precioPorPeso": 3500,
+      "categoria": "Frutas",
+      "descripcion": "Frutilla fresca por kilo.",
+      "imagen": "https://example.com/frutilla.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Naranja Jugo",
+      "precioPorPeso": 1000,
+      "categoria": "Frutas",
+      "descripcion": "Naranja especial para hacer jugo.",
+      "imagen": "https://example.com/naranja.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Zapallo Anco",
+      "precioPorPeso": 500,
+      "categoria": "Verduras",
+      "descripcion": "Zapallo anco tipo coreano.",
+      "imagen": "https://example.com/zapallo.jpg"
+    },
+    {
+      "id": 15,
+      "nombre": "Uva Negra",
+      "precioPorPeso": 2800,
+      "categoria": "Frutas",
+      "descripcion": "Uva negra sin semilla.",
+      "imagen": "https://example.com/uva.jpg"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "mail": "juan.perez@example.com",
+      "nombreUsuario": "juanperez",
+      "telefono": "1123456789"
+    },
+    {
+      "id": 2,
+      "mail": "maria.gomez@example.com",
+      "nombreUsuario": "mariag",
+      "telefono": "1198765432"
+    },
+    {
+      "id": 3,
+      "mail": "carlos.lopez@example.com",
+      "nombreUsuario": "carlopez",
+      "telefono": "1145678901"
+    }
+  ],
+  "usuarioDireccion": [
+    {
+      "idUsuario": 1,
+      "calle": "Av. Rivadavia",
+      "altura": 4500,
+      "localidad": "CABA",
+      "piso": "4",
+      "departamento": "B"
+    },
+    {
+      "idUsuario": 2,
+      "calle": "San Martín",
+      "altura": 120,
+      "localidad": "Quilmes",
+      "piso": "-",
+      "departamento": "-"
+    },
+    {
+      "idUsuario": 3,
+      "calle": "Belgrano",
+      "altura": 890,
+      "localidad": "Avellaneda",
+      "piso": "1",
+      "departamento": "A"
+    }
+  ],
+  "pedidos": [
+    {
+      "nroPedido": 1001,
+      "estado": "Entregado",
+      "idUsuario": 1,
+      "fecha": "2023-11-01T10:00:00Z"
+    },
+    {
+      "nroPedido": 1002,
+      "estado": "En Preparación",
+      "idUsuario": 2,
+      "fecha": "2023-11-02T11:30:00Z"
+    },
+    {
+      "nroPedido": 1003,
+      "estado": "Pendiente",
+      "idUsuario": 3,
+      "fecha": "2023-11-02T15:45:00Z"
+    }
+  ],
+  "pedidoDetalle": [
+    {
+      "idPedido": 1001,
+      "idProducto": 1,
+      "cantidad": 2.5,
+      "precio": 3000
+    },
+    {
+      "idPedido": 1001,
+      "idProducto": 3,
+      "cantidad": 1,
+      "precio": 700
+    },
+    {
+      "idPedido": 1002,
+      "idProducto": 5,
+      "cantidad": 2,
+      "precio": 3000
+    },
+    {
+      "idPedido": 1003,
+      "idProducto": 14,
+      "cantidad": 1.5,
+      "precio": 750
+    },
+    {
+      "idPedido": 1003,
+      "idProducto": 12,
+      "cantidad": 1,
+      "precio": 3500
+    }
+  ],
   "recetas": [
     {
       "id": 1,
-      "title": "Sopa de Pollo",
-      "Pasos": {
-        "1": "Lavar las verduras",
-        "2": "Paso 2"
-      }
-        
-      
-    }
-  ],
-  "verduras": [
+      "nombre": "Sopa de Verduras",
+      "pasos": [
+        "Pelar y cortar la papa, zanahoria, cebolla y zapallo en cubos.",
+        "Rehogar la cebolla con un poco de aceite.",
+        "Agregar el resto de las verduras y cubrir con caldo o agua.",
+        "Cocinar a fuego medio por 40 minutos.",
+        "Licuar o pisar según preferencia."
+      ],
+      "duracion": "50 minutos",
+      "dificultad": "Fácil",
+      "cantidadPersonas": 4,
+      "calorias": 120
+    },
     {
-      "id": 1,
-      "Nombre": "Tomate",
-      "Descripcion": "TOmate redondo rojo",
-      "Precio": 150
+      "id": 2,
+      "nombre": "Ensalada Clásica Mixta",
+      "pasos": [
+        "Lavar bien la lechuga y los tomates.",
+        "Cortar los tomates en gajos y la cebolla en pluma.",
+        "Trozar la lechuga con las manos.",
+        "Mezclar los ingredientes y condimentar con aceite, sal y limón."
+      ],
+      "duracion": "15 minutos",
+      "dificultad": "Muy Fácil",
+      "cantidadPersonas": 2,
+      "calorias": 80
+    },
+    {
+      "id": 3,
+      "nombre": "Licuado de Banana y Frutilla",
+      "pasos": [
+        "Lavar las frutillas y quitarles el cabito.",
+        "Pelar las bananas y cortarlas en rodajas.",
+        "Colocar la fruta en la licuadora con agua o leche y hielo.",
+        "Licuar hasta obtener una mezcla homogénea y servir bien frío."
+      ],
+      "duracion": "10 minutos",
+      "dificultad": "Muy Fácil",
+      "cantidadPersonas": 2,
+      "calorias": 150
+    },
+    {
+      "id": 4,
+      "nombre": "Ensalada de Frutas de Verano",
+      "pasos": [
+        "Lavar y pelar la manzana, bananas y naranjas.",
+        "Lavar las frutillas y uvas.",
+        "Cortar todas las frutas en cubos o trozos pequeños.",
+        "Mezclar todo en un bol grande y agregar jugo de naranja para que no se oxide.",
+        "Llevar a la heladera antes de servir."
+      ],
+      "duracion": "20 minutos",
+      "dificultad": "Fácil",
+      "cantidadPersonas": 4,
+      "calorias": 110
+    },
+    {
+      "id": 5,
+      "nombre": "Guacamole Fresco",
+      "pasos": [
+        "Pelar las paltas y pisarlas con un tenedor dejando algunos trozos.",
+        "Picar finamente el tomate, la cebolla y el ajo.",
+        "Mezclar la palta con los vegetales picados.",
+        "Agregar el jugo de limón, sal y mezclar bien."
+      ],
+      "duracion": "15 minutos",
+      "dificultad": "Fácil",
+      "cantidadPersonas": 4,
+      "calorias": 180
+    },
+    {
+      "id": 6,
+      "nombre": "Jugo de Naranja y Zanahoria",
+      "pasos": [
+        "Exprimir las naranjas para obtener el jugo.",
+        "Pelar las zanahorias y rallarlas o cortarlas muy pequeñas.",
+        "Licuar el jugo de naranja junto con la zanahoria.",
+        "Colar si se desea menos pulpa, o servir directamente con hielo."
+      ],
+      "duracion": "10 minutos",
+      "dificultad": "Fácil",
+      "cantidadPersonas": 2,
+      "calorias": 90
+    },
+    {
+      "id": 7,
+      "nombre": "Gazpacho Frío",
+      "pasos": [
+        "Lavar los tomates y el morrón. Pelar la cebolla y el ajo.",
+        "Cortar todo en trozos medianos.",
+        "Procesar o licuar todas las verduras junto con un chorrito de agua y aceite.",
+        "Condimentar con sal y servir muy frío en vasos o platos hondos."
+      ],
+      "duracion": "15 minutos",
+      "dificultad": "Media",
+      "cantidadPersonas": 4,
+      "calorias": 130
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "ingredienteReceta": [
+    {
+      "idReceta": 1,
+      "idProducto": 2,
+      "cantidad": 500,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 1,
+      "idProducto": 4,
+      "cantidad": 300,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 1,
+      "idProducto": 3,
+      "cantidad": 200,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 1,
+      "idProducto": 14,
+      "cantidad": 400,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 2,
+      "idProducto": 10,
+      "cantidad": 1,
+      "unidad": "planta"
+    },
+    {
+      "idReceta": 2,
+      "idProducto": 1,
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 2,
+      "idProducto": 3,
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 2,
+      "idProducto": 7,
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 3,
+      "idProducto": 6,
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 3,
+      "idProducto": 12,
+      "cantidad": 250,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 4,
+      "idProducto": 5,
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 4,
+      "idProducto": 6,
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 4,
+      "idProducto": 12,
+      "cantidad": 200,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 4,
+      "idProducto": 15,
+      "cantidad": 150,
+      "unidad": "gramos"
+    },
+    {
+      "idReceta": 4,
+      "idProducto": 13,
+      "cantidad": 3,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 5,
+      "idProducto": 11,
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 5,
+      "idProducto": 1,
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 5,
+      "idProducto": 3,
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 5,
+      "idProducto": 7,
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 5,
+      "idProducto": 9,
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "idReceta": 6,
+      "idProducto": 13,
+      "cantidad": 4,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 6,
+      "idProducto": 4,
+      "cantidad": 2,
+      "unidad": "unidades"
+    },
+    {
+      "idReceta": 7,
+      "idProducto": 1,
+      "cantidad": 1,
+      "unidad": "kg"
+    },
+    {
+      "idReceta": 7,
+      "idProducto": 8,
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 7,
+      "idProducto": 3,
+      "cantidad": 0.5,
+      "unidad": "unidad"
+    },
+    {
+      "idReceta": 7,
+      "idProducto": 9,
+      "cantidad": 1,
+      "unidad": "diente"
+    }
+  ]
 }

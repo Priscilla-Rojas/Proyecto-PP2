@@ -222,182 +222,184 @@
   "recetas": [
     {
       "id": 1,
-      "title": "Sopa de Pollo",
+      "title": "Sopa de Verduras",
       "Pasos": {
-        "1": "Lavar las verduras",
-        "2": "Paso 2"
+        "1": "Lavar y pelar las verduras.",
+        "2": "Hervir a fuego lento por 40 minutos.",
+        "3": "Licuar todo hasta obtener una sopa suave."
       }
-        
-      
+    },
+    {
+      "id": 2,
+      "title": "Ensalada Clásica",
+      "Pasos": {
+        "1": "Lavar la lechuga y el tomate.",
+        "2": "Cortar el tomate en rodajas y la cebolla en pluma fina.",
+        "3": "Mezclar todo en un bol y aderezar."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Licuado de Banana y Frutilla",
+      "Pasos": {
+        "1": "Lavar las frutillas y pelar las bananas.",
+        "2": "Colocar la fruta en la licuadora con leche o agua y hielo.",
+        "3": "Licuar hasta obtener una mezcla homogénea."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Ensalada de Frutas",
+      "Pasos": {
+        "1": "Lavar y pelar toda la fruta.",
+        "2": "Cortar en dados pequeños y mezclar en un bol.",
+        "3": "Añadir jugo de naranja y dejar enfriar."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Guacamole",
+      "Pasos": {
+        "1": "Pelar la palta y pisarla con un tenedor.",
+        "2": "Picar cebolla y tomate muy finos y agregar a la palta.",
+        "3": "Exprimir jugo de limón, salar y mezclar."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Jugo de Naranja y Zanahoria",
+      "Pasos": {
+        "1": "Pelar la zanahoria y exprimir las naranjas.",
+        "2": "Licuar el jugo de naranja con la zanahoria.",
+        "3": "Colar si se prefiere y servir con hielo."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Gazpacho Frío",
+      "Pasos": {
+        "1": "Lavar tomates y morrón. Pelar ajo y cebolla.",
+        "2": "Triturar todo junto con agua, aceite y sal.",
+        "3": "Enfriar en la heladera por al menos 2 horas antes de servir."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Papas Rústicas al Horno",
+      "Pasos": {
+        "1": "Lavar bien las papas dejando la cáscara.",
+        "2": "Cortar en gajos y mezclar con aceite y ajo picado.",
+        "3": "Hornear a 200 grados hasta que estén doradas."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Ensalada de Tomate y Palta",
+      "Pasos": {
+        "1": "Cortar el tomate en cubos y la palta en trozos medianos.",
+        "2": "Mezclar suavemente para no romper la palta.",
+        "3": "Aderezar con jugo de limón, aceite de oliva y sal."
+      }
     }
+  ],
+  "ingredienteReceta": [
+    { "idReceta": 1, "idProducto": 2, "cantidad": 500, "unidad": "gramos" },
+    { "idReceta": 1, "idProducto": 4, "cantidad": 300, "unidad": "gramos" },
+    { "idReceta": 1, "idProducto": 3, "cantidad": 200, "unidad": "gramos" },
+    { "idReceta": 1, "idProducto": 14, "cantidad": 400, "unidad": "gramos" },
+    { "idReceta": 2, "idProducto": 10, "cantidad": 1, "unidad": "planta" },
+    { "idReceta": 2, "idProducto": 1, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 2, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 3, "idProducto": 6, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 3, "idProducto": 12, "cantidad": 200, "unidad": "gramos" },
+    { "idReceta": 4, "idProducto": 5, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 4, "idProducto": 6, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 4, "idProducto": 13, "cantidad": 3, "unidad": "unidades" },
+    { "idReceta": 4, "idProducto": 15, "cantidad": 200, "unidad": "gramos" },
+    { "idReceta": 5, "idProducto": 11, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 5, "idProducto": 1, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 5, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 5, "idProducto": 7, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 6, "idProducto": 13, "cantidad": 4, "unidad": "unidades" },
+    { "idReceta": 6, "idProducto": 4, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 7, "idProducto": 1, "cantidad": 1, "unidad": "kg" },
+    { "idReceta": 7, "idProducto": 8, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 7, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 7, "idProducto": 9, "cantidad": 2, "unidad": "dientes" },
+    { "idReceta": 8, "idProducto": 2, "cantidad": 1, "unidad": "kg" },
+    { "idReceta": 8, "idProducto": 9, "cantidad": 3, "unidad": "dientes" },
+    { "idReceta": 9, "idProducto": 1, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 9, "idProducto": 11, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 9, "idProducto": 7, "cantidad": 1, "unidad": "unidad" }
   ],
   "categorias": [
-    {
-      "id": 1,
-      "Tipo": "Receta",
-      "Descripcion": "Postre"
-    },
-    {
-      "id": 2,
-      "Tipo": "Producto",
-      "Descripcion": "Frutas"
-    },
-    {
-      "id": 3,
-      "Tipo": "Producto",
-      "Descripcion": "Verduras"
-    },
-    {
-      "id": 4,
-      "Tipo": "Receta",
-      "Descripcion": "Entrada"
-    },
-    {
-      "id": 5,
-      "Tipo": "Receta",
-      "Descripcion": "Sopa"
-    }
+    { "id": 1, "Tipo": "Receta", "Descripcion": "Postres" },
+    { "id": 2, "Tipo": "Producto", "Descripcion": "Frutas" },
+    { "id": 3, "Tipo": "Producto", "Descripcion": "Verduras" },
+    { "id": 4, "Tipo": "Receta", "Descripcion": "Entradas" },
+    { "id": 5, "Tipo": "Receta", "Descripcion": "Sopas" },
+    { "id": 6, "Tipo": "Receta", "Descripcion": "Platos Principales" },
+    { "id": 7, "Tipo": "Receta", "Descripcion": "Ensaladas" },
+    { "id": 8, "Tipo": "Receta", "Descripcion": "Bebidas" }
   ],
   "categoriaProducto": [
-    {
-      "idProducto": 1,
-      "idCategoria": 2
-    },
-    {
-      "idProducto": 4,
-      "idCategoria": 2
-    },
-    {
-      "idProducto": 2,
-      "idCategoria": 3
-    },
-    {
-      "idProducto": 3,
-      "idCategoria": 2
-    },
-    {
-      "idProducto": 5,
-      "idCategoria": 3
-    }
+    { "idProducto": 1, "idCategoria": 3 },
+    { "idProducto": 2, "idCategoria": 3 },
+    { "idProducto": 3, "idCategoria": 3 },
+    { "idProducto": 4, "idCategoria": 3 },
+    { "idProducto": 5, "idCategoria": 2 },
+    { "idProducto": 6, "idCategoria": 2 },
+    { "idProducto": 7, "idCategoria": 2 },
+    { "idProducto": 8, "idCategoria": 3 },
+    { "idProducto": 9, "idCategoria": 3 },
+    { "idProducto": 10, "idCategoria": 3 },
+    { "idProducto": 11, "idCategoria": 2 },
+    { "idProducto": 12, "idCategoria": 2 },
+    { "idProducto": 13, "idCategoria": 2 },
+    { "idProducto": 14, "idCategoria": 3 },
+    { "idProducto": 15, "idCategoria": 2 }
   ],
   "CategoriaReceta": [
-    {
-      "idReceta": 1,
-      "idCategoria": 1
-    },
-    {
-      "idReceta": 5,
-      "idCategoria": 5
-    },
-    {
-      "idReceta": 2,
-      "idCategoria": 1
-    },
-    {
-      "idReceta": 2,
-      "idCategoria": 4
-    },
-    {
-      "idReceta": 1,
-      "idCategoria": 5
-    }
+    { "idReceta": 1, "idCategoria": 5 },
+    { "idReceta": 2, "idCategoria": 7 },
+    { "idReceta": 3, "idCategoria": 8 },
+    { "idReceta": 4, "idCategoria": 1 },
+    { "idReceta": 5, "idCategoria": 4 },
+    { "idReceta": 6, "idCategoria": 8 },
+    { "idReceta": 7, "idCategoria": 5 },
+    { "idReceta": 8, "idCategoria": 4 },
+    { "idReceta": 9, "idCategoria": 7 }
   ],
   "Oferta": [
-    {
-      "IdProducto": 1,
-      "Porcentaje": 25,
-      "Estado": "Activa"
-    },
-    {
-      "IdProducto": 2,
-      "Porcentaje": 30,
-      "Estado": "Activa"
-    },
-    {
-      "IdProducto": 3,
-      "Porcentaje": 15,
-      "Estado": "Activa"
-    },
-    {
-      "IdProducto": 4,
-      "Porcentaje": 10,
-      "Estado": "Inactiva"
-    },
-    {
-      "IdProducto": 5,
-      "Porcentaje": 5,
-      "Estado": "Activa"
-    }
+    { "IdProducto": 1, "Porcentaje": 25, "Estado": "Activa" },
+    { "IdProducto": 2, "Porcentaje": 30, "Estado": "Activa" },
+    { "IdProducto": 3, "Porcentaje": 15, "Estado": "Activa" },
+    { "IdProducto": 4, "Porcentaje": 10, "Estado": "Inactiva" },
+    { "IdProducto": 5, "Porcentaje": 5, "Estado": "Activa" }
   ],
   "promocion": [
-    {
-      "id": 1,
-      "Nombre": "Promocion Verano",
-      "Descuento": 17
-    },
-    {
-      "id": 2,
-      "Nombre": "Promocion Invierno",
-      "Descuento": 7
-    },
-    {
-      "id": 3,
-      "Nombre": "Promocion Otoño",
-      "Descuento": 15
-    },
-    {
-      "id": 4,
-      "Nombre": "Promocion Primavera",
-      "Descuento": 25
-    },
-    {
-      "id": 5,
-      "Nombre": "Promocion Fiestas",
-      "Descuento": 10
-    }
+    { "id": 1, "Nombre": "Promocion Verano", "Descuento": 17 },
+    { "id": 2, "Nombre": "Promocion Invierno", "Descuento": 7 },
+    { "id": 3, "Nombre": "Promocion Otoño", "Descuento": 15 },
+    { "id": 4, "Nombre": "Promocion Primavera", "Descuento": 25 },
+    { "id": 5, "Nombre": "Promocion Fiestas", "Descuento": 10 }
   ],
   "promocionDetalle": [
-    {
-      "promocionId": 1,
-      "productoId": 1,
-      "Cantidad": 5,
-      "Precio-Unidad": 150
-    },
-    {
-      "promocionId": 3,
-      "productoId": 5,
-      "Cantidad": 60,
-      "Precio-Unidad": 1500
-    },
-    {
-      "promocionId": 2,
-      "productoId": 2,
-      "Cantidad": 50,
-      "Precio-Unidad": 1250
-    },
-    {
-      "promocionId": 3,
-      "productoId": 1,
-      "Cantidad": 5,
-      "Precio-Unidad": 150
-    },
-    {
-      "promocionId": 5,
-      "productoId": 5,
-      "Cantidad": 50,
-      "Precio-Unidad": 50
-    }
+    { "promocionId": 1, "productoId": 1, "Cantidad": 5, "Precio-Unidad": 150 },
+    { "promocionId": 3, "productoId": 5, "Cantidad": 60, "Precio-Unidad": 1500 },
+    { "promocionId": 2, "productoId": 2, "Cantidad": 50, "Precio-Unidad": 1250 },
+    { "promocionId": 3, "productoId": 1, "Cantidad": 5, "Precio-Unidad": 150 },
+    { "promocionId": 5, "productoId": 5, "Cantidad": 50, "Precio-Unidad": 50 }
   ],
   "tienda": [
     {
-      "Slogan": "No vendemos solo fruta,vendemos la solución para tu cena",
+      "Slogan": "No vendemos solo fruta, vendemos la solución para tu cena",
       "Nombre": "Tiziana",
       "Mail": "hola@fruteria-tiziana.com",
       "Telefono": "+54 11 5555-8494",
-      "Direccion":"Buenos Aires, Argentina",
-      "Horarios de Entrega":"Entrega: Lun-Dom de 9 a 21 hs",
+      "Direccion": "Buenos Aires, Argentina",
+      "Horarios de Entrega": "Entrega: Lun-Dom de 9 a 21 hs",
       "Horarios de Atencion": ""
     }
   ]
-    
 }

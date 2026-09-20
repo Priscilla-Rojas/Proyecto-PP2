@@ -6,7 +6,7 @@
       "precioPorPeso": 1200,
       "categoria": "Verduras",
       "descripcion": "Tomate perita especial para salsa o ensaladas.",
-      "imagen": "https://example.com/tomate.jpg"
+      "imagen": "./src/assets/productos-img/tomate-redondo.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "precioPorPeso": 600,
       "categoria": "Verduras",
       "descripcion": "Papa negra ideal para puré o freír.",
-      "imagen": "https://example.com/papa.jpg"
+      "imagen": "./src/assets/productos-img/papa-negra.png"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "precioPorPeso": 700,
       "categoria": "Verduras",
       "descripcion": "Cebolla de origen nacional, muy sabrosa.",
-      "imagen": "https://example.com/cebolla.jpg"
+      "imagen": "./src/assets/productos-img/cebolla.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "precioPorPeso": 850,
       "categoria": "Verduras",
       "descripcion": "Zanahoria fresca y dulce.",
-      "imagen": "https://example.com/zanahoria.jpg"
+      "imagen": "./src/assets/productos-img/zanahoria.png"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "precioPorPeso": 1500,
       "categoria": "Frutas",
       "descripcion": "Manzana roja comercial, muy jugosa.",
-      "imagen": "https://example.com/manzana.jpg"
+      "imagen": "./src/assets/productos-img/apple.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "precioPorPeso": 1300,
       "categoria": "Frutas",
       "descripcion": "Banana Cavendish de Ecuador.",
-      "imagen": "https://example.com/banana.jpg"
+      "imagen": "./src/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "precioPorPeso": 900,
       "categoria": "Frutas",
       "descripcion": "Limón Tucumano primera calidad.",
-      "imagen": "https://example.com/limon.jpg"
+      "imagen": "./src/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "precioPorPeso": 2500,
       "categoria": "Verduras",
       "descripcion": "Morrón rojo carnoso, ideal para asar.",
-      "imagen": "https://example.com/morron.jpg"
+      "imagen": "./src/assets/productos-img/tomate-redondo.png"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "precioPorPeso": 4000,
       "categoria": "Verduras",
       "descripcion": "Cabeza de ajo blanco.",
-      "imagen": "https://example.com/ajo.jpg"
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "precioPorPeso": 1100,
       "categoria": "Verduras",
       "descripcion": "Lechuga fresca repollada.",
-      "imagen": "https://example.com/lechuga.jpg"
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "precioPorPeso": 4500,
       "categoria": "Frutas",
       "descripcion": "Palta de tamaño mediano.",
-      "imagen": "https://example.com/palta.jpg"
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "precioPorPeso": 3500,
       "categoria": "Frutas",
       "descripcion": "Frutilla fresca por kilo.",
-      "imagen": "https://example.com/frutilla.jpg"
+      "imagen": "./src/assets/productos-img/frutilla.png"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "precioPorPeso": 1000,
       "categoria": "Frutas",
       "descripcion": "Naranja especial para hacer jugo.",
-      "imagen": "https://example.com/naranja.jpg"
+      "imagen": "./src/assets/productos-img/naranja-navel.png"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "precioPorPeso": 500,
       "categoria": "Verduras",
       "descripcion": "Zapallo anco tipo coreano.",
-      "imagen": "https://example.com/zapallo.jpg"
+      "imagen": "./src/assets/productos-img/calabacin.png"
     },
     {
       "id": 15,
@@ -118,7 +118,15 @@
       "precioPorPeso": 2800,
       "categoria": "Frutas",
       "descripcion": "Uva negra sin semilla.",
-      "imagen": "https://example.com/uva.jpg"
+      "imagen": "./src/assets/productos-img/generico-frutas.png"
+    },
+    {
+      "id": 16,
+      "nombre": "Berenjena",
+      "precioPorPeso": 1200,
+      "categoria": "Verduras",
+      "descripcion": "Berenjena fresca para asar o rellenas.",
+      "imagen": "./src/assets/productos-img/berebjenas.png"
     }
   ],
   "usuarios": [
@@ -227,7 +235,9 @@
         "1": "Lavar y pelar las verduras.",
         "2": "Hervir a fuego lento por 40 minutos.",
         "3": "Licuar todo hasta obtener una sopa suave."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/sopa-zapallo.png",
+      "idDificultad": 1
     },
     {
       "id": 2,
@@ -236,7 +246,9 @@
         "1": "Lavar la lechuga y el tomate.",
         "2": "Cortar el tomate en rodajas y la cebolla en pluma fina.",
         "3": "Mezclar todo en un bol y aderezar."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/ensalada-clasica.jpg",
+      "idDificultad": 1
     },
     {
       "id": 3,
@@ -245,7 +257,9 @@
         "1": "Lavar las frutillas y pelar las bananas.",
         "2": "Colocar la fruta en la licuadora con leche o agua y hielo.",
         "3": "Licuar hasta obtener una mezcla homogénea."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/licuada-bananaFrutilla.jpg",
+      "idDificultad": 1
     },
     {
       "id": 4,
@@ -254,7 +268,9 @@
         "1": "Lavar y pelar toda la fruta.",
         "2": "Cortar en dados pequeños y mezclar en un bol.",
         "3": "Añadir jugo de naranja y dejar enfriar."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/ensalada de frutas.jpg",
+      "idDificultad": 1
     },
     {
       "id": 5,
@@ -263,7 +279,9 @@
         "1": "Pelar la palta y pisarla con un tenedor.",
         "2": "Picar cebolla y tomate muy finos y agregar a la palta.",
         "3": "Exprimir jugo de limón, salar y mezclar."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/guacamole.jpg",
+      "idDificultad": 1
     },
     {
       "id": 6,
@@ -272,7 +290,9 @@
         "1": "Pelar la zanahoria y exprimir las naranjas.",
         "2": "Licuar el jugo de naranja con la zanahoria.",
         "3": "Colar si se prefiere y servir con hielo."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/jugo-naranjazanahoria.jpg",
+      "idDificultad": 1
     },
     {
       "id": 7,
@@ -281,7 +301,9 @@
         "1": "Lavar tomates y morrón. Pelar ajo y cebolla.",
         "2": "Triturar todo junto con agua, aceite y sal.",
         "3": "Enfriar en la heladera por al menos 2 horas antes de servir."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/tomate-redondo.png",
+      "idDificultad": 2
     },
     {
       "id": 8,
@@ -290,7 +312,9 @@
         "1": "Lavar bien las papas dejando la cáscara.",
         "2": "Cortar en gajos y mezclar con aceite y ajo picado.",
         "3": "Hornear a 200 grados hasta que estén doradas."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/papa-negra.png",
+      "idDificultad": 1
     },
     {
       "id": 9,
@@ -299,8 +323,48 @@
         "1": "Cortar el tomate en cubos y la palta en trozos medianos.",
         "2": "Mezclar suavemente para no romper la palta.",
         "3": "Aderezar con jugo de limón, aceite de oliva y sal."
-      }
+      },
+      "imagen": "./src/assets/recetas-img/ensalada.png",
+      "idDificultad": 1
+    },
+    {
+      "id": 10,
+      "title": "Tarta de Verduras",
+      "Pasos": {
+        "1": "Preparar la masa o usar una comprada.",
+        "2": "Saltear verduras variadas.",
+        "3": "Rellenar y hornear 40 minutos."
+      },
+      "imagen": "./src/assets/recetas-img/tarta-verduras.png",
+      "idDificultad": 2
+    },
+    {
+      "id": 11,
+      "title": "Brochetas de Frutas",
+      "Pasos": {
+        "1": "Lavar y cortar frutas de temporada en cubos.",
+        "2": "Ensartar alternando colores en palillos largos.",
+        "3": "Servir con yogur o miel."
+      },
+      "imagen": "./src/assets/recetas-img/frutas.png",
+      "idDificultad": 1
+    },
+    {
+      "id": 12,
+      "title": "Jugo Verde Detox",
+      "Pasos": {
+        "1": "Lavar hojas verdes, manzana y pepino.",
+        "2": "Licuar todo con agua y un poco de jengibre.",
+        "3": "Servir frío en el desayuno."
+      },
+      "imagen": "./src/assets/recetas-img/frutas-y-verduras.png",
+      "idDificultad": 1
     }
+  ],
+  "dificultad": [
+    { "id": 1, "nivel": "Fácil" },
+    { "id": 2, "nivel": "Media" },
+    { "id": 3, "nivel": "Difícil" }
   ],
   "ingredienteReceta": [
     { "idReceta": 1, "idProducto": 2, "cantidad": 500, "unidad": "gramos" },

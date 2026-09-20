@@ -131,70 +131,8 @@
           </a>
         </div>
       </div>
-      <div class="cards-grid">
-        <article class="product-card">
-          <div class="product-card__image-container">
-            <img src="./src/assets/apple.jpg" alt="Manzana Gala" class="product-card__image">
-            <span class="product-card__badge product-card__badge--yellow">-15%</span>
-          </div>
-          <div class="product-card__content">
-            <span class="product-card__category">FRUTA</span>
-            <h3 class="product-card__name">Manzana Gala</h3>
-            <p class="product-card__description">Manzanas frescas de temporada, dulces y crujientes.</p>
-            <div class="product-card__footer">
-              <span class="product-card__price">$723 <br/> <small class="product-card__price--discount">$850/kg</small></span>
-              <button class="product-card__button">+ Agregar</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <div class="product-card__image-container">
-            <img src="./src/assets/naranja-navel.png" alt="Naranja Navel" class="product-card__image">
-            <span class="product-card__badge product-card__badge--green">Más vendido</span>
-          </div>
-          <div class="product-card__content">
-            <span class="product-card__category">FRUTA</span>
-            <h3 class="product-card__name">Naranja Navel</h3>
-            <p class="product-card__description">Naranjas jugosas ideales para jugo fresco</p>
-            <div class="product-card__footer">
-              <span class="product-card__price">$380 <br/> <small class="product-card__price--unit">/kg</small></span>
-              <button class="product-card__button">+ Agregar</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <div class="product-card__image-container">
-            <img src="./src/assets/tomate-redondo.png" alt="Tomate Redondo" class="product-card__image">
-            <span class="product-card__badge product-card__badge--green">Más vendido</span>
-          </div>
-          <div class="product-card__content">
-            <span class="product-card__category">VERDURA</span>
-            <h3 class="product-card__name">Tomate Redondo</h3>
-            <p class="product-card__description">Tomates frescos, ideales para ensaladas y salsas.</p>
-            <div class="product-card__footer">
-              <span class="product-card__price">$620 <br/> <small class="product-card__price--unit">/kg</small></span>
-              <button class="product-card__button">+ Agregar</button>
-            </div>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <div class="product-card__image-container">
-            <img src="./src/assets/papa-negra.png" alt="Papa Negra" class="product-card__image">
-            <span class="product-card__badge product-card__badge--green">Más vendido</span>
-          </div>
-          <div class="product-card__content">
-            <span class="product-card__category">VERDURA</span>
-            <h3 class="product-card__name">Papa Negra</h3>
-            <p class="product-card__description">Papas de calidad superior para todo tipo de preparaciones.</p>
-            <div class="product-card__footer">
-              <span class="product-card__price">$290 <br/> <small class="product-card__price--unit">/kg</small></span>
-              <button class="product-card__button">+ Agregar</button>
-            </div>
-          </div>
-        </article>
+      <div class="cards-grid" id="featured-products-container">
+        <!-- Fetched featured products will be rendered here -->
       </div>
     </section>
     <section class="daily-offers">
@@ -202,49 +140,8 @@
         <span class="daily-offers__subtitle">PRECIOS ESPECIALES</span>
         <h2 class="daily-offers__title">Ofertas del día</h2>
       </div>
-      <div class="daily-offers__grid">
-        <article class="offer-card">
-          <img src="./src/assets/apple.jpg" alt="Manzana Gala" class="offer-card__image">
-          <div class="offer-card__info">
-            <span class="offer-card__tag">-15% HOY</span>
-            <h3 class="offer-card__name">Manzana Gala</h3>
-            <p class="offer-card__price">
-              <strong>$723</strong> <del>$850</del> <span class="offer-card__price-unit">/kg</span>
-            </p>
-            <button class="offer-card__button">
-              <span class="offer-card__button-plus">+</span>
-              <span class="offer-card__button-text">Agregar al carrito</span>
-            </button>
-          </div>
-        </article>
-        <article class="offer-card">
-          <img src="./src/assets/frutilla.png" alt="Frutilla" class="offer-card__image">
-          <div class="offer-card__info">
-            <span class="offer-card__tag">-10% HOY</span>
-            <h3 class="offer-card__name">Frutilla</h3>
-            <p class="offer-card__price">
-              <strong>$1.080</strong> <del>$1.200</del> <span class="offer-card__price-unit">/kg</span>
-            </p>
-            <button class="offer-card__button">
-              <span class="offer-card__button-plus">+</span>
-              <span class="offer-card__button-text">Agregar al carrito</span>
-            </button>
-          </div>
-        </article>
-        <article class="offer-card">
-          <img src="./src/assets/zanahoria.png" alt="Zanahoria" class="offer-card__image">
-          <div class="offer-card__info">
-            <span class="offer-card__tag">-20% HOY</span>
-            <h3 class="offer-card__name">Zanahoria</h3>
-            <p class="offer-card__price">
-              <strong>$280</strong> <del>$350</del> <span class="offer-card__price-unit">/kg</span>
-            </p>
-            <button class="offer-card__button">
-              <span class="offer-card__button-plus">+</span>
-              <span class="offer-card__button-text">Agregar al carrito</span>
-            </button>
-          </div>
-        </article>
+      <div class="daily-offers__grid" id="daily-offers-container">
+        <!-- Fetched daily offers will be rendered here -->
       </div>
     </section>
     <section class="recipe-section">
@@ -261,145 +158,8 @@
         </div>
       </div>
 
-      <div class="recipe-grid">
-        <article class="recipe-card">
-          <div class="recipe-card__image-container">
-            <img src="./src/assets/tarta-verduras.png" alt="Tarta de Verduras" class="recipe-card__image">
-            <span class="recipe-card__badge">Media</span>
-            <div class="recipe-card__overlay">
-              <h3 class="recipe-card__title">Tarta de Verduras</h3>
-              <div class="recipe-card__meta">
-                <span class="recipe-card__meta-item">🕒 45 min</span>
-                <span class="recipe-card__meta-item">👥 6 porc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="recipe-card__content">
-            <p class="recipe-card__description">Clásica tarta argentina rellena de zanahoria, zapallo y pimiento. Reconfortante y nutritiva.</p>
-            <button class="recipe-card__button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-card__btn-icon">
-                <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
-                <path d="M6 17h12"></path>
-              </svg>
-              Preparar compra
-            </button>
-          </div>
-        </article>
-        <article class="recipe-card">
-          <div class="recipe-card__image-container">
-            <img src="./src/assets/tarta-verduras.png" alt="Tarta de Verduras" class="recipe-card__image">
-            <span class="recipe-card__badge">Media</span>
-            <div class="recipe-card__overlay">
-              <h3 class="recipe-card__title">Tarta de Verduras</h3>
-              <div class="recipe-card__meta">
-                <span class="recipe-card__meta-item">🕒 45 min</span>
-                <span class="recipe-card__meta-item">👥 6 porc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="recipe-card__content">
-            <p class="recipe-card__description">Clásica tarta argentina rellena de zanahoria, zapallo y pimiento. Reconfortante y nutritiva.</p>
-            <button class="recipe-card__button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-card__btn-icon">
-                <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
-                <path d="M6 17h12"></path>
-              </svg>
-              Preparar compra
-            </button>
-          </div>
-        </article>
-        <article class="recipe-card">
-          <div class="recipe-card__image-container">
-            <img src="./src/assets/tarta-verduras.png" alt="Tarta de Verduras" class="recipe-card__image">
-            <span class="recipe-card__badge">Media</span>
-            <div class="recipe-card__overlay">
-              <h3 class="recipe-card__title">Tarta de Verduras</h3>
-              <div class="recipe-card__meta">
-                <span class="recipe-card__meta-item">🕒 45 min</span>
-                <span class="recipe-card__meta-item">👥 6 porc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="recipe-card__content">
-            <p class="recipe-card__description">Clásica tarta argentina rellena de zanahoria, zapallo y pimiento. Reconfortante y nutritiva.</p>
-            <button class="recipe-card__button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-card__btn-icon">
-                <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
-                <path d="M6 17h12"></path>
-              </svg>
-              Preparar compra
-            </button>
-          </div>
-        </article>
-        <article class="recipe-card">
-          <div class="recipe-card__image-container">
-            <img src="./src/assets/tarta-verduras.png" alt="Tarta de Verduras" class="recipe-card__image">
-            <span class="recipe-card__badge">Media</span>
-            <div class="recipe-card__overlay">
-              <h3 class="recipe-card__title">Tarta de Verduras</h3>
-              <div class="recipe-card__meta">
-                <span class="recipe-card__meta-item">🕒 45 min</span>
-                <span class="recipe-card__meta-item">👥 6 porc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="recipe-card__content">
-            <p class="recipe-card__description">Clásica tarta argentina rellena de zanahoria, zapallo y pimiento. Reconfortante y nutritiva.</p>
-            <button class="recipe-card__button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-card__btn-icon">
-                <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
-                <path d="M6 17h12"></path>
-              </svg>
-              Preparar compra
-            </button>
-          </div>
-        </article>
-        <article class="recipe-card">
-          <div class="recipe-card__image-container">
-            <img src="./src/assets/tarta-verduras.png" alt="Tarta de Verduras" class="recipe-card__image">
-            <span class="recipe-card__badge">Media</span>
-            <div class="recipe-card__overlay">
-              <h3 class="recipe-card__title">Tarta de Verduras</h3>
-              <div class="recipe-card__meta">
-                <span class="recipe-card__meta-item">🕒 45 min</span>
-                <span class="recipe-card__meta-item">👥 6 porc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="recipe-card__content">
-            <p class="recipe-card__description">Clásica tarta argentina rellena de zanahoria, zapallo y pimiento. Reconfortante y nutritiva.</p>
-            <button class="recipe-card__button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-card__btn-icon">
-                <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
-                <path d="M6 17h12"></path>
-              </svg>
-              Preparar compra
-            </button>
-          </div>
-        </article>
-        <article class="recipe-card">
-          <div class="recipe-card__image-container">
-            <img src="./src/assets/tarta-verduras.png" alt="Tarta de Verduras" class="recipe-card__image">
-            <span class="recipe-card__badge">Media</span>
-            <div class="recipe-card__overlay">
-              <h3 class="recipe-card__title">Tarta de Verduras</h3>
-              <div class="recipe-card__meta">
-                <span class="recipe-card__meta-item">🕒 45 min</span>
-                <span class="recipe-card__meta-item">👥 6 porc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="recipe-card__content">
-            <p class="recipe-card__description">Clásica tarta argentina rellena de zanahoria, zapallo y pimiento. Reconfortante y nutritiva.</p>
-            <button class="recipe-card__button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="recipe-card__btn-icon">
-                <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
-                <path d="M6 17h12"></path>
-              </svg>
-              Preparar compra
-            </button>
-          </div>
-        </article>
+      <div class="recipe-grid" id="popular-recipes-container">
+        <!-- Fetched popular recipes will be rendered here -->
       </div>
     </section>
     <section class="benefits">
@@ -454,7 +214,7 @@
     <div class="site-footer">
       <section class="foot-sect">
         <h3 class="foot-logo"><img src="./src/assets/logo.png" alt="logo">Fruteria Tiziana</h3>
-        <p class="text-spot">"No vendemos solo fruta, vendemos la solución para tu cena." Frutas y verduras frescas con entrega a domicilio en Buenos Aires.</p>
+        <p class="text-spot" id="footer-slogan">"No vendemos solo fruta, vendemos la solución para tu cena." Frutas y verduras frescas con entrega a domicilio en Buenos Aires.</p>
         <div class="pay-methods">
           <button class="method"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
@@ -471,14 +231,14 @@
       <section class="foot-sect">
         <h3 class="foot-tit">Contacto</h3>
         <ul class="foot-item-list">
-          <li class="foot-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+          <li class="foot-item" id="footer-address"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
             <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
             </svg> Buenos Aires, Argentina
           </li>
-          <li class="foot-item">fruteria@gmail.com</li>
-          <li class="foot-item">+54 11 5555-8494</li>
-          <li class="delivery"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+          <li class="foot-item" id="footer-email">fruteria@gmail.com</li>
+          <li class="foot-item" id="footer-phone">+54 11 5555-8494</li>
+          <li class="delivery" id="footer-delivery"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
           <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
           </svg> Entrega: Lun-Dom de 9 a 21 hs</li>
         </ul>
@@ -487,6 +247,7 @@
     <p class="license">© 2026 Frutería Tiziana. Todos los derechos reservados.</p>
   </footer>
 
+  <script src="./src/scripts/index.js" type="module"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>

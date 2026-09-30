@@ -119,6 +119,10 @@ nav ul{
 
 
 /* FOOTER */
+
+footer{
+    position: static;
+}
 .footer-container{
     background-color: rgb(225, 236, 227);
     display: flex;

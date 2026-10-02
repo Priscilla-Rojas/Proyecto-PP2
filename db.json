@@ -184,20 +184,20 @@
     },
     {
       "nroPedido": 1002,
-      "estado": "En Preparación",
+      "estado": "Preparando",
       "idUsuario": 2,
       "fecha": "2023-11-02T11:30:00Z"
     },
     {
       "nroPedido": 1003,
-      "estado": "Pendiente",
+      "estado": "En Camino",
       "idUsuario": 3,
       "fecha": "2023-11-02T15:45:00Z"
     }
     ,
     {
       "nroPedido": 1004,
-      "estado": "Pendiente",
+      "estado": "En Camino",
       "idUsuario": 3,
       "fecha": "2023-11-02T15:45:00Z"
     }

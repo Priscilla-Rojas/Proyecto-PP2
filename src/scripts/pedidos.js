@@ -2,6 +2,16 @@ const noRegistrado = document.getElementById("container-unregistered")
 const registrado = document.getElementById("container-registered")
 const estaRegistrado=true
 const listaPedidos=document.getElementById("orders-list")
+const usuarioActual = 3
+const formatearFecha = (fecha) => {
+    const fechaFormateada = new Date(fecha)
+
+    return fechaFormateada.toLocaleDateString("es-AR", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    })
+}
 
 const obtenerPedidos=async()=>{
     try {
@@ -34,35 +44,41 @@ const obtenerDetallesPedidos=async() => {
 
 const mostrarPedidos=async()=>{
     const pedidos=await obtenerPedidos()
+    const pedidosUsuario=pedidos.filter(pedido=>pedido.idUsuario===usuarioActual)
     const detalles=await obtenerDetallesPedidos()
 
     let mostrar=""
     const orderNumber=document.getElementById("order-number")
-    orderNumber.textContent = `${pedidos.length} pedidos realizados`
-    pedidos.forEach(pedido => {
+    orderNumber.textContent = `${pedidosUsuario.length} pedidos realizados`
+    pedidosUsuario.forEach(pedido => {
         const detallesPedido = detalles.filter(detalle => detalle.idPedido === pedido.nroPedido)
         const cantidad= detallesPedido.length
-        let precioTotal=""
+        let precioTotal=0
         console.log("nuevo pedido")
         detallesPedido.forEach(detalle=>{
             console.log(detalle.precio)
             console.log(detalle.cantidad)
             precioTotal+=detalle.precio*detalle.cantidad
         })
+        const estado=()=>{
+            if (pedido.estado==="Preparando") return `<p class="preparando">Preparando</p>`
+            if (pedido.estado==="En Camino") return `<p class="en-camino">En Camino</p>`
+            if (pedido.estado==="Entregado") return `<p class="entregado">Entregado</p>`
+        }
         mostrar+=`
         <li class="pedido">
             <section class="pedido-info">
                 <div class="top-info">
                     <p>${pedido.nroPedido}</p>
-                    <p class="estado">${pedido.estado}</p>
+                    ${estado()}
                 </div>
                 <div class="lower-info">
-                    <p>${pedido.fecha}</p>
+                    <p>${formatearFecha(pedido.fecha)}</p>
                     <p>${cantidad} productos</p>
                 </div>
             </section>
             <section class="detalle-pedido">
-                <p>${precioTotal}</p>
+                <p class="precio">$ ${precioTotal}</p>
                 <a href="" class="detalle" data-id="${pedido.nroPedido}">
                             Ver detalle
                         </a>

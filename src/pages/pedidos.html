@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="../styles/header&Foother.css">
     <link rel="stylesheet" href="../styles/pedidos.css">
+    <link rel="stylesheet" href="../styles/user.css">
     <title>Contacto - Fruteria Tiziana</title>
 </head>
 <body>
@@ -45,10 +46,12 @@
                   </svg>
                 </button>
               </li>
-              <li class="btnsup"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+              <li class="btnsup"><button id="btn-ingresar" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
               <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-              </svg></li>
-             <!-- <li><a class="miperfil" href="./miperfil.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>Ingresar</a></li>
+              </svg>
+              </button></li>
+             <!-- <li><a class="btnsup" href="./miperfil.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>Ingresar</a></li>
             </ul>-->
 
             
@@ -58,6 +61,28 @@
       
     </header>
     <main>
+      <div class="modal-user" id="modal-user" >
+        <div class="modal-content">
+          <section class="modal-header" id="modal-header">
+            <div class="logo-container">
+              <a class="logo"><img src="../assets/logo.png" alt="Logo"> Tiziana</a>
+            </div>
+            <h3>Bienvenido de Vuelta</h3>
+            <p>Ingresa a tu cuenta para poder comprar</p>
+          </section>
+          <section class="modal-body">
+            <form class="modal-form"></form>
+              <input class="input-ingresar" type="email" id="email" name="email" placeholder="Email" required>
+              <input class="input-ingresar"type="password" id="password" name="password" placeholder="Contraseña" required>
+              <button class="ingresar-button" type="submit">Ingresar</button>
+            </form>
+          </section>
+          <section class="modal-footer">
+            <p>No tienes una cuenta? </p>
+            <button class="btn-registro">Registrate</button>
+          </section>
+        </div>
+      </div>
       <div class="container-unregistered" id="container-unregistered">
             <div class="icon-conteiner" id="icon-conteiner">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
@@ -122,6 +147,7 @@
     ></script>
     <script type="module" src="/src/main.js"></script>
     <script src="/src/scripts/pedidos.js"></script>
+    <script src="/src/scripts/usuarios.js"></script>
 
 </body>
 </html>

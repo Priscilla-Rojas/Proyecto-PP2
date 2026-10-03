@@ -134,19 +134,22 @@
       "id": 1,
       "mail": "juan.perez@example.com",
       "nombreUsuario": "juanperez",
-      "telefono": "1123456789"
+      "telefono": "1123456789",
+      "contrasena":"1234"
     },
     {
       "id": 2,
       "mail": "maria.gomez@example.com",
       "nombreUsuario": "mariag",
-      "telefono": "1198765432"
+      "telefono": "1198765432",
+      "contrasena":"1234"
     },
     {
       "id": 3,
       "mail": "carlos.lopez@example.com",
       "nombreUsuario": "carlopez",
-      "telefono": "1145678901"
+      "telefono": "1145678901",
+      "contrasena":"1234"
     }
   ],
   "usuarioDireccion": [

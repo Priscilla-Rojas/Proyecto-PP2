@@ -1,8 +1,19 @@
 const noRegistrado = document.getElementById("container-unregistered")
 const registrado = document.getElementById("container-registered")
-const estaRegistrado=true
+
 const listaPedidos=document.getElementById("orders-list")
-const usuarioActual = 3
+
+const obtenerIdUsuario = () => {
+    return Number(sessionStorage.getItem("idUsuario"));
+}
+
+const estaRegistrado=()=>{
+  return sessionStorage.getItem("idUsuario") !== null;
+}
+
+
+
+
 const formatearFecha = (fecha) => {
     const fechaFormateada = new Date(fecha)
 
@@ -43,8 +54,9 @@ const obtenerDetallesPedidos=async() => {
 
 
 const mostrarPedidos=async()=>{
+    const idUsuarioActual = Number(sessionStorage.getItem("idUsuario"));
     const pedidos=await obtenerPedidos()
-    const pedidosUsuario=pedidos.filter(pedido=>pedido.idUsuario===usuarioActual)
+    const pedidosUsuario=pedidos.filter(pedido=>pedido.idUsuario===idUsuarioActual)
     const detalles=await obtenerDetallesPedidos()
 
     let mostrar=""
@@ -92,9 +104,7 @@ const mostrarPedidos=async()=>{
     listaPedidos.innerHTML=mostrar
 }
 
-
-
-if (estaRegistrado){
+if (estaRegistrado()){
     noRegistrado.style.display = "none"
     registrado.style.display = "block"
     mostrarPedidos()
@@ -103,3 +113,10 @@ if (estaRegistrado){
     registrado.style.display = "none"
 }
 
+
+document.addEventListener("inicioSesion", ()=>{
+    noRegistrado.style.display = "none";
+    registrado.style.display = "block";
+
+    mostrarPedidos();
+})

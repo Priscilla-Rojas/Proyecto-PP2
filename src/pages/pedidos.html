@@ -61,28 +61,6 @@
       
     </header>
     <main>
-      <div class="modal-user" id="modal-user" >
-        <div class="modal-content">
-          <section class="modal-header" id="modal-header">
-            <div class="logo-container">
-              <a class="logo"><img src="../assets/logo.png" alt="Logo"> Tiziana</a>
-            </div>
-            <h3>Bienvenido de Vuelta</h3>
-            <p>Ingresa a tu cuenta para poder comprar</p>
-          </section>
-          <section class="modal-body">
-            <form class="modal-form"></form>
-              <input class="input-ingresar" type="email" id="email" name="email" placeholder="Email" required>
-              <input class="input-ingresar"type="password" id="password" name="password" placeholder="Contraseña" required>
-              <button class="ingresar-button" type="submit">Ingresar</button>
-            </form>
-          </section>
-          <section class="modal-footer">
-            <p>No tienes una cuenta? </p>
-            <button class="btn-registro">Registrate</button>
-          </section>
-        </div>
-      </div>
       <div class="container-unregistered" id="container-unregistered">
             <div class="icon-conteiner" id="icon-conteiner">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
@@ -101,6 +79,7 @@
         <ul id="orders-list"></ul>
 
       </div>
+      <div class="modal-user" id="modal-user"></div>
 </main>
 
 <footer class="footer-container">
@@ -146,10 +125,10 @@
       crossorigin="anonymous"
     ></script>
     <script type="module" src="/src/main.js"></script>
-    <script src="/src/scripts/pedidos.js"></script>
-    <script src="/src/scripts/usuarios.js"></script>
+    <script type="module" src="/src/scripts/pedidos.js"></script>
+    <script type="module" src="/src/scripts/modalInicioSesion.js"></script>
 
-</body>
+</body> 
 </html>
 
 

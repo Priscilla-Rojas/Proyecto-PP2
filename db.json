@@ -127,6 +127,78 @@
       "categoria": "Verduras",
       "descripcion": "Berenjena fresca para asar o rellenas.",
       "imagen": "./src/assets/productos-img/berebjenas.png"
+    },
+    {
+      "id": 17,
+      "nombre": "Jengibre",
+      "precioPorPeso": 8000,
+      "categoria": "Verduras",
+      "descripcion": "Raíz de jengibre fresca.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 18,
+      "nombre": "Albahaca",
+      "precioPorPeso": 500,
+      "categoria": "Verduras",
+      "descripcion": "Atado de albahaca fresca y aromática.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 19,
+      "nombre": "Cilantro",
+      "precioPorPeso": 400,
+      "categoria": "Verduras",
+      "descripcion": "Atado de cilantro fresco.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 20,
+      "nombre": "Calabacín",
+      "precioPorPeso": 800,
+      "categoria": "Verduras",
+      "descripcion": "Calabacín (zucchini) verde y tierno.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 21,
+      "nombre": "Espinaca",
+      "precioPorPeso": 600,
+      "categoria": "Verduras",
+      "descripcion": "Atado de espinaca fresca.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 22,
+      "nombre": "Pepino",
+      "precioPorPeso": 700,
+      "categoria": "Verduras",
+      "descripcion": "Pepino fresco y crujiente.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 23,
+      "nombre": "Apio",
+      "precioPorPeso": 500,
+      "categoria": "Verduras",
+      "descripcion": "Planta de apio verde y crujiente.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 24,
+      "nombre": "Kiwi",
+      "precioPorPeso": 3500,
+      "categoria": "Frutas",
+      "descripcion": "Kiwi verde importado.",
+      "imagen": "./src/assets/productos-img/generico-frutas.png"
+    },
+    {
+      "id": 25,
+      "nombre": "Ananá",
+      "precioPorPeso": 2000,
+      "categoria": "Frutas",
+      "descripcion": "Ananá tropical entero.",
+      "imagen": "./src/assets/productos-img/generico-frutas.png"
     }
   ],
   "usuarios": [
@@ -242,133 +314,169 @@
       "id": 1,
       "title": "Sopa de Verduras",
       "Pasos": {
-        "1": "Lavar y pelar las verduras.",
-        "2": "Hervir a fuego lento por 40 minutos.",
-        "3": "Licuar todo hasta obtener una sopa suave."
+        "1": "Comenzar lavando minuciosamente todas las verduras bajo un chorro de agua fría. Luego, con la ayuda de un pelador, retirar la cáscara de las zanahorias, papas y zapallo. Cortar todo en cubos de tamaño uniforme para asegurar una cocción pareja.",
+        "2": "En una olla grande, colocar un chorrito de aceite y sofreír ligeramente las verduras cortadas. Cubrir con agua o caldo de verduras hasta tapar los ingredientes por completo. Llevar a ebullición y luego bajar el fuego, dejando cocinar a fuego lento durante aproximadamente 40 a 45 minutos, hasta que todo esté muy tierno.",
+        "3": "Una vez listas y ligeramente entibiadas, trasladar las verduras y el líquido a una licuadora o utilizar una minipimer para procesar todo el contenido. Licuar de forma continua hasta obtener una textura suave, sedosa y sin grumos. Salpimentar al gusto y servir caliente."
       },
       "imagen": "./src/assets/recetas-img/sopa-zapallo.png",
-      "idDificultad": 1
+      "idDificultad": 2,
+      "otrosIngredientes": ["Aceite", "Sal", "Agua o caldo"]
     },
     {
       "id": 2,
       "title": "Ensalada Clásica",
       "Pasos": {
-        "1": "Lavar la lechuga y el tomate.",
-        "2": "Cortar el tomate en rodajas y la cebolla en pluma fina.",
-        "3": "Mezclar todo en un bol y aderezar."
+        "1": "Deshojar la lechuga y lavar cada hoja individualmente para retirar cualquier resto de tierra. Escurrir bien o utilizar un centrifugador de verduras. Lavar el tomate y secarlo con un paño limpio.",
+        "2": "Cortar el tomate cuidadosamente en rodajas finas o en gajos, según la preferencia. Tomar la cebolla, pelarla y cortarla en juliana muy fina (pluma). Para suavizar su sabor, se puede dejar remojando en agua fría durante 10 minutos y luego escurrir.",
+        "3": "En un bol amplio, disponer una cama de hojas de lechuga troceadas con las manos, agregar el tomate y distribuir la cebolla por encima. En un recipiente aparte, preparar una vinagreta mezclando aceite de oliva, vinagre, sal y pimienta. Verter sobre la ensalada justo antes de servir y remover suavemente."
       },
       "imagen": "./src/assets/recetas-img/ensalada-clasica.jpg",
-      "idDificultad": 1
+      "idDificultad": 1,
+      "otrosIngredientes": ["Aceite de oliva", "Vinagre", "Sal", "Pimienta"]
     },
     {
       "id": 3,
       "title": "Licuado de Banana y Frutilla",
       "Pasos": {
-        "1": "Lavar las frutillas y pelar las bananas.",
-        "2": "Colocar la fruta en la licuadora con leche o agua y hielo.",
-        "3": "Licuar hasta obtener una mezcla homogénea."
+        "1": "Lavar cuidadosamente las frutillas, retirarles el cabito verde y cortarlas a la mitad. Pelar las bananas, quitando los filamentos, y trocearlas en pedazos medianos.",
+        "2": "Colocar todas las frutas preparadas dentro del vaso de la licuadora. Añadir la leche (puede ser de vaca o vegetal) hasta cubrir la fruta y agregar un puñado de hielo para que el resultado sea refrescante y espeso.",
+        "3": "Licuar a velocidad alta durante un par de minutos, pausando si es necesario para asegurarse de que no queden trozos enteros de fruta. Probar y, si se desea, endulzar con azúcar o miel. Servir inmediatamente en vasos altos."
       },
       "imagen": "./src/assets/recetas-img/licuada-bananaFrutilla.jpg",
-      "idDificultad": 1
+      "idDificultad": 1,
+      "otrosIngredientes": ["Leche o agua", "Hielo", "Azúcar o miel (opcional)"]
     },
     {
       "id": 4,
       "title": "Ensalada de Frutas",
       "Pasos": {
-        "1": "Lavar y pelar toda la fruta.",
-        "2": "Cortar en dados pequeños y mezclar en un bol.",
-        "3": "Añadir jugo de naranja y dejar enfriar."
+        "1": "Seleccionar una variedad de frutas frescas de temporada. Lavarlas minuciosamente, pelar aquellas que lo requieran (como manzanas, bananas o naranjas) y retirar las semillas de manzanas y uvas.",
+        "2": "Sobre una tabla de cortar, picar todas las frutas en dados pequeños y parejos, para que en cada cucharada se puedan probar distintos sabores. Colocar toda la fruta picada en un recipiente grande o ensaladera.",
+        "3": "Exprimir un par de naranjas para obtener jugo natural y verterlo sobre la fruta cortada, esto evitará que se oxiden y aportará un dulzor natural. Mezclar con cuidado, cubrir el bol y llevar a la heladera por al menos una hora antes de servir para que los sabores se integren y esté bien fresca."
       },
       "imagen": "./src/assets/recetas-img/ensalada de frutas.jpg",
-      "idDificultad": 1
+      "idDificultad": 1,
+      "otrosIngredientes": []
     },
     {
       "id": 5,
       "title": "Guacamole",
       "Pasos": {
-        "1": "Pelar la palta y pisarla con un tenedor.",
-        "2": "Picar cebolla y tomate muy finos y agregar a la palta.",
-        "3": "Exprimir jugo de limón, salar y mezclar."
+        "1": "Cortar las paltas maduras por la mitad, retirar el carozo y extraer toda la pulpa con la ayuda de una cuchara. Colocar la pulpa en un bol hondo y pisarla vigorosamente con un tenedor hasta formar un puré, dejando algunos trocitos enteros para darle textura.",
+        "2": "Lavar el tomate, retirar las semillas y picarlo en cubos extremadamente pequeños. Hacer lo mismo con la cebolla (preferentemente morada). Incorporar el tomate y la cebolla picados al puré de palta y revolver bien.",
+        "3": "Exprimir el jugo de medio limón fresco sobre la mezcla (esto aporta acidez y evita que la palta se ponga negra). Añadir sal a gusto, pimienta y, si se desea, cilantro fresco picado finamente. Mezclar todo y servir inmediatamente acompañado de nachos."
       },
       "imagen": "./src/assets/recetas-img/guacamole.jpg",
-      "idDificultad": 1
+      "idDificultad": 2,
+      "otrosIngredientes": ["Sal", "Pimienta", "Nachos (para acompañar)"]
     },
     {
       "id": 6,
       "title": "Jugo de Naranja y Zanahoria",
       "Pasos": {
-        "1": "Pelar la zanahoria y exprimir las naranjas.",
-        "2": "Licuar el jugo de naranja con la zanahoria.",
-        "3": "Colar si se prefiere y servir con hielo."
+        "1": "Lavar muy bien la zanahoria, pelarla con un pelapapas y cortarla en trozos pequeños o rodajas para facilitar el licuado. Exprimir las naranjas asegurándose de retirar cualquier semilla que pueda amargar el jugo.",
+        "2": "Colocar los trozos de zanahoria en la licuadora junto con el jugo de naranja recién exprimido. Si se desea un jugo más ligero, añadir medio vaso de agua fría.",
+        "3": "Licuar a máxima potencia durante dos a tres minutos, hasta que la zanahoria esté completamente deshecha. Para una textura más fina, pasar el jugo por un colador o tamiz. Servir frío, opcionalmente decorado con una rodajita de naranja."
       },
       "imagen": "./src/assets/recetas-img/jugo-naranjazanahoria.jpg",
-      "idDificultad": 1
+      "idDificultad": 1,
+      "otrosIngredientes": ["Agua (opcional)", "Hielo"]
     },
     {
       "id": 7,
       "title": "Gazpacho Frío",
       "Pasos": {
-        "1": "Lavar tomates y morrón. Pelar ajo y cebolla.",
-        "2": "Triturar todo junto con agua, aceite y sal.",
-        "3": "Enfriar en la heladera por al menos 2 horas antes de servir."
+        "1": "Lavar muy bien los tomates maduros y el morrón. Retirar las semillas y las nervaduras blancas del morrón. Pelar el diente de ajo y retirar el germen central para evitar que repita. Pelar también un cuarto de cebolla.",
+        "2": "Trocear todas las verduras y colocarlas en el vaso de la licuadora o procesadora. Añadir un buen chorro de aceite de oliva virgen extra, un chorrito de vinagre, sal al gusto y un vaso de agua fría. Si se quiere más espeso, se puede agregar un trozo de pan duro remojado.",
+        "3": "Triturar todo a máxima velocidad durante varios minutos hasta obtener una crema muy fina y homogénea. Probar y rectificar de sal o vinagre si hiciera falta. Llevar a la heladera en un recipiente tapado durante al menos 2 a 3 horas para servirlo bien helado."
       },
       "imagen": "./src/assets/recetas-img/gazpacho-frío.jpg",
-      "idDificultad": 2
+      "idDificultad": 2,
+      "otrosIngredientes": ["Aceite de oliva", "Vinagre", "Sal", "Agua", "Pan duro (opcional)"]
     },
     {
       "id": 8,
       "title": "Papas Rústicas al Horno",
       "Pasos": {
-        "1": "Lavar bien las papas dejando la cáscara.",
-        "2": "Cortar en gajos y mezclar con aceite y ajo picado.",
-        "3": "Hornear a 200 grados hasta que estén doradas."
+        "1": "Como estas papas se preparan con su cáscara, es fundamental lavarlas exhaustivamente bajo el agua, utilizando un cepillo suave para quitar cualquier rastro de tierra. Secarlas bien con papel de cocina.",
+        "2": "Cortar las papas a lo largo por la mitad, y luego cada mitad en gajos gruesos. Colocarlos en un bol grande, añadir un generoso chorro de aceite de oliva, pimentón dulce, sal, pimienta y dos dientes de ajo finamente picados o machacados. Mezclar con las manos para impregnar cada gajo.",
+        "3": "Distribuir los gajos de papa en una bandeja para horno previamente aceitada, procurando que no queden amontonados para que se doren bien. Hornear en un horno precalentado a 200°C durante unos 35 a 45 minutos, volteándolas a la mitad de la cocción, hasta que estén crujientes por fuera y tiernas por dentro."
       },
       "imagen": "./src/assets/recetas-img/Receta-de-papas-rústicas-al-horno.jpg",
-      "idDificultad": 1
+      "idDificultad": 2,
+      "otrosIngredientes": ["Aceite de oliva", "Pimentón dulce", "Sal", "Pimienta"]
     },
     {
       "id": 9,
       "title": "Ensalada de Tomate y Palta",
       "Pasos": {
-        "1": "Cortar el tomate en cubos y la palta en trozos medianos.",
-        "2": "Mezclar suavemente para no romper la palta.",
-        "3": "Aderezar con jugo de limón, aceite de oliva y sal."
+        "1": "Lavar los tomates y cortarlos en cubos medianos, procurando mantener su firmeza. Cortar la palta a la mitad, retirar el carozo y, con cuidado de no deshacerla, cortarla también en trozos de tamaño similar a los del tomate.",
+        "2": "Colocar los cubos de tomate y palta en una ensaladera o plato hondo. Si se desea, se puede agregar un poco de cebolla morada picada o hojas de cilantro fresco para realzar los sabores.",
+        "3": "Preparar un aliño simple mezclando en un cuenco pequeño jugo de limón fresco, una cucharada de aceite de oliva, sal y pimienta recién molida. Verter sobre la ensalada y mezclar con extrema delicadeza usando dos cucharas para no romper los trozos de palta. Servir como acompañamiento."
       },
       "imagen": "./src/assets/recetas-img/ensalada.png",
-      "idDificultad": 1
+      "idDificultad": 1,
+      "otrosIngredientes": ["Aceite de oliva", "Sal", "Pimienta"]
     },
     {
       "id": 10,
       "title": "Tarta de Verduras",
       "Pasos": {
-        "1": "Preparar la masa o usar una comprada.",
-        "2": "Saltear verduras variadas.",
-        "3": "Rellenar y hornear 40 minutos."
+        "1": "Para el relleno, lavar y cortar en dados pequeños una variedad de verduras como calabacín, morrón, cebolla y zanahoria. En una sartén grande con aceite de oliva, sofreír la cebolla hasta que esté translúcida, luego incorporar el resto de las verduras y cocinar hasta que estén tiernas pero no desarmadas. Salpimentar y dejar enfriar.",
+        "2": "En un bol, batir tres huevos con un chorrito de crema de leche o queso crema, sal, pimienta y nuez moscada. Incorporar las verduras salteadas y ya frías a esta mezcla de huevos, integrando todo de manera uniforme. Opcionalmente, sumar queso rallado.",
+        "3": "Forrar una tartera previamente enmantecada con la masa de tarta (casera o comprada), pinchar la base con un tenedor para que no se infle y verter todo el relleno en el interior. Llevar a un horno precalentado a 180°C y hornear durante unos 40 a 45 minutos, o hasta que el relleno esté firme y los bordes de la masa dorados. Dejar entibiar antes de cortar."
       },
       "imagen": "./src/assets/recetas-img/tarta-verduras.png",
-      "idDificultad": 2
+      "idDificultad": 3,
+      "otrosIngredientes": ["Masa de tarta", "3 huevos", "Crema de leche o queso crema", "Sal", "Pimienta", "Nuez moscada", "Queso rallado (opcional)"]
     },
     {
       "id": 11,
       "title": "Brochetas de Frutas",
       "Pasos": {
-        "1": "Lavar y cortar frutas de temporada en cubos.",
-        "2": "Ensartar alternando colores en palillos largos.",
-        "3": "Servir con yogur o miel."
+        "1": "Elegir frutas coloridas y consistentes, como frutillas, kiwis, uvas, ananá o melón. Lavar bien todas las piezas, pelar las que corresponda y cortarlas en cubos gruesos o rodajas que sean fáciles de pinchar sin romperse.",
+        "2": "Tomar palillos largos de madera (brochettes) y comenzar a ensartar los trozos de fruta. Es ideal alternar los tipos de fruta para crear un contraste de colores atractivo, por ejemplo: una uva, un cubo de ananá, una rodaja de kiwi y una frutilla en la punta.",
+        "3": "Disponer las brochetas terminadas en una bandeja plana. Se pueden servir al natural, frías, o acompañarlas con un pequeño cuenco con yogur natural, miel o chocolate derretido para que cada comensal pueda bañar su brocheta al momento de degustar."
       },
       "imagen": "./src/assets/recetas-img/brochetas-de-frutas.jpg",
-      "idDificultad": 1
+      "idDificultad": 1,
+      "otrosIngredientes": ["Yogur, miel o chocolate (para acompañar)", "Palillos de brochette"]
     },
     {
       "id": 12,
       "title": "Jugo Verde Detox",
       "Pasos": {
-        "1": "Lavar hojas verdes, manzana y pepino.",
-        "2": "Licuar todo con agua y un poco de jengibre.",
-        "3": "Servir frío en el desayuno."
+        "1": "Separar y lavar exhaustivamente las hojas verdes (pueden ser espinacas frescas o apio), asegurándose de retirar toda la tierra. Lavar también una manzana verde y medio pepino. Pelar el pepino si tiene una cáscara muy gruesa y descorazonar la manzana.",
+        "2": "Cortar el pepino, la manzana y el apio en trozos medianos. Pelar un trocito pequeño de jengibre fresco. Colocar todos los ingredientes en la licuadora junto con un vaso grande de agua mineral fría.",
+        "3": "Licuar todo a velocidad máxima durante un par de minutos para desintegrar por completo las fibras de las verduras. Dependiendo del gusto personal, se puede beber así, espeso y con toda la fibra, o filtrarlo utilizando un colador de malla fina o bolsa para leches vegetales. Ideal para tomar recién preparado en ayunas."
       },
       "imagen": "./src/assets/recetas-img/jugo-verde-dtox.jpg",
-      "idDificultad": 1
+      "idDificultad": 2,
+      "otrosIngredientes": ["Agua mineral"]
+    },
+    {
+      "id": 13,
+      "title": "Lasaña de Berenjenas",
+      "Pasos": {
+        "1": "Lavar minuciosamente las berenjenas, retirar los extremos y cortarlas a lo largo en láminas finas de aproximadamente medio centímetro de grosor. Espolvorear sal gruesa sobre cada lámina y dejarlas reposar en un colador durante 30 minutos para que suelten el jugo amargo. Luego, enjuagarlas con abundante agua fría y secarlas cuidadosamente con papel absorbente.",
+        "2": "En una sartén amplia o plancha bien caliente con un hilo de aceite de oliva, dorar las láminas de berenjena por ambos lados hasta que estén tiernas y ligeramente tostadas. Reservar. Por otro lado, en una olla, preparar una salsa de tomate sofritando ajo picado, añadiendo puré de tomate, albahaca fresca, sal, pimienta y cocinando a fuego lento por 20 minutos.",
+        "3": "En una fuente apta para horno, armar la lasaña colocando primero una capa delgada de salsa de tomate, luego una capa de láminas de berenjena, otra de salsa, espolvorear queso mozzarella rallado y un poco de queso parmesano. Repetir estas capas hasta terminar con los ingredientes, asegurando que la última capa quede bien cubierta de quesos. Hornear a 200°C durante 25 a 30 minutos, hasta que gratine y esté burbujeante. Dejar reposar 10 minutos antes de cortar."
+      },
+      "imagen": "./src/assets/recetas-img/lasaña-berenjena.jpg",
+      "idDificultad": 3,
+      "otrosIngredientes": ["Aceite de oliva", "Puré de tomate", "Sal", "Pimienta", "Queso mozzarella", "Queso parmesano"]
+    },
+    {
+      "id": 14,
+      "title": "Risotto de Zapallo Anco",
+      "Pasos": {
+        "1": "Pelar el zapallo anco, retirar las semillas y cortarlo en dados muy pequeños y uniformes. En una olla, calentar un litro de caldo de verduras y mantenerlo caliente a fuego mínimo durante toda la preparación. En una sartén ancha y profunda, derretir una cucharada de manteca con un chorrito de aceite de oliva y sofreír una cebolla finamente picada hasta que esté transparente.",
+        "2": "Incorporar los dados de zapallo a la sartén y cocinar por 5 minutos. Luego, añadir el arroz especial para risotto (carnaroli o arborio) y tostarlo revolviendo constantemente hasta que los granos se vean nacarados en los bordes. Verter medio vaso de vino blanco y revolver hasta que el alcohol se haya evaporado por completo.",
+        "3": "Comenzar a añadir el caldo caliente de a cucharones, vertiendo uno nuevo solo cuando el anterior haya sido absorbido por el arroz. Revolver de forma suave y continua haciendo un movimiento en forma de ocho. Continuar este proceso por 18 a 20 minutos hasta que el arroz esté al dente y cremoso. Apagar el fuego, añadir un buen trozo de manteca fría, abundante queso parmesano rallado, sal, pimienta negra y revolver enérgicamente para 'mantecar'. Servir de inmediato."
+      },
+      "imagen": "./src/assets/recetas-img/risotto-de-zapallo.jpg",
+      "idDificultad": 3,
+      "otrosIngredientes": ["Caldo de verduras (1 litro)", "Manteca", "Aceite de oliva", "Arroz para risotto (carnaroli o arborio)", "Vino blanco (1/2 vaso)", "Queso parmesano", "Sal", "Pimienta negra"]
     }
   ],
   "dificultad": [
@@ -394,6 +502,7 @@
     { "idReceta": 5, "idProducto": 1, "cantidad": 1, "unidad": "unidad" },
     { "idReceta": 5, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
     { "idReceta": 5, "idProducto": 7, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 5, "idProducto": 19, "cantidad": 1, "unidad": "atado" },
     { "idReceta": 6, "idProducto": 13, "cantidad": 4, "unidad": "unidades" },
     { "idReceta": 6, "idProducto": 4, "cantidad": 2, "unidad": "unidades" },
     { "idReceta": 7, "idProducto": 1, "cantidad": 1, "unidad": "kg" },
@@ -404,7 +513,29 @@
     { "idReceta": 8, "idProducto": 9, "cantidad": 3, "unidad": "dientes" },
     { "idReceta": 9, "idProducto": 1, "cantidad": 2, "unidad": "unidades" },
     { "idReceta": 9, "idProducto": 11, "cantidad": 1, "unidad": "unidad" },
-    { "idReceta": 9, "idProducto": 7, "cantidad": 1, "unidad": "unidad" }
+    { "idReceta": 9, "idProducto": 7, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 9, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 9, "idProducto": 19, "cantidad": 1, "unidad": "atado" },
+    { "idReceta": 10, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 10, "idProducto": 4, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 10, "idProducto": 8, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 10, "idProducto": 20, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 11, "idProducto": 12, "cantidad": 200, "unidad": "gramos" },
+    { "idReceta": 11, "idProducto": 6, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 11, "idProducto": 5, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 11, "idProducto": 24, "cantidad": 2, "unidad": "unidades" },
+    { "idReceta": 11, "idProducto": 25, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 12, "idProducto": 21, "cantidad": 1, "unidad": "atado" },
+    { "idReceta": 12, "idProducto": 5, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 12, "idProducto": 22, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 12, "idProducto": 23, "cantidad": 1, "unidad": "planta" },
+    { "idReceta": 13, "idProducto": 16, "cantidad": 3, "unidad": "unidades" },
+    { "idReceta": 13, "idProducto": 1, "cantidad": 500, "unidad": "gramos" },
+    { "idReceta": 13, "idProducto": 9, "cantidad": 2, "unidad": "dientes" },
+    { "idReceta": 13, "idProducto": 18, "cantidad": 1, "unidad": "atado" },
+    { "idReceta": 14, "idProducto": 14, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 14, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 12, "idProducto": 17, "cantidad": 20, "unidad": "gramos" }
   ],
   "categorias": [
     { "id": 1, "Tipo": "Recetas", "Descripcion": "Postres" },
@@ -431,7 +562,16 @@
     { "idProducto": 12, "idCategoria": 2 },
     { "idProducto": 13, "idCategoria": 2 },
     { "idProducto": 14, "idCategoria": 3 },
-    { "idProducto": 15, "idCategoria": 2 }
+    { "idProducto": 15, "idCategoria": 2 },
+    { "idProducto": 17, "idCategoria": 3 },
+    { "idProducto": 18, "idCategoria": 3 },
+    { "idProducto": 19, "idCategoria": 3 },
+    { "idProducto": 20, "idCategoria": 3 },
+    { "idProducto": 21, "idCategoria": 3 },
+    { "idProducto": 22, "idCategoria": 3 },
+    { "idProducto": 23, "idCategoria": 3 },
+    { "idProducto": 24, "idCategoria": 2 },
+    { "idProducto": 25, "idCategoria": 2 }
   ],
   "CategoriaReceta": [
     { "idReceta": 1, "idCategoria": 5 },
@@ -442,7 +582,12 @@
     { "idReceta": 6, "idCategoria": 8 },
     { "idReceta": 7, "idCategoria": 5 },
     { "idReceta": 8, "idCategoria": 4 },
-    { "idReceta": 9, "idCategoria": 7 }
+    { "idReceta": 9, "idCategoria": 7 },
+    { "idReceta": 10, "idCategoria": 6 },
+    { "idReceta": 11, "idCategoria": 1 },
+    { "idReceta": 12, "idCategoria": 8 },
+    { "idReceta": 13, "idCategoria": 6 },
+    { "idReceta": 14, "idCategoria": 6 }
   ],
   "Oferta": [
     { "IdProducto": 1, "Porcentaje": 25, "Estado": "Activa" },

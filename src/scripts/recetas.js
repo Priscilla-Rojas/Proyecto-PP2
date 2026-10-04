@@ -159,12 +159,14 @@ function renderRecetas(categoryId) {
         const description = Object.values(recipe.Pasos).join(' ');
         const shortDescription = description.length > 80 ? description.substring(0, 77) + '...' : description;
 
-        const imgUrl = recipe.imagen ? recipe.imagen.replace('./src/', '/src/') : '/src/assets/recetas-img/apple.jpg';
+        const imgUrl = recipe.imagen ? recipe.imagen.replace('./src/assets/', '../assets/') : '../assets/recetas-img/apple.jpg';
 
         return `
         <article class="receta-card">
             <div class="receta-card__img-container">
-                <img src="${imgUrl}" alt="${recipe.title}" class="receta-card__img" onerror="this.src='/src/assets/recetas-img/apple.jpg'">
+                <a href="./receta-detalle.html?id=${recipe.id}">
+                    <img src="${imgUrl}" alt="${recipe.title}" class="receta-card__img" onerror="this.src='../assets/recetas-img/apple.jpg'">
+                </a>
                 <div class="receta-card__badges">
                     <span class="badge-cat">${catName}</span>
                     <span class="badge-diff">${diffName}</span>
@@ -176,7 +178,9 @@ function renderRecetas(categoryId) {
                 </div>
             </div>
             <div class="receta-card__content">
-                <h3 class="receta-card__title">${recipe.title}</h3>
+                <a href="./receta-detalle.html?id=${recipe.id}" style="text-decoration: none; color: inherit;">
+                    <h3 class="receta-card__title">${recipe.title}</h3>
+                </a>
                 <p class="receta-card__desc">${shortDescription}</p>
                 <div class="receta-card__meta">
                     <span class="meta-item">

@@ -1,0 +1,220 @@
+/* Styling for the recipe detail page */
+.detalle-main {
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 200px);
+  padding: 40px 20px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.detalle-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  overflow: hidden;
+}
+
+.detalle-header {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.detalle-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detalle-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  padding: 40px;
+  color: white;
+}
+
+.detalle-badges {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.badge-cat, .badge-diff {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-cat {
+  background: #20c997;
+  color: white;
+}
+
+.badge-diff {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.detalle-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.detalle-body {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 40px;
+  padding: 40px;
+}
+
+.detalle-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pasos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paso-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 4px solid #20c997;
+}
+
+.paso-number {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #20c997;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.paso-text {
+  color: #4a5568;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ingredients-panel {
+  background: #f1fdf7;
+  border-radius: 16px;
+  padding: 30px;
+  height: fit-content;
+  border: 1px solid #e0f8eb;
+}
+
+.cost-box {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(32, 201, 151, 0.1);
+  text-align: center;
+}
+
+.cost-label {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.cost-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #20c997;
+  margin: 0;
+}
+
+.cost-per-person {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.ingredient-item:last-child {
+  border-bottom: none;
+}
+
+.ingredient-name {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.ingredient-qty {
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+.btn-buy-all {
+  width: 100%;
+  background: #20c997;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-buy-all:hover {
+  background: #1aa179;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(32, 201, 151, 0.3);
+}
+
+@media (max-width: 768px) {
+  .detalle-body {
+    grid-template-columns: 1fr;
+  }
+  .detalle-header {
+    height: 300px;
+  }
+  .detalle-title {
+    font-size: 2rem;
+  }
+}

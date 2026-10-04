@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png+xml" href="./src/assets/logo.png" />
@@ -12,70 +13,118 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <title>Fruteria Tiziana</title>
 </head>
+
 <body>
   <header>
-      <nav class="nav">
-            <div class="logo-container">
-              <a class="logo" href="./index.html"><img src="./src/assets/logo.png" alt="Logo"> Tiziana</a>
-            </div>
-            <ul class="nav-pages">
-              <li><a class="nav-page" href="./index.html">Inicio</a></li>
-              <li><a class="nav-page" href="./src/pages/productos.html">Productos</a></li>
-              <li><a class="nav-page" href="./src/pages/recetas.html">Recetas</a></li>
-              <li><a class="nav-page" href="./src/pages/pedidos.html">Pedidos</a></li>
-              <li><a class="nav-page" href="./src/pages/contacto.html">Contacto</a></li>
-            </ul>
-            <ul class="nav-buttons">
-              <li><button class="btnsup">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
-                  <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
-                </svg>
-               </button>
-              </li>
-              <li>
-                <button class="btnsup">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
-                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                  </svg>
-                </button>
-              </li>
-              <li class="btnsup"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
-              </svg></li>
-             <!-- <li><a class="miperfil" href="./miperfil.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"><path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/></svg>Ingresar</a></li>
-            </ul>-->
-
-            
-                
-          
-        </nav>
-      
-    </header>
+    <nav class="nav">
+      <div class="logo-container">
+        <a class="logo" href="/index.html"><img src="/src/assets/logo.png" alt="Logo"> Tiziana</a>
+      </div>
+      <ul class="nav-pages" id="nav-menu">
+        <li><a class="nav-page" href="/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+              fill="currentColor" class="bi bi-house mobile-icon" viewBox="0 0 16 16">
+              <path
+                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+            </svg> Inicio</a></li>
+        <li><a class="nav-page" href="/src/pages/productos.html"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+              height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-leaf mobile-icon">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+            </svg> Productos</a></li>
+        <li><a class="nav-page" href="/src/pages/recetas.html"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+              height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-utensils-crossed mobile-icon">
+              <path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8" />
+              <path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7" />
+              <path d="m2.1 21.8 6.4-6.3" />
+              <path d="m19 5-7 7" />
+            </svg> Recetas</a></li>
+        <li><a class="nav-page" href="/src/pages/pedidos.html"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+              height="18" fill="currentColor" class="bi bi-clipboard mobile-icon" viewBox="0 0 16 16">
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+            </svg> Mis Pedidos</a></li>
+        <li class="mobile-only-btn"><button class="btn-ingresar-header mobile-btn">Ingresar</button></li>
+      </ul>
+      <ul class="nav-buttons">
+        <li><button class="btnsup">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-moon"
+              viewBox="0 0 16 16">
+              <path
+                d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button class="btnsup">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-cart"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg>
+          </button>
+        </li>
+        <li class="desktop-only-btn"><button class="btn-ingresar-header">Ingresar</button></li>
+        <li class="mobile-only-btn"><button class="btnsup" id="menu-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+              class="bi bi-list menu-icon-open" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+              class="bi bi-x menu-icon-close" viewBox="0 0 16 16" style="display:none;">
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg>
+          </button></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <section class="hero">
       <div class="hero__overlay">
         <div class="hero__content">
           <span class="hero__tag">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles" data-fg-d3bl278="0.8:1.66922:node_modules/lucide-react:658:15:38092:22:e:Sparkles::::::DD2N" data-fgid-d3bl278=":r14:">
-              <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-sparkles"
+              data-fg-d3bl278="0.8:1.66922:node_modules/lucide-react:658:15:38092:22:e:Sparkles::::::DD2N"
+              data-fgid-d3bl278=":r14:">
+              <path
+                d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z">
+              </path>
               <path d="M20 3v4"></path>
-              <path d="M22 5h-4"></path><path d="M4 17v2"></path>
+              <path d="M22 5h-4"></path>
+              <path d="M4 17v2"></path>
               <path d="M5 18H3"></path>
             </svg>
             Entregas en 30-60 minutos - Buenos Aires
           </span>
-          <h1 class="hero__title">No vendemos solo fruta, <br><span class="hero__highlight">vendemos la solución</span> <br>para tu cena</h1>
-          <p class="hero__subtitle">Elegí una receta, indicá cuántas personas comen y nosotros calculamos todo. Frutas y verduras frescas en tu puerta.</p>
-          
+          <h1 class="hero__title">No vendemos solo fruta, <br><span class="hero__highlight">vendemos la solución</span>
+            <br>para tu cena</h1>
+          <p class="hero__subtitle">Elegí una receta, indicá cuántas personas comen y nosotros calculamos todo. Frutas y
+            verduras frescas en tu puerta.</p>
+
           <div class="hero__actions">
             <button class="hero__btn hero__btn--primary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf" data-fg-d3bl291="0.8:1.66922:node_modules/lucide-react:670:17:39002:18:e:Leaf::::::Dxgq" data-fgid-d3bl291=":r1c:">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-leaf"
+                data-fg-d3bl291="0.8:1.66922:node_modules/lucide-react:670:17:39002:18:e:Leaf::::::Dxgq"
+                data-fgid-d3bl291=":r1c:">
                 <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
                 <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
               </svg>
               Comprar productos</button>
             <button class="hero__btn hero__btn--secondary">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils-crossed" data-fg-d3bl294="0.8:1.66922:node_modules/lucide-react:673:17:39301:29:e:UtensilsCrossed::::::ITI" data-fgid-d3bl294=":r1e:">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-utensils-crossed"
+                data-fg-d3bl294="0.8:1.66922:node_modules/lucide-react:673:17:39301:29:e:UtensilsCrossed::::::ITI"
+                data-fgid-d3bl294=":r1e:">
                 <path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"></path>
                 <path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"></path>
                 <path d="m2.1 21.8 6.4-6.3"></path>
@@ -87,15 +136,15 @@
 
         <div class="hero__stats">
           <div class="stat-item">
-            <span class="stat-number">+200</span> 
+            <span class="stat-number">+200</span>
             <span class="stat-text">Productos frescos</span>
           </div>
           <div class="stat-item">
-            <span class="stat-number">+5.000</span> 
+            <span class="stat-number">+5.000</span>
             <span class="stat-text">Clientes felices</span>
           </div>
           <div class="stat-item">
-            <span class="stat-number">30 min</span> 
+            <span class="stat-number">30 min</span>
             <span class="stat-text">Tiempo de entrega</span>
           </div>
         </div>
@@ -110,8 +159,14 @@
         </div>
         <button class="star-feature__button">
           <span class="star-feature__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat" data-fg-d3bl315="0.8:1.66922:node_modules/lucide-react:706:13:41146:21:e:ChefHat::::::DqtH" data-fgid-d3bl315=":r20:">
-              <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-chef-hat"
+              data-fg-d3bl315="0.8:1.66922:node_modules/lucide-react:706:13:41146:21:e:ChefHat::::::DqtH"
+              data-fgid-d3bl315=":r20:">
+              <path
+                d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z">
+              </path>
               <path d="M6 17h12"></path>
             </svg>
           </span> Preparar mi cena
@@ -123,8 +178,10 @@
         <span class="featured-products__subtitle">LO MEJOR DE LA SEMANA</span>
         <div class="featured-products__title-row">
           <h2 class="featured-products__title">Productos destacados</h2>
-          <a href="#" class="featured-products__link">Ver todos 
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+          <a href="#" class="featured-products__link">Ver todos
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-arrow-right">
               <path d="M5 12h14"></path>
               <path d="m12 5 7 7-7 7"></path>
             </svg>
@@ -149,8 +206,12 @@
         <span class="recipe-section__subtitle">IDEAS PARA TU MESA</span>
         <div class="recipe-section__title-row">
           <h2 class="recipe-section__title">Recetas populares</h2>
-          <a href="#" class="recipe-section__link">Ver todas 
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" data-fg-d3bl327="0.8:1.66922:node_modules/lucide-react:719:23:41843:24:e:ArrowRight::::::s5N" data-fgid-d3bl327=":rg9:">
+          <a href="#" class="recipe-section__link">Ver todas
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-arrow-right"
+              data-fg-d3bl327="0.8:1.66922:node_modules/lucide-react:719:23:41843:24:e:ArrowRight::::::s5N"
+              data-fgid-d3bl327=":rg9:">
               <path d="M5 12h14"></path>
               <path d="m12 5 7 7-7 7"></path>
             </svg>
@@ -167,7 +228,9 @@
       <div class="benefits__grid">
         <div class="benefit-card">
           <div class="benefit-card__icon-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="benefit-card__icon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="benefit-card__icon-svg">
               <rect x="1" y="3" width="15" height="13" rx="2" ry="2"></rect>
               <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
               <circle cx="5.5" cy="18.5" r="2.5"></circle>
@@ -179,7 +242,9 @@
         </div>
         <div class="benefit-card">
           <div class="benefit-card__icon-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="benefit-card__icon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="benefit-card__icon-svg">
               <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
               <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
             </svg>
@@ -189,7 +254,9 @@
         </div>
         <div class="benefit-card">
           <div class="benefit-card__icon-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="benefit-card__icon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="benefit-card__icon-svg">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
           </div>
@@ -198,8 +265,12 @@
         </div>
         <div class="benefit-card">
           <div class="benefit-card__icon-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="benefit-card__icon-svg">
-              <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="#2e7d32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="benefit-card__icon-svg">
+              <path
+                d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z">
+              </path>
               <path d="M6 17h12"></path>
             </svg>
           </div>
@@ -214,16 +285,21 @@
     <div class="site-footer">
       <section class="foot-sect">
         <h3 class="foot-logo"><img src="./src/assets/logo.png" alt="logo">Fruteria Tiziana</h3>
-        <p class="text-spot" id="footer-slogan">"No vendemos solo fruta, vendemos la solución para tu cena." Frutas y verduras frescas con entrega a domicilio en Buenos Aires.</p>
+        <p class="text-spot" id="footer-slogan">"No vendemos solo fruta, vendemos la solución para tu cena." Frutas y
+          verduras frescas con entrega a domicilio en Buenos Aires.</p>
         <div class="pay-methods">
-          <button class="method"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-            </svg>  Mercado Pago
+          <button class="method"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-credit-card" viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+              <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+            </svg> Mercado Pago
           </button>
-          <button class="method"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash" viewBox="0 0 16 16">
-            <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"/>
-            <path d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z"/>
+          <button class="method"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-cash" viewBox="0 0 16 16">
+              <path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+              <path
+                d="M0 4a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm3 0a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2V6a2 2 0 0 1-2-2z" />
             </svg> Efectivo
           </button>
         </div>
@@ -231,16 +307,20 @@
       <section class="foot-sect">
         <h3 class="foot-tit">Contacto</h3>
         <ul class="foot-item-list">
-          <li class="foot-item" id="footer-address"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
-            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          <li class="foot-item" id="footer-address"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
             </svg> Buenos Aires, Argentina
           </li>
           <li class="foot-item" id="footer-email">fruteria@gmail.com</li>
           <li class="foot-item" id="footer-phone">+54 11 5555-8494</li>
-          <li class="delivery" id="footer-delivery"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
-          <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
-          </svg> Entrega: Lun-Dom de 9 a 21 hs</li>
+          <li class="delivery" id="footer-delivery"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+            </svg> Entrega: Lun-Dom de 9 a 21 hs</li>
         </ul>
       </section>
     </div>
@@ -251,6 +331,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <script src="/src/scripts/header.js" defer></script>
 </body>
 
 </html>

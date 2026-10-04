@@ -312,7 +312,7 @@
         "2": "Triturar todo junto con agua, aceite y sal.",
         "3": "Enfriar en la heladera por al menos 2 horas antes de servir."
       },
-      "imagen": "./src/assets/recetas-img/tomate-redondo.png",
+      "imagen": "./src/assets/recetas-img/gazpacho-frío.jpg",
       "idDificultad": 2
     },
     {
@@ -323,7 +323,7 @@
         "2": "Cortar en gajos y mezclar con aceite y ajo picado.",
         "3": "Hornear a 200 grados hasta que estén doradas."
       },
-      "imagen": "./src/assets/recetas-img/papa-negra.png",
+      "imagen": "./src/assets/recetas-img/Receta-de-papas-rústicas-al-horno.jpg",
       "idDificultad": 1
     },
     {
@@ -356,7 +356,7 @@
         "2": "Ensartar alternando colores en palillos largos.",
         "3": "Servir con yogur o miel."
       },
-      "imagen": "./src/assets/recetas-img/frutas.png",
+      "imagen": "./src/assets/recetas-img/brochetas-de-frutas.jpg",
       "idDificultad": 1
     },
     {
@@ -367,7 +367,7 @@
         "2": "Licuar todo con agua y un poco de jengibre.",
         "3": "Servir frío en el desayuno."
       },
-      "imagen": "./src/assets/recetas-img/frutas-y-verduras.png",
+      "imagen": "./src/assets/recetas-img/jugo-verde-dtox.jpg",
       "idDificultad": 1
     }
   ],
@@ -407,14 +407,14 @@
     { "idReceta": 9, "idProducto": 7, "cantidad": 1, "unidad": "unidad" }
   ],
   "categorias": [
-    { "id": 1, "Tipo": "Receta", "Descripcion": "Postres" },
-    { "id": 2, "Tipo": "Producto", "Descripcion": "Frutas" },
-    { "id": 3, "Tipo": "Producto", "Descripcion": "Verduras" },
-    { "id": 4, "Tipo": "Receta", "Descripcion": "Entradas" },
-    { "id": 5, "Tipo": "Receta", "Descripcion": "Sopas" },
-    { "id": 6, "Tipo": "Receta", "Descripcion": "Platos Principales" },
-    { "id": 7, "Tipo": "Receta", "Descripcion": "Ensaladas" },
-    { "id": 8, "Tipo": "Receta", "Descripcion": "Bebidas" }
+    { "id": 1, "Tipo": "Recetas", "Descripcion": "Postres" },
+    { "id": 2, "Tipo": "Productos", "Descripcion": "Frutas" },
+    { "id": 3, "Tipo": "Productos", "Descripcion": "Verduras" },
+    { "id": 4, "Tipo": "Recetas", "Descripcion": "Entradas" },
+    { "id": 5, "Tipo": "Recetas", "Descripcion": "Sopas" },
+    { "id": 6, "Tipo": "Recetas", "Descripcion": "Platos Principales" },
+    { "id": 7, "Tipo": "Recetas", "Descripcion": "Ensaladas" },
+    { "id": 8, "Tipo": "Recetas", "Descripcion": "Bebidas" }
   ],
   "categoriaProducto": [
     { "idProducto": 1, "idCategoria": 3 },

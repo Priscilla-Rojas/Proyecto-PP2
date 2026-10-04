@@ -1,0 +1,126 @@
+
+/* NEW RESPONSIVE HEADER STYLES */
+.desktop-only-btn {
+    display: none;
+}
+.mobile-only-btn {
+    display: block;
+}
+.mobile-icon {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.btn-ingresar-header {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s;
+    font-family: "Poppins",sans-serif;
+}
+.btn-ingresar-header:hover {
+    background-color: #1b5e20;
+}
+.mobile-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+#menu-toggle {
+    background: none;
+    border: 2px solid transparent;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu-toggle.active {
+    border-color: #2e7d32;
+    color: #2e7d32;
+}
+
+@media (max-width: 991px) {
+    .nav {
+        position: relative;
+    }
+    .nav-pages {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 1.5rem;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: all 0.3s ease;
+        z-index: 1000;
+        gap: 1.5rem;
+    }
+    .nav-pages.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+    .nav-page {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 8px;
+    }
+    .nav-page.active {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+        font-weight: 600;
+    }
+    .nav-buttons {
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .desktop-only-btn {
+        display: block;
+    }
+    .mobile-only-btn {
+        display: none;
+    }
+    .mobile-icon {
+        display: none;
+    }
+    .nav-pages {
+        display: flex !important;
+        flex-direction: row;
+        position: static;
+        box-shadow: none;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        background: transparent;
+        padding: 0;
+        width: auto;
+        gap: 2rem;
+        align-items: center;
+    }
+    .nav-page {
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+    }
+    .nav-page.active {
+        background-color: #e8f5e9;
+        color: #2e7d32;
+        font-weight: 600;
+    }
+}

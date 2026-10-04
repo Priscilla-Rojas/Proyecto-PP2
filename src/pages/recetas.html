@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png+xml" href="./src/assets/logo.png" />
+  <link rel="icon" type="image/png+xml" href="/src/assets/logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="Proyecto base con Vite, HTML, CSS, Bootstrap y JavaScript para un curso de desarrollo web." />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
   <link rel="stylesheet" href="../styles/header&Foother.css">
-  <link rel="stylesheet" href="../styles/contacto.css">
-  <title>Contacto - Fruteria Tiziana</title>
+  <link rel="stylesheet" href="../styles/recetas.css">
+  <title>Recetas - Fruteria Tiziana</title>
 </head>
 
 <body>
@@ -83,111 +83,55 @@
       </ul>
     </nav>
   </header>
-  <main>
 
-    <div class="container">
-      <section class="contact">
-        <h1>Estamos para ayudarte</h1>
-        <h3 class="contact-tit">Datos de contacto</h3>
+  <main class="recetas-main-container">
+    <section class="recetas-hero">
+      <!-- <div class="badge-destacada">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                  <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+                </svg> Función destacada
+            </div> -->
+      <h1>Recetas saludables</h1>
+      <p class="hero-description">Elegí una receta, indicá cuántas personas van a comer y agregamos todos
+        los<br>ingredientes frescos a tu carrito automáticamente.</p>
 
-        <section class="contact-date">
-          <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
-              viewBox="0 0 16 16">
-              <path
-                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-            </svg> WhatsApp</h4>
-          <p>+54 9 11 1234 5678</p>
-        </section>
+      <div class="steps-box">
+        <div class="step-item"><span class="step-number">01</span> Elegí una receta</div>
+        <div class="step-arrow">→</div>
+        <div class="step-item"><span class="step-number">02</span> Indicá cuántas personas</div>
+        <div class="step-arrow">→</div>
+        <div class="step-item"><span class="step-number">03</span> Calculamos las cantidades</div>
+        <div class="step-arrow">→</div>
+        <div class="step-item"><span class="step-number">04</span> Recibís todo en tu casa</div>
+      </div>
+    </section>
 
-        <section class="contact-date">
-          <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
-              viewBox="0 0 16 16">
-              <path
-                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-            </svg> Email</h4>
-          <p>hola@fruteriatiziana.com.ar</p>
-        </section>
+    <section class="recetas-filters-container">
+      <div class="filters-scroll-wrapper">
+        <button class="scroll-arrow left-arrow" id="scroll-left" aria-label="Desplazar a la izquierda">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/></svg>
+        </button>
+        <div class="filters-list" id="filters-list">
+          <button class="filter-btn active" data-id="0">Todas</button>
+          <!-- Categorias dinamicas -->
+        </div>
+        <button class="scroll-arrow right-arrow" id="scroll-right" aria-label="Desplazar a la derecha">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
+        </button>
+      </div>
+    </section>
 
-        <section class="contact-date">
-          <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
-              viewBox="0 0 16 16">
-              <path
-                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-            </svg> Teléfono</h4>
-          <p>011 1234 5678</p>
-        </section>
-
-        <section class="contact-date">
-          <h4> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
-              viewBox="0 0 16 16">
-              <path
-                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-            </svg> Dirección</h4>
-
-          <p>Av. Perez Galdos 8360<br>
-            Buenos Aires, Argentina</p>
-
-        </section>
-
-        <section class="contact-date">
-          <h4> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock"
-              viewBox="0 0 16 16">
-              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
-              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
-            </svg> Horarios</h4>
-          <p>Lunes a Sábados</p>
-          <p>8:00 a 20:00 hs</p>
-        </section>
-
-      </section>
-      <!-- formulario -->
-      <section class="form">
-        <h3>Envíanos tu consulta</h3>
-
-        <form action="#" method="post">
-
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
-
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Tu email...">
-
-
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" placeholder="Escribí tu mensaje..."></textarea>
-
-          <button class="btn-submit" type="submit"> Enviar mensaje</button>
-
-          <a
-            href="google.com/maps/place/TIENDA+DE+FRUTAS+Y+VERDURAS+TIZIANA/data=!4m2!3m1!1s0x0:0x2049537352c151da?sa=X&ved=1t:2428&ictx=111">
-            <aside class="link-ub">
-              <div class="aside-text">
-                <h3>Nuestra tienda</h3>
-                <p>Visitános y conocé nuestros productos frescos.</p>
-              </div>
-            </aside>
-          </a>
-
-
-
-      </section>
-
-
-      <!-- Mapa -->
-
-
-    </div>
-
+    <section class="recetas-grid" id="recetas-grid">
+      <!-- Recetas dinamicas -->
+    </section>
   </main>
 
   <footer class="footer-container">
     <div class="site-footer">
       <section class="foot-sect">
         <h3 class="foot-logo"><img src="../assets/logo.png" alt="logo">Fruteria Tiziana</h3>
-        <p class="text-spot">"No vendemos solo fruta, vendemos la solución para tu cena." Frutas y verduras frescas con
-          entrega a domicilio en Buenos Aires.</p>
+        <p class="text-spot" id="footer-slogan">"No vendemos solo fruta, vendemos la solución para tu cena." Frutas y
+          verduras frescas con entrega a domicilio en Buenos Aires.</p>
         <div class="pay-methods">
           <button class="method"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-credit-card" viewBox="0 0 16 16">
@@ -208,17 +152,17 @@
       <section class="foot-sect">
         <h3 class="foot-tit">Contacto</h3>
         <ul class="foot-item-list">
-          <li class="foot-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-geo-alt" viewBox="0 0 16 16">
+          <li class="foot-item" id="footer-address"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
               <path
                 d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
               <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
             </svg> Buenos Aires, Argentina
           </li>
-          <li class="foot-item">fruteria@gmail.com</li>
-          <li class="foot-item">+54 11 5555-8494</li>
-          <li class="delivery"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-truck" viewBox="0 0 16 16">
+          <li class="foot-item" id="footer-email">fruteria@gmail.com</li>
+          <li class="foot-item" id="footer-phone">+54 11 5555-8494</li>
+          <li class="delivery" id="footer-delivery"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
               <path
                 d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
             </svg> Entrega: Lun-Dom de 9 a 21 hs</li>
@@ -231,8 +175,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-
-
+  <script type="module" src="/src/scripts/recetas.js"></script>
   <script src="/src/scripts/header.js" defer></script>
 </body>
 

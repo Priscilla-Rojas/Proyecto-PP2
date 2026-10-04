@@ -218,3 +218,6 @@
     font-size: 2rem;
   }
 }
+.btn-ingresar {
+    display: none;
+}

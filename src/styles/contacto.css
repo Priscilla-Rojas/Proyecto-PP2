@@ -96,3 +96,7 @@ h3{
         margin-top: 10px;
     }
 }
+
+.btn-ingresar {
+    display: none;
+}

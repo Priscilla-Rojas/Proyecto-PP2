@@ -961,3 +961,7 @@
       margin: 0 auto;
     }
 }
+
+.btn-ingresar {
+    display: none;
+}

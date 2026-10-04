@@ -1,7 +1,7 @@
-
 //PARTE GRAFICA
-
 const btnIngresar = document.getElementById("btn-ingresar");
+const btnIngresarPage = document.getElementById("btn-ingresar-page");
+const btnIngresarMobile = document.getElementById("btn-ingresar-mobile");
 const userModal = document.getElementById("modal-user");
 var idUsuario
 
@@ -41,6 +41,19 @@ btnIngresar.addEventListener("click", ()=> {
     userModal.classList.add("user-modal");
     console.log("supuestamente aparecio");
 });
+
+btnIngresarPage.addEventListener("click", ()=> {
+    console.log("Hice clic");
+    userModal.classList.add("user-modal");
+    console.log("supuestamente aparecio");
+});
+
+btnIngresarMobile.addEventListener("click", ()=> {
+    console.log("Hice clic");
+    userModal.classList.add("user-modal");
+    console.log("supuestamente aparecio");
+});
+
 
 btnCerrar.addEventListener("click", ()=> {
     console.log("cancelado");

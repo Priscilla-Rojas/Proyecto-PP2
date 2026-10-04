@@ -9,6 +9,7 @@ export const iniciarSesion = async (email, password) => {
     }
     else if(contraseñaCorrecta(password,usuario)==false){
         console.log("contraseña incorrecta")
+        document.getElementById("error-email").style.display="none"
         document.getElementById("error-password").style.display="block"
         return false
     }

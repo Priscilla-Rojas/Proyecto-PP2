@@ -199,6 +199,22 @@
       "categoria": "Frutas",
       "descripcion": "Ananá tropical entero.",
       "imagen": "./src/assets/productos-img/generico-frutas.png"
+    },
+    {
+      "id": 26,
+      "nombre": "Menta",
+      "precioPorPeso": 450,
+      "categoria": "Verduras",
+      "descripcion": "Atado de menta fresca.",
+      "imagen": "./src/assets/productos-img/generico-verduras.png"
+    },
+    {
+      "id": 27,
+      "nombre": "Granada",
+      "precioPorPeso": 1500,
+      "categoria": "Frutas",
+      "descripcion": "Granada roja, fresca y dulce.",
+      "imagen": "./src/assets/productos-img/generico-frutas.png"
     }
   ],
   "usuarios": [
@@ -320,6 +336,7 @@
       },
       "imagen": "./src/assets/recetas-img/sopa-zapallo.png",
       "idDificultad": 2,
+      "comensales": 4,
       "otrosIngredientes": ["Aceite", "Sal", "Agua o caldo"]
     },
     {
@@ -332,6 +349,7 @@
       },
       "imagen": "./src/assets/recetas-img/ensalada-clasica.jpg",
       "idDificultad": 1,
+      "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Vinagre", "Sal", "Pimienta"]
     },
     {
@@ -344,6 +362,7 @@
       },
       "imagen": "./src/assets/recetas-img/licuada-bananaFrutilla.jpg",
       "idDificultad": 1,
+      "comensales": 2,
       "otrosIngredientes": ["Leche o agua", "Hielo", "Azúcar o miel (opcional)"]
     },
     {
@@ -356,6 +375,7 @@
       },
       "imagen": "./src/assets/recetas-img/ensalada de frutas.jpg",
       "idDificultad": 1,
+      "comensales": 4,
       "otrosIngredientes": []
     },
     {
@@ -368,6 +388,7 @@
       },
       "imagen": "./src/assets/recetas-img/guacamole.jpg",
       "idDificultad": 2,
+      "comensales": 4,
       "otrosIngredientes": ["Sal", "Pimienta", "Nachos (para acompañar)"]
     },
     {
@@ -380,6 +401,7 @@
       },
       "imagen": "./src/assets/recetas-img/jugo-naranjazanahoria.jpg",
       "idDificultad": 1,
+      "comensales": 2,
       "otrosIngredientes": ["Agua (opcional)", "Hielo"]
     },
     {
@@ -392,6 +414,7 @@
       },
       "imagen": "./src/assets/recetas-img/gazpacho-frío.jpg",
       "idDificultad": 2,
+      "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Vinagre", "Sal", "Agua", "Pan duro (opcional)"]
     },
     {
@@ -404,6 +427,7 @@
       },
       "imagen": "./src/assets/recetas-img/Receta-de-papas-rústicas-al-horno.jpg",
       "idDificultad": 2,
+      "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Pimentón dulce", "Sal", "Pimienta"]
     },
     {
@@ -416,6 +440,7 @@
       },
       "imagen": "./src/assets/recetas-img/ensalada.png",
       "idDificultad": 1,
+      "comensales": 2,
       "otrosIngredientes": ["Aceite de oliva", "Sal", "Pimienta"]
     },
     {
@@ -428,6 +453,7 @@
       },
       "imagen": "./src/assets/recetas-img/tarta-verduras.png",
       "idDificultad": 3,
+      "comensales": 4,
       "otrosIngredientes": ["Masa de tarta", "3 huevos", "Crema de leche o queso crema", "Sal", "Pimienta", "Nuez moscada", "Queso rallado (opcional)"]
     },
     {
@@ -440,6 +466,7 @@
       },
       "imagen": "./src/assets/recetas-img/brochetas-de-frutas.jpg",
       "idDificultad": 1,
+      "comensales": 4,
       "otrosIngredientes": ["Yogur, miel o chocolate (para acompañar)", "Palillos de brochette"]
     },
     {
@@ -452,6 +479,7 @@
       },
       "imagen": "./src/assets/recetas-img/jugo-verde-dtox.jpg",
       "idDificultad": 2,
+      "comensales": 2,
       "otrosIngredientes": ["Agua mineral"]
     },
     {
@@ -464,6 +492,7 @@
       },
       "imagen": "./src/assets/recetas-img/lasaña-berenjena.jpg",
       "idDificultad": 3,
+      "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Puré de tomate", "Sal", "Pimienta", "Queso mozzarella", "Queso parmesano"]
     },
     {
@@ -476,7 +505,21 @@
       },
       "imagen": "./src/assets/recetas-img/risotto-de-zapallo.jpg",
       "idDificultad": 3,
+      "comensales": 4,
       "otrosIngredientes": ["Caldo de verduras (1 litro)", "Manteca", "Aceite de oliva", "Arroz para risotto (carnaroli o arborio)", "Vino blanco (1/2 vaso)", "Queso parmesano", "Sal", "Pimienta negra"]
+    },
+    {
+      "id": 15,
+      "title": "Ensalada de Quinoa, Calabaza y Granada",
+      "Pasos": {
+        "1": "Comenzaremos precalentando el horno a 220 grados. Cortamos la calabaza pelada en dados y la cebolla morada en láminas y las asamos con un poco de sal y una cucharada de aceite de oliva durante 20 minutos.",
+        "2": "Por otra parte lavamos la quinoa y la cocemos en agua hirviendo con sal, durante 10 a 15 minutos. La escurrimos y la dejamos drenar totalmente.",
+        "3": "Combinamos el resto de ingredientes en un bol. Añadimos la quinoa, la calabaza asada y la cebolla, y removemos. Sazonamos y servimos con las hierbas picadas por encima."
+      },
+      "imagen": "./src/assets/recetas-img/ensalada-quinoa.jpg",
+      "idDificultad": 1,
+      "comensales": 4,
+      "otrosIngredientes": ["Aceite de oliva virgen extra (75 ml)", "Quinoa (200 g)", "Mezcla de semillas (30 g)", "Sal"]
     }
   ],
   "dificultad": [
@@ -535,7 +578,13 @@
     { "idReceta": 13, "idProducto": 18, "cantidad": 1, "unidad": "atado" },
     { "idReceta": 14, "idProducto": 14, "cantidad": 1, "unidad": "unidad" },
     { "idReceta": 14, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
-    { "idReceta": 12, "idProducto": 17, "cantidad": 20, "unidad": "gramos" }
+    { "idReceta": 12, "idProducto": 17, "cantidad": 20, "unidad": "gramos" },
+    { "idReceta": 15, "idProducto": 14, "cantidad": 300, "unidad": "gramos" },
+    { "idReceta": 15, "idProducto": 3, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 15, "idProducto": 19, "cantidad": 1, "unidad": "atado" },
+    { "idReceta": 15, "idProducto": 26, "cantidad": 1, "unidad": "atado" },
+    { "idReceta": 15, "idProducto": 27, "cantidad": 1, "unidad": "unidad" },
+    { "idReceta": 15, "idProducto": 7, "cantidad": 20, "unidad": "ml" }
   ],
   "categorias": [
     { "id": 1, "Tipo": "Recetas", "Descripcion": "Postres" },
@@ -571,7 +620,9 @@
     { "idProducto": 22, "idCategoria": 3 },
     { "idProducto": 23, "idCategoria": 3 },
     { "idProducto": 24, "idCategoria": 2 },
-    { "idProducto": 25, "idCategoria": 2 }
+    { "idProducto": 25, "idCategoria": 2 },
+    { "idProducto": 26, "idCategoria": 3 },
+    { "idProducto": 27, "idCategoria": 2 }
   ],
   "CategoriaReceta": [
     { "idReceta": 1, "idCategoria": 5 },
@@ -587,7 +638,8 @@
     { "idReceta": 11, "idCategoria": 1 },
     { "idReceta": 12, "idCategoria": 8 },
     { "idReceta": 13, "idCategoria": 6 },
-    { "idReceta": 14, "idCategoria": 6 }
+    { "idReceta": 14, "idCategoria": 6 },
+    { "idReceta": 15, "idCategoria": 7 }
   ],
   "Oferta": [
     { "IdProducto": 1, "Porcentaje": 25, "Estado": "Activa" },

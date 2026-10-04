@@ -136,6 +136,12 @@ async function renderDetalle(id) {
                 <div class="detalle-badges">
                     <span class="badge-cat">${catName}</span>
                     <span class="badge-diff">${difName}</span>
+                    <span class="badge-comensales" style="background: rgba(255,255,255,0.25); backdrop-filter: blur(5px); padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 500; margin-left: 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16" style="margin-right: 4px; vertical-align: text-bottom;">
+                          <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+                        </svg>
+                        Para ${receta.comensales || 4} personas
+                    </span>
                 </div>
                 <h1 class="detalle-title">${receta.title}</h1>
             </div>

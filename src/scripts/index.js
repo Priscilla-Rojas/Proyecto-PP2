@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:3000';
+const API_URL = 'http://localhost:3000';
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
@@ -38,13 +38,14 @@ async function loadTiendaInfo() {
 async function loadFeaturedProducts() {
   const response = await fetch(`${API_URL}/productos?_limit=4`);
   const products = await response.json();
+  console.log("productos: ", products)
   const container = document.getElementById('featured-products-container');
   if (!container) return;
-
+  console.log('LLegando a las imagenes del product')
   container.innerHTML = products.map(product => `
         <article class="product-card">
           <div class="product-card__image-container">
-            <img src="${product.imagen || './src/assets/recetas-img/apple.jpg'}" alt="${product.nombre}" class="product-card__image" onerror="this.src='./src/assets/recetas-img/apple.jpg'">
+            <img src="..${product.imagen}" alt="${product.nombre}" class="product-card__image" onerror="this.src='./src/assets/recetas-img/apple.jpg'">
             <span class="product-card__badge product-card__badge--green">Destacado</span>
           </div>
           <div class="product-card__content">
@@ -58,6 +59,7 @@ async function loadFeaturedProducts() {
           </div>
         </article>
     `).join('');
+  console.log('saliendo de las imagenes del product')
 }
 
 async function loadDailyOffers() {
@@ -77,7 +79,7 @@ async function loadDailyOffers() {
 
     return `
         <article class="offer-card">
-          <img src="${product.imagen || './src/assets/recetas-img/apple.jpg'}" alt="${product.nombre}" class="offer-card__image" onerror="this.src='./src/assets/recetas-img/apple.jpg'">
+          <img src="..${product.imagen}" alt="${product.nombre}" class="offer-card__image" onerror="this.src='./src/assets/recetas-img/apple.jpg'">
           <div class="offer-card__info">
             <span class="offer-card__tag">-${offer.Porcentaje}% HOY</span>
             <h3 class="offer-card__name">${product.nombre}</h3>
@@ -113,7 +115,7 @@ async function loadPopularRecipes() {
     return `
         <article class="recipe-card">
           <div class="recipe-card__image-container">
-            <img src="${recipe.imagen || './src/assets/recetas-img/tarta-verduras.png'}" alt="${recipe.title}" class="recipe-card__image" onerror="this.src='./src/assets/recetas-img/tarta-verduras.png'">
+            <img src="..${recipe.imagen}" alt="${recipe.title}" class="recipe-card__image" onerror="this.src='./src/assets/recetas-img/tarta-verduras.png'">
             <span class="recipe-card__badge">${nivelDificultad}</span>
             <div class="recipe-card__overlay">
               <h3 class="recipe-card__title">${recipe.title}</h3>

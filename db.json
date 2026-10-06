@@ -6,7 +6,7 @@
       "precioPorPeso": 1200,
       "categoria": "Verduras",
       "descripcion": "Tomate perita especial para salsa o ensaladas.",
-      "imagen": "./src/assets/productos-img/tomate-redondo.png"
+      "imagen": "/assets/productos-img/tomate-redondo.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "precioPorPeso": 600,
       "categoria": "Verduras",
       "descripcion": "Papa negra ideal para puré o freír.",
-      "imagen": "./src/assets/productos-img/papa-negra.png"
+      "imagen": "/assets/productos-img/papa-negra.png"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "precioPorPeso": 700,
       "categoria": "Verduras",
       "descripcion": "Cebolla de origen nacional, muy sabrosa.",
-      "imagen": "./src/assets/productos-img/cebolla.jpg"
+      "imagen": "/assets/productos-img/cebolla.jpg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "precioPorPeso": 850,
       "categoria": "Verduras",
       "descripcion": "Zanahoria fresca y dulce.",
-      "imagen": "./src/assets/productos-img/zanahoria.png"
+      "imagen": "/assets/productos-img/zanahoria.png"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "precioPorPeso": 1500,
       "categoria": "Frutas",
       "descripcion": "Manzana roja comercial, muy jugosa.",
-      "imagen": "./src/assets/productos-img/apple.jpg"
+      "imagen": "/assets/productos-img/apple.jpg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "precioPorPeso": 1300,
       "categoria": "Frutas",
       "descripcion": "Banana Cavendish de Ecuador.",
-      "imagen": "./src/assets/productos-img/generico-frutas.png"
+      "imagen": "/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "precioPorPeso": 900,
       "categoria": "Frutas",
       "descripcion": "Limón Tucumano primera calidad.",
-      "imagen": "./src/assets/productos-img/generico-frutas.png"
+      "imagen": "/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "precioPorPeso": 2500,
       "categoria": "Verduras",
       "descripcion": "Morrón rojo carnoso, ideal para asar.",
-      "imagen": "./src/assets/productos-img/tomate-redondo.png"
+      "imagen": "/assets/productos-img/tomate-redondo.png"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "precioPorPeso": 4000,
       "categoria": "Verduras",
       "descripcion": "Cabeza de ajo blanco.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "precioPorPeso": 1100,
       "categoria": "Verduras",
       "descripcion": "Lechuga fresca repollada.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "precioPorPeso": 4500,
       "categoria": "Frutas",
       "descripcion": "Palta de tamaño mediano.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "precioPorPeso": 3500,
       "categoria": "Frutas",
       "descripcion": "Frutilla fresca por kilo.",
-      "imagen": "./src/assets/productos-img/frutilla.png"
+      "imagen": "/assets/productos-img/frutilla.png"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "precioPorPeso": 1000,
       "categoria": "Frutas",
       "descripcion": "Naranja especial para hacer jugo.",
-      "imagen": "./src/assets/productos-img/naranja-navel.png"
+      "imagen": "/assets/productos-img/naranja-navel.png"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "precioPorPeso": 500,
       "categoria": "Verduras",
       "descripcion": "Zapallo anco tipo coreano.",
-      "imagen": "./src/assets/productos-img/calabacin.png"
+      "imagen": "/assets/productos-img/calabacin.png"
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@
       "precioPorPeso": 2800,
       "categoria": "Frutas",
       "descripcion": "Uva negra sin semilla.",
-      "imagen": "./src/assets/productos-img/generico-frutas.png"
+      "imagen": "/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 16,
@@ -126,7 +126,7 @@
       "precioPorPeso": 1200,
       "categoria": "Verduras",
       "descripcion": "Berenjena fresca para asar o rellenas.",
-      "imagen": "./src/assets/productos-img/berebjenas.png"
+      "imagen": "/assets/productos-img/berebjenas.png"
     },
     {
       "id": 17,
@@ -134,7 +134,7 @@
       "precioPorPeso": 8000,
       "categoria": "Verduras",
       "descripcion": "Raíz de jengibre fresca.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 18,
@@ -142,7 +142,7 @@
       "precioPorPeso": 500,
       "categoria": "Verduras",
       "descripcion": "Atado de albahaca fresca y aromática.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 19,
@@ -150,7 +150,7 @@
       "precioPorPeso": 400,
       "categoria": "Verduras",
       "descripcion": "Atado de cilantro fresco.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 20,
@@ -158,7 +158,7 @@
       "precioPorPeso": 800,
       "categoria": "Verduras",
       "descripcion": "Calabacín (zucchini) verde y tierno.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 21,
@@ -166,7 +166,7 @@
       "precioPorPeso": 600,
       "categoria": "Verduras",
       "descripcion": "Atado de espinaca fresca.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 22,
@@ -174,7 +174,7 @@
       "precioPorPeso": 700,
       "categoria": "Verduras",
       "descripcion": "Pepino fresco y crujiente.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 23,
@@ -182,7 +182,7 @@
       "precioPorPeso": 500,
       "categoria": "Verduras",
       "descripcion": "Planta de apio verde y crujiente.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 24,
@@ -190,7 +190,7 @@
       "precioPorPeso": 3500,
       "categoria": "Frutas",
       "descripcion": "Kiwi verde importado.",
-      "imagen": "./src/assets/productos-img/generico-frutas.png"
+      "imagen": "/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 25,
@@ -198,7 +198,7 @@
       "precioPorPeso": 2000,
       "categoria": "Frutas",
       "descripcion": "Ananá tropical entero.",
-      "imagen": "./src/assets/productos-img/generico-frutas.png"
+      "imagen": "/assets/productos-img/generico-frutas.png"
     },
     {
       "id": 26,
@@ -206,7 +206,7 @@
       "precioPorPeso": 450,
       "categoria": "Verduras",
       "descripcion": "Atado de menta fresca.",
-      "imagen": "./src/assets/productos-img/generico-verduras.png"
+      "imagen": "/assets/productos-img/generico-verduras.png"
     },
     {
       "id": 27,
@@ -214,7 +214,7 @@
       "precioPorPeso": 1500,
       "categoria": "Frutas",
       "descripcion": "Granada roja, fresca y dulce.",
-      "imagen": "./src/assets/productos-img/generico-frutas.png"
+      "imagen": "/assets/productos-img/generico-frutas.png"
     }
   ],
   "usuarios": [
@@ -340,7 +340,7 @@
         "2": "En una olla grande, colocar un chorrito de aceite y sofreír ligeramente las verduras cortadas. Cubrir con agua o caldo de verduras hasta tapar los ingredientes por completo. Llevar a ebullición y luego bajar el fuego, dejando cocinar a fuego lento durante aproximadamente 40 a 45 minutos, hasta que todo esté muy tierno.",
         "3": "Una vez listas y ligeramente entibiadas, trasladar las verduras y el líquido a una licuadora o utilizar una minipimer para procesar todo el contenido. Licuar de forma continua hasta obtener una textura suave, sedosa y sin grumos. Salpimentar al gusto y servir caliente."
       },
-      "imagen": "./src/assets/recetas-img/sopa-zapallo.png",
+      "imagen": "/assets/recetas-img/sopa-zapallo.png",
       "idDificultad": 2,
       "comensales": 4,
       "otrosIngredientes": ["Aceite", "Sal", "Agua o caldo"]
@@ -353,7 +353,7 @@
         "2": "Cortar el tomate cuidadosamente en rodajas finas o en gajos, según la preferencia. Tomar la cebolla, pelarla y cortarla en juliana muy fina (pluma). Para suavizar su sabor, se puede dejar remojando en agua fría durante 10 minutos y luego escurrir.",
         "3": "En un bol amplio, disponer una cama de hojas de lechuga troceadas con las manos, agregar el tomate y distribuir la cebolla por encima. En un recipiente aparte, preparar una vinagreta mezclando aceite de oliva, vinagre, sal y pimienta. Verter sobre la ensalada justo antes de servir y remover suavemente."
       },
-      "imagen": "./src/assets/recetas-img/ensalada-clasica.jpg",
+      "imagen": "/assets/recetas-img/ensalada-clasica.jpg",
       "idDificultad": 1,
       "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Vinagre", "Sal", "Pimienta"]
@@ -366,7 +366,7 @@
         "2": "Colocar todas las frutas preparadas dentro del vaso de la licuadora. Añadir la leche (puede ser de vaca o vegetal) hasta cubrir la fruta y agregar un puñado de hielo para que el resultado sea refrescante y espeso.",
         "3": "Licuar a velocidad alta durante un par de minutos, pausando si es necesario para asegurarse de que no queden trozos enteros de fruta. Probar y, si se desea, endulzar con azúcar o miel. Servir inmediatamente en vasos altos."
       },
-      "imagen": "./src/assets/recetas-img/licuada-bananaFrutilla.jpg",
+      "imagen": "/assets/recetas-img/licuada-bananaFrutilla.jpg",
       "idDificultad": 1,
       "comensales": 2,
       "otrosIngredientes": ["Leche o agua", "Hielo", "Azúcar o miel (opcional)"]
@@ -379,7 +379,7 @@
         "2": "Sobre una tabla de cortar, picar todas las frutas en dados pequeños y parejos, para que en cada cucharada se puedan probar distintos sabores. Colocar toda la fruta picada en un recipiente grande o ensaladera.",
         "3": "Exprimir un par de naranjas para obtener jugo natural y verterlo sobre la fruta cortada, esto evitará que se oxiden y aportará un dulzor natural. Mezclar con cuidado, cubrir el bol y llevar a la heladera por al menos una hora antes de servir para que los sabores se integren y esté bien fresca."
       },
-      "imagen": "./src/assets/recetas-img/ensalada de frutas.jpg",
+      "imagen": "/assets/recetas-img/ensalada de frutas.jpg",
       "idDificultad": 1,
       "comensales": 4,
       "otrosIngredientes": []
@@ -392,7 +392,7 @@
         "2": "Lavar el tomate, retirar las semillas y picarlo en cubos extremadamente pequeños. Hacer lo mismo con la cebolla (preferentemente morada). Incorporar el tomate y la cebolla picados al puré de palta y revolver bien.",
         "3": "Exprimir el jugo de medio limón fresco sobre la mezcla (esto aporta acidez y evita que la palta se ponga negra). Añadir sal a gusto, pimienta y, si se desea, cilantro fresco picado finamente. Mezclar todo y servir inmediatamente acompañado de nachos."
       },
-      "imagen": "./src/assets/recetas-img/guacamole.jpg",
+      "imagen": "/assets/recetas-img/guacamole.jpg",
       "idDificultad": 2,
       "comensales": 4,
       "otrosIngredientes": ["Sal", "Pimienta", "Nachos (para acompañar)"]
@@ -405,7 +405,7 @@
         "2": "Colocar los trozos de zanahoria en la licuadora junto con el jugo de naranja recién exprimido. Si se desea un jugo más ligero, añadir medio vaso de agua fría.",
         "3": "Licuar a máxima potencia durante dos a tres minutos, hasta que la zanahoria esté completamente deshecha. Para una textura más fina, pasar el jugo por un colador o tamiz. Servir frío, opcionalmente decorado con una rodajita de naranja."
       },
-      "imagen": "./src/assets/recetas-img/jugo-naranjazanahoria.jpg",
+      "imagen": "/assets/recetas-img/jugo-naranjazanahoria.jpg",
       "idDificultad": 1,
       "comensales": 2,
       "otrosIngredientes": ["Agua (opcional)", "Hielo"]
@@ -418,7 +418,7 @@
         "2": "Trocear todas las verduras y colocarlas en el vaso de la licuadora o procesadora. Añadir un buen chorro de aceite de oliva virgen extra, un chorrito de vinagre, sal al gusto y un vaso de agua fría. Si se quiere más espeso, se puede agregar un trozo de pan duro remojado.",
         "3": "Triturar todo a máxima velocidad durante varios minutos hasta obtener una crema muy fina y homogénea. Probar y rectificar de sal o vinagre si hiciera falta. Llevar a la heladera en un recipiente tapado durante al menos 2 a 3 horas para servirlo bien helado."
       },
-      "imagen": "./src/assets/recetas-img/gazpacho-frío.jpg",
+      "imagen": "/assets/recetas-img/gazpacho-frío.jpg",
       "idDificultad": 2,
       "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Vinagre", "Sal", "Agua", "Pan duro (opcional)"]
@@ -431,7 +431,7 @@
         "2": "Cortar las papas a lo largo por la mitad, y luego cada mitad en gajos gruesos. Colocarlos en un bol grande, añadir un generoso chorro de aceite de oliva, pimentón dulce, sal, pimienta y dos dientes de ajo finamente picados o machacados. Mezclar con las manos para impregnar cada gajo.",
         "3": "Distribuir los gajos de papa en una bandeja para horno previamente aceitada, procurando que no queden amontonados para que se doren bien. Hornear en un horno precalentado a 200°C durante unos 35 a 45 minutos, volteándolas a la mitad de la cocción, hasta que estén crujientes por fuera y tiernas por dentro."
       },
-      "imagen": "./src/assets/recetas-img/Receta-de-papas-rústicas-al-horno.jpg",
+      "imagen": "/assets/recetas-img/Receta-de-papas-rústicas-al-horno.jpg",
       "idDificultad": 2,
       "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Pimentón dulce", "Sal", "Pimienta"]
@@ -444,7 +444,7 @@
         "2": "Colocar los cubos de tomate y palta en una ensaladera o plato hondo. Si se desea, se puede agregar un poco de cebolla morada picada o hojas de cilantro fresco para realzar los sabores.",
         "3": "Preparar un aliño simple mezclando en un cuenco pequeño jugo de limón fresco, una cucharada de aceite de oliva, sal y pimienta recién molida. Verter sobre la ensalada y mezclar con extrema delicadeza usando dos cucharas para no romper los trozos de palta. Servir como acompañamiento."
       },
-      "imagen": "./src/assets/recetas-img/ensalada.png",
+      "imagen": "/assets/recetas-img/ensalada.png",
       "idDificultad": 1,
       "comensales": 2,
       "otrosIngredientes": ["Aceite de oliva", "Sal", "Pimienta"]
@@ -457,7 +457,7 @@
         "2": "En un bol, batir tres huevos con un chorrito de crema de leche o queso crema, sal, pimienta y nuez moscada. Incorporar las verduras salteadas y ya frías a esta mezcla de huevos, integrando todo de manera uniforme. Opcionalmente, sumar queso rallado.",
         "3": "Forrar una tartera previamente enmantecada con la masa de tarta (casera o comprada), pinchar la base con un tenedor para que no se infle y verter todo el relleno en el interior. Llevar a un horno precalentado a 180°C y hornear durante unos 40 a 45 minutos, o hasta que el relleno esté firme y los bordes de la masa dorados. Dejar entibiar antes de cortar."
       },
-      "imagen": "./src/assets/recetas-img/tarta-verduras.png",
+      "imagen": "/assets/recetas-img/tarta-verduras.png",
       "idDificultad": 3,
       "comensales": 4,
       "otrosIngredientes": ["Masa de tarta", "3 huevos", "Crema de leche o queso crema", "Sal", "Pimienta", "Nuez moscada", "Queso rallado (opcional)"]
@@ -470,7 +470,7 @@
         "2": "Tomar palillos largos de madera (brochettes) y comenzar a ensartar los trozos de fruta. Es ideal alternar los tipos de fruta para crear un contraste de colores atractivo, por ejemplo: una uva, un cubo de ananá, una rodaja de kiwi y una frutilla en la punta.",
         "3": "Disponer las brochetas terminadas en una bandeja plana. Se pueden servir al natural, frías, o acompañarlas con un pequeño cuenco con yogur natural, miel o chocolate derretido para que cada comensal pueda bañar su brocheta al momento de degustar."
       },
-      "imagen": "./src/assets/recetas-img/brochetas-de-frutas.jpg",
+      "imagen": "/assets/recetas-img/brochetas-de-frutas.jpg",
       "idDificultad": 1,
       "comensales": 4,
       "otrosIngredientes": ["Yogur, miel o chocolate (para acompañar)", "Palillos de brochette"]
@@ -483,7 +483,7 @@
         "2": "Cortar el pepino, la manzana y el apio en trozos medianos. Pelar un trocito pequeño de jengibre fresco. Colocar todos los ingredientes en la licuadora junto con un vaso grande de agua mineral fría.",
         "3": "Licuar todo a velocidad máxima durante un par de minutos para desintegrar por completo las fibras de las verduras. Dependiendo del gusto personal, se puede beber así, espeso y con toda la fibra, o filtrarlo utilizando un colador de malla fina o bolsa para leches vegetales. Ideal para tomar recién preparado en ayunas."
       },
-      "imagen": "./src/assets/recetas-img/jugo-verde-dtox.jpg",
+      "imagen": "/assets/recetas-img/jugo-verde-dtox.jpg",
       "idDificultad": 2,
       "comensales": 2,
       "otrosIngredientes": ["Agua mineral"]
@@ -496,7 +496,7 @@
         "2": "En una sartén amplia o plancha bien caliente con un hilo de aceite de oliva, dorar las láminas de berenjena por ambos lados hasta que estén tiernas y ligeramente tostadas. Reservar. Por otro lado, en una olla, preparar una salsa de tomate sofritando ajo picado, añadiendo puré de tomate, albahaca fresca, sal, pimienta y cocinando a fuego lento por 20 minutos.",
         "3": "En una fuente apta para horno, armar la lasaña colocando primero una capa delgada de salsa de tomate, luego una capa de láminas de berenjena, otra de salsa, espolvorear queso mozzarella rallado y un poco de queso parmesano. Repetir estas capas hasta terminar con los ingredientes, asegurando que la última capa quede bien cubierta de quesos. Hornear a 200°C durante 25 a 30 minutos, hasta que gratine y esté burbujeante. Dejar reposar 10 minutos antes de cortar."
       },
-      "imagen": "./src/assets/recetas-img/lasaña-berenjena.jpg",
+      "imagen": "/assets/recetas-img/lasaña-berenjena.jpg",
       "idDificultad": 3,
       "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva", "Puré de tomate", "Sal", "Pimienta", "Queso mozzarella", "Queso parmesano"]
@@ -509,7 +509,7 @@
         "2": "Incorporar los dados de zapallo a la sartén y cocinar por 5 minutos. Luego, añadir el arroz especial para risotto (carnaroli o arborio) y tostarlo revolviendo constantemente hasta que los granos se vean nacarados en los bordes. Verter medio vaso de vino blanco y revolver hasta que el alcohol se haya evaporado por completo.",
         "3": "Comenzar a añadir el caldo caliente de a cucharones, vertiendo uno nuevo solo cuando el anterior haya sido absorbido por el arroz. Revolver de forma suave y continua haciendo un movimiento en forma de ocho. Continuar este proceso por 18 a 20 minutos hasta que el arroz esté al dente y cremoso. Apagar el fuego, añadir un buen trozo de manteca fría, abundante queso parmesano rallado, sal, pimienta negra y revolver enérgicamente para 'mantecar'. Servir de inmediato."
       },
-      "imagen": "./src/assets/recetas-img/risotto-de-zapallo.jpg",
+      "imagen": "/assets/recetas-img/risotto-de-zapallo.jpg",
       "idDificultad": 3,
       "comensales": 4,
       "otrosIngredientes": ["Caldo de verduras (1 litro)", "Manteca", "Aceite de oliva", "Arroz para risotto (carnaroli o arborio)", "Vino blanco (1/2 vaso)", "Queso parmesano", "Sal", "Pimienta negra"]
@@ -522,7 +522,7 @@
         "2": "Por otra parte lavamos la quinoa y la cocemos en agua hirviendo con sal, durante 10 a 15 minutos. La escurrimos y la dejamos drenar totalmente.",
         "3": "Combinamos el resto de ingredientes en un bol. Añadimos la quinoa, la calabaza asada y la cebolla, y removemos. Sazonamos y servimos con las hierbas picadas por encima."
       },
-      "imagen": "./src/assets/recetas-img/ensalada-quinoa.jpg",
+      "imagen": "/assets/recetas-img/ensalada-quinoa.jpg",
       "idDificultad": 1,
       "comensales": 4,
       "otrosIngredientes": ["Aceite de oliva virgen extra (75 ml)", "Quinoa (200 g)", "Mezcla de semillas (30 g)", "Sal"]

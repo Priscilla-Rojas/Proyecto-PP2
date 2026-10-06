@@ -24,7 +24,7 @@ const mostrarProductos=async()=>{
     productos.forEach(producto => {
         mostrar+=`
         <div class="producto-card">
-            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.nombre}">
+            <img class="producto-imagen" src="..${producto.imagen}" alt="${producto.nombre}">
             <div class="producto-info">
                     <p class="producto-categoria">${producto.categoria}</p>
                     <h3 class="producto-nombre">${producto.nombre}</h3>

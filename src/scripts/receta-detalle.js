@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:3000';
+const API_URL = 'http://localhost:3000';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(window.location.search);
@@ -131,7 +131,7 @@ async function renderDetalle(id) {
 
     const html = `
         <div class="detalle-header">
-            <img src="${imgUrl}" alt="${receta.title}" class="detalle-img" onerror="this.src='../assets/recetas-img/apple.jpg'">
+            <img src="../${receta.imagen}" alt="${receta.title}" class="detalle-img">
             <div class="detalle-overlay">
                 <div class="detalle-badges">
                     <span class="badge-cat">${catName}</span>

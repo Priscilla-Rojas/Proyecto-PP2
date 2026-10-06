@@ -15,8 +15,6 @@ const obtenerProductos=async()=>{
         }
 };
 
-
-
 const mostrarProductos=async()=>{
     const productos=await obtenerProductos()
     disponibles.textContent = `${productos.length} productos disponibles`

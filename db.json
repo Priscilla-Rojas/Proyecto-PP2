@@ -220,6 +220,8 @@
   "usuarios": [
     {
       "id": 1,
+      "nombre": "juan",
+      "apellido": "perez",
       "mail": "juan.perez@example.com",
       "nombreUsuario": "juanperez",
       "telefono": "1123456789",
@@ -227,6 +229,8 @@
     },
     {
       "id": 2,
+      "nombre": "maria",
+      "apellido": "gomez",
       "mail": "maria.gomez@example.com",
       "nombreUsuario": "mariag",
       "telefono": "1198765432",
@@ -234,6 +238,8 @@
     },
     {
       "id": 3,
+      "nombre": "carlos", 
+      "apellido": "lopez",
       "mail": "carlos.lopez@example.com",
       "nombreUsuario": "carlopez",
       "telefono": "1145678901",

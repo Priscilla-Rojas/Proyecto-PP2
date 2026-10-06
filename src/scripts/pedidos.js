@@ -54,7 +54,7 @@ const obtenerDetallesPedidos=async() => {
 
 
 const mostrarPedidos=async()=>{
-    const idUsuarioActual = Number(sessionStorage.getItem("idUsuario"));
+    const idUsuarioActual = obtenerIdUsuario();
     const pedidos=await obtenerPedidos()
     const pedidosUsuario=pedidos.filter(pedido=>pedido.idUsuario===idUsuarioActual)
     const detalles=await obtenerDetallesPedidos()

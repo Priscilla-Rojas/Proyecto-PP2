@@ -1,0 +1,229 @@
+
+.perfil-container {
+    width: 720px;
+    max-width: 92%;
+    margin: 0 auto;
+    padding: 35px 0 100px;
+}
+
+h1 {
+    font-size: 29px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    color: #17201a;
+}
+
+
+.perfil-card {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+}
+
+
+
+.perfil-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.perfil-usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+.avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #e3f0e5;
+    color: #258132;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.usuario-info p {
+    font-size: 14px;
+    color: #7b8490;
+}
+
+
+
+
+.btn-editar {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 17px;
+    padding: 10px 17px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.btn-editar:hover {
+    background-color: #f5f5f5;
+    border-color: #cfcfcf;
+}
+
+
+.datos-perfil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 17px;
+}
+
+.dato {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+
+.dato-titulo {
+    font-size: 11px;
+    color: #596574;
+    font-weight: 500;
+}
+
+.dato-valor {
+    height: 40px;
+    background-color: #f3f5f6;
+    border-radius: 12px;
+    padding: 0 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #35404b;
+}
+
+
+.dato-icono {
+    color: #75808c;
+    font-size: 15px;
+}
+
+
+.acciones-perfil {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+
+.accion-btn {
+    height: 54px;
+    background-color: white;
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #17201a;
+
+}
+
+
+.accion-btn:hover {
+    background-color: #fafafa;
+    border-color: #d2d2d2;
+}
+
+
+
+.accion-icono {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.verde {
+    color: #2d8b38;
+}
+
+.rojo {
+    color: #e63946;
+}
+
+
+
+@media (max-width: 750px) {
+
+    .perfil-container {
+        width: 92%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .datos-perfil {
+        grid-template-columns: 1fr;
+    }
+
+    .perfil-header {
+        align-items: flex-start;
+
+        gap: 15px;
+
+        flex-direction: column;
+    }
+
+    .btn-editar {
+        align-self: flex-end;
+    }
+
+    .acciones-perfil {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+
+    .perfil-card {
+        padding: 18px;
+    }
+
+    .perfil-usuario {
+        gap: 10px;
+    }
+
+    .avatar {
+        width: 55px;
+        height: 55px;
+    }
+
+}
+
+.btn-ingresar {
+    display: none;
+}

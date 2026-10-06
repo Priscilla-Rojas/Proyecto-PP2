@@ -1,4 +1,4 @@
-const API_URL = 'http://127.0.0.1:3000';
+const API_URL = 'http://localhost:3000';
 
 let allRecetas = [];
 let categoriasMap = {}; // idCategoria -> Descripcion
@@ -117,12 +117,9 @@ function setupScrollArrows() {
     rightArrow.addEventListener('click', () => {
         list.scrollBy({ left: 150, behavior: 'smooth' });
     });
-
-    // Check after rendering
     setTimeout(updateArrows, 100);
 }
 
-// Convert "Platos Principales" to "Principal" for UI
 function mapCategoryName(name) {
     if (name === "Platos Principales") return "Principales";
     if (name === "Entradas") return "Entradas";
@@ -151,7 +148,6 @@ function renderRecetas(categoryId) {
         const catName = categoriasMap[catId] ? mapCategoryName(categoriasMap[catId]) : 'Receta';
         const diffName = dificultadMap[recipe.idDificultad] || 'Media';
         
-        // Use placeholder values based on ID for visual consistency
         const time = 15 + (recipe.id % 5) * 10;
         const portions = 2 + (recipe.id % 3) * 2;
         const kcal = 150 + (recipe.id % 10) * 40;
@@ -159,13 +155,13 @@ function renderRecetas(categoryId) {
         const description = Object.values(recipe.Pasos).join(' ');
         const shortDescription = description.length > 80 ? description.substring(0, 77) + '...' : description;
 
-        const imgUrl = recipe.imagen ? recipe.imagen.replace('./src/assets/', '../assets/') : '../assets/recetas-img/apple.jpg';
+        const imgUrl = recipe.imagen && recipe.imagen.replace('/src/assets/', 'src/assets/');
 
         return `
         <article class="receta-card">
             <div class="receta-card__img-container">
                 <a href="./receta-detalle.html?id=${recipe.id}">
-                    <img src="${imgUrl}" alt="${recipe.title}" class="receta-card__img" onerror="this.src='../assets/recetas-img/apple.jpg'">
+                    <img src="../${recipe.imagen}" alt="${recipe.title}" class="receta-card__img">
                 </a>
                 <div class="receta-card__badges">
                     <span class="badge-cat">${catName}</span>
